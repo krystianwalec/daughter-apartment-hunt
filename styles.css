@@ -134,6 +134,9 @@ section { max-width: var(--max); margin: 0 auto; padding: 28px 22px; }
 .dot.b { background: #2a3f73; }
 .dot.e { background: #1f6f6a; }
 .dot.s { background: #9b3d4a; }
+.dot.cheap { background: #2e867a; width: 8px; height: 8px; }
+.dot.mid { background: #d4a017; width: 12px; height: 12px; }
+.dot.spend { background: #9b3d4a; width: 16px; height: 16px; }
 
 .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 .panel {

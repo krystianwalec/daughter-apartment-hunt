@@ -54,7 +54,7 @@
           </header>
           <div class="meta">${l.address}</div>
           <div class="badges">
-            <span class="badge">${l.region === "eastside" ? "Eastside" : "Seattle"}</span>
+            <span class="badge">${l.corridor === "i90" ? "I-90" : l.region === "eastside" ? "Eastside" : "Seattle"}</span>
             <span class="badge ${evClass}">${evLabel[l.ev] || l.ev}</span>
             <span class="badge ${l.fit === "over" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
             <span class="badge">${l.beds}BR</span>
@@ -65,6 +65,7 @@
           ${l.rangeNote ? `<div class="meta">${l.rangeNote}</div>` : ""}
           <p class="meta">${l.notes}</p>
           <button type="button" data-fly="${l.id}">Show on map</button>
+          ${l.url ? `<a href="${l.url}" target="_blank" rel="noopener">Listing</a>` : ""}
         </article>`;
       })
       .join("");
@@ -90,24 +91,60 @@
         if (f === "under2000" && l.rentMin > 2000) return false;
         if (f === "walk-b" && l.cluster !== "interbay") return false;
         if (f === "drive-a" && l.region !== "eastside") return false;
+        if (f === "i90" && l.corridor !== "i90") return false;
       }
       return true;
     });
   }
 
-  function pinColor(l) {
-    if (l.region === "eastside") return "#1f6f6a";
-    return "#9b3d4a";
+  function rentForSize(l) {
+    return Number(l.rentMin) || 1800;
+  }
+
+  function rentRadius(rent, minR, maxR) {
+    const t = (rent - minR) / Math.max(1, maxR - minR);
+    return 7 + t * 16;
+  }
+
+  function rentColor(rent) {
+    const stops = [
+      [1600, [46, 134, 122]],
+      [2000, [61, 139, 154]],
+      [2400, [212, 160, 23]],
+      [3000, [196, 107, 58]],
+      [3800, [155, 61, 74]],
+    ];
+    if (rent <= stops[0][0]) {
+      const [r, g, b] = stops[0][1];
+      return `rgb(${r},${g},${b})`;
+    }
+    if (rent >= stops.at(-1)[0]) {
+      const [r, g, b] = stops.at(-1)[1];
+      return `rgb(${r},${g},${b})`;
+    }
+    for (let i = 0; i < stops.length - 1; i++) {
+      const [a, ca] = stops[i];
+      const [b, cb] = stops[i + 1];
+      if (rent >= a && rent <= b) {
+        const t = (rent - a) / (b - a);
+        const rgb = ca.map((v, j) => Math.round(v + (cb[j] - v) * t));
+        return `rgb(${rgb.join(",")})`;
+      }
+    }
+    return "#c46b3a";
   }
 
   function addMarkers(list) {
     markersLayer.clearLayers();
+    const rents = (list.length ? list : ALL).map(rentForSize);
+    const minR = Math.min(...rents, 1700);
+    const maxR = Math.max(...rents, 3500);
     workplaces.forEach((w) => {
       const color = w.who === "A" ? "#c46b3a" : "#2a3f73";
       const m = L.circleMarker([w.lat, w.lng], {
-        radius: 11,
+        radius: 9,
         color: "#fff",
-        weight: 2,
+        weight: 3,
         fillColor: color,
         fillOpacity: 1,
       }).bindPopup(
@@ -116,12 +153,13 @@
       m.addTo(markersLayer);
     });
     list.forEach((l) => {
+      const rent = rentForSize(l);
       const m = L.circleMarker([l.lat, l.lng], {
-        radius: 8,
+        radius: rentRadius(rent, minR, maxR),
         color: "#fff",
         weight: 1.5,
-        fillColor: pinColor(l),
-        fillOpacity: 0.92,
+        fillColor: rentColor(rent),
+        fillOpacity: 0.82,
       }).bindPopup(
         `<strong>${l.name}</strong><br>${money(l.rentMin)}${
           l.rentMax !== l.rentMin ? "–" + money(l.rentMax) : ""
@@ -164,7 +202,7 @@
   loadData().then((data) => {
     ALL = data.listings;
     workplaces = data.workplaces;
-    document.getElementById("as-of").textContent = "Data as of 31 Aug 2026";
+    document.getElementById("as-of").textContent = "Data as of " + (data.asOf || "1 Sep 2026");
     initMap();
     apply();
     document.querySelector(".filters").addEventListener("click", (e) => {

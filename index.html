@@ -13,7 +13,7 @@
 <body>
   <a class="skip" href="#listings">Skip to listings</a>
   <header class="nav">
-    <div class="brand">Two keys, one October<small>Kirkland · Magnolia · Interbay · Greenwood</small></div>
+    <div class="brand">Two keys, one October<small>Kirkland · I-90 · Magnolia · Interbay</small></div>
     <nav class="nav-links">
       <a href="#listings">Listings</a>
       <a href="#map-sec">Map</a>
@@ -69,6 +69,7 @@
       <button type="button" data-filter="all" class="is-on">All</button>
       <button type="button" data-filter="eastside">Eastside</button>
       <button type="button" data-filter="seattle">Seattle</button>
+      <button type="button" data-filter="i90">I-90 corridor</button>
       <button type="button" data-filter="under2000">From ≤ $2,000</button>
       <button type="button" data-filter="under2250">From ≤ $2,250</button>
       <button type="button" data-filter="ev">EV listed / verified</button>
@@ -82,12 +83,14 @@
   <section id="map-sec">
     <div class="section-head">
       <h2>Every pin, plus both workplaces</h2>
-      <p>Teal = Eastside homes. Rose = Seattle homes. Copper = A’s school. Navy = B’s HQ. OSM tiles, no API key.</p>
+      <p>Dot <strong>size and color both show asking rent</strong> (bigger / warmer = more expensive). Workplaces stay copper (school) and navy (Expedia). OSM tiles, no API key.</p>
     </div>
     <div id="map"></div>
     <div class="map-legend">
-      <span><i class="dot e"></i>Eastside listing</span>
-      <span><i class="dot s"></i>Seattle listing</span>
+      <span><i class="dot cheap"></i>~$1.7k</span>
+      <span><i class="dot mid"></i>~$2.4k</span>
+      <span><i class="dot spend"></i>~$3k+</span>
+      <span>Bigger dot = higher rent</span>
       <span><i class="dot a"></i>LWHS (A)</span>
       <span><i class="dot b"></i>Expedia HQ (B)</span>
     </div>
