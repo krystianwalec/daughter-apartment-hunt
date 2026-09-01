@@ -23,6 +23,54 @@
   let workplaces = [];
   let map, markersLayer;
 
+
+  function esc(s) {
+    return String(s || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function itemLi(it) {
+    const text = esc(it.text || it);
+    if (it && it.href) return `<li><a href="${esc(it.href)}" target="_blank" rel="noopener">${text}</a></li>`;
+    return `<li>${text}</li>`;
+  }
+
+  function renderLog(entries) {
+    const root = document.getElementById("log-feed");
+    if (!root) return;
+    if (!entries || !entries.length) {
+      root.innerHTML = "<p class='lede'>No daily notes yet.</p>";
+      return;
+    }
+    root.innerHTML = entries
+      .slice()
+      .sort((a, b) => (b.date || "").localeCompare(a.date || ""))
+      .map((e) => {
+        const d = esc(e.date);
+        const newL = (e.new || []).map(itemLi).join("");
+        const ch = (e.changed || []).map(itemLi).join("");
+        return `<article class="log-entry">
+          <time datetime="${d}">${d}</time>
+          <h3>${esc(e.title)}</h3>
+          ${e.lede ? `<p class="lede">${esc(e.lede)}</p>` : ""}
+          ${newL ? `<h4>New</h4><ul>${newL}</ul>` : ""}
+          ${ch ? `<h4>Tracked</h4><ul>${ch}</ul>` : ""}
+        </article>`;
+      })
+      .join("");
+  }
+
+  function loadUpdates() {
+    return fetch("updates.json")
+      .then((r) => {
+        if (!r.ok) throw new Error("no updates");
+        return r.json();
+      })
+      .catch(() => window.HUNT_UPDATES || { entries: [] });
+  }
+
   function loadData() {
     return fetch("listings.json")
       .then((r) => {
@@ -200,10 +248,11 @@
     setTimeout(() => map.invalidateSize(), 200);
   }
 
-  loadData().then((data) => {
+  Promise.all([loadData(), loadUpdates()]).then(([data, updates]) => {
     ALL = data.listings;
     workplaces = data.workplaces;
     document.getElementById("as-of").textContent = "Data as of " + (data.asOf || "1 Sep 2026");
+    renderLog((updates && updates.entries) || []);
     initMap();
     apply();
     document.querySelector(".filters").addEventListener("click", (e) => {

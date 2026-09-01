@@ -16,6 +16,7 @@
     <div class="brand">Two keys, one October<small>Kirkland · I-90 · Magnolia · Interbay</small></div>
     <nav class="nav-links">
       <a href="#map-sec">Map</a>
+      <a href="#log">Updates</a>
       <a href="#listings">Listings</a>
       <a href="#by-area">Commute by area</a>
       <a href="#costs">Costs</a>
@@ -71,6 +72,14 @@
       <span><i class="dot a"></i>LWHS (A)</span>
       <span><i class="dot b"></i>Expedia HQ (B)</span>
     </div>
+  </section>
+
+  <section id="log">
+    <div class="section-head">
+      <h2>Daily updates</h2>
+      <p>Newest first. The 4pm refresh writes here when prices move or something new shows up.</p>
+    </div>
+    <div id="log-feed"></div>
   </section>
 
   <section id="listings">
@@ -297,6 +306,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="listings-data.js"></script>
+  <script src="updates-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

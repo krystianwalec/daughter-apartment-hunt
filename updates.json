@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "date": "2026-09-01",
+      "title": "Totem Lake and Juanita additions",
+      "lede": "Four new Kirkland 2BRs landed; Inglenook ticked down a bit; Mercer Park looks gone.",
+      "new": [
+        {
+          "text": "Vue Kirkland (Totem Lake) \u2014 2BR from $2,039, now. Listing says EV charging.",
+          "href": "https://www.apartments.com/vue-kirkland-kirkland-wa/4nq531j/"
+        },
+        {
+          "text": "Montebello \u2014 2/1 $2,189, now. Parking/EV unclear.",
+          "href": "https://www.apartments.com/montebello-kirkland-wa/gfbjcmy/"
+        },
+        {
+          "text": "Juanita Brook \u2014 $2,295, 3rd month free, 1 assigned stall.",
+          "href": "https://www.apartments.com/juanita-brook-apartments-kirkland-wa/tgvvvdc/"
+        },
+        {
+          "text": "Finn Hill condo, 14022 Juanita Dr NE \u2014 $2,195, W/S/G in.",
+          "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook B201 still Oct 16, rent $1,857 \u2192 $1,847. G202 $1,987 Oct 7.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Bridlewood 2BR floor from $2,155 (was $2,215). Still Sep dates.",
+          "href": "https://www.bridlewoodapartmenthomes.com/floorplans"
+        },
+        {
+          "text": "Polaris Eastgate 2BRs went to call-for-rent. Still LIHTC.",
+          "href": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
+        },
+        {
+          "text": "Mercer Park looks gone. Tiburon #108 mixed \u2014 verify before touring."
+        },
+        {
+          "text": "Magnolia Crestview still $1,995 (307 and 402).",
+          "href": "https://www.rentable.co/seattle-wa/a368-magnolia-crestview-apartments"
+        }
+      ]
+    }
+  ]
+}
