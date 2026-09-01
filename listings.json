@@ -32,9 +32,9 @@
       "cluster": "juanita",
       "beds": 2,
       "baths": 1,
-      "rentMin": 1857,
-      "rentMax": 1857,
-      "rangeNote": "Complex 2BR band $1,857\u2013$2,237",
+      "rentMin": 1847,
+      "rentMax": 1847,
+      "rangeNote": "Complex 2BR band ~$1,847\u2013$2,099 (Rentable)",
       "available": "16 Oct 2026",
       "parking": "included or on-site",
       "parkingFee": 0,
@@ -43,8 +43,9 @@
       "pets": "unknown",
       "commuteA": "~10 min drive to LWHS",
       "commuteB": "Bus + transfer; ST 522 corridor nearby",
-      "notes": "Best-priced 2BR in the Inglenook stack. Confirm unit mix and parking assignment.",
-      "fit": "budget"
+      "notes": "Best-priced 2BR in the Inglenook stack. Price refreshed Sep 1 2026 from Rentable. Confirm unit mix and parking assignment.",
+      "fit": "budget",
+      "url": "https://www.rentable.co/kirkland-wa/inglenook-court"
     },
     {
       "id": "124th-d115",
@@ -69,7 +70,8 @@
       "commuteA": "Short drive south to LWHS (Rose Hill / Totem Lake)",
       "commuteB": "TOD-adjacent; 2 Line is Bellevue/Redmond, not Totem Lake \u2014 still a bus hop",
       "notes": "W/S/G in rent. Carport EV unknown \u2014 ask about 120V or nearby L2.",
-      "fit": "budget"
+      "fit": "budget",
+      "url": "https://www.rentalsource.com/details/11112-ne-124th-lane-kirkland-wa-84013303/"
     },
     {
       "id": "124th-d114",
@@ -94,7 +96,8 @@
       "commuteA": "Short drive to LWHS",
       "commuteB": "Bus to Interbay / 2 Line feeder",
       "notes": "Two parking stalls \u2014 useful if A\u2019s EV plus a guest/roommate car.",
-      "fit": "budget"
+      "fit": "budget",
+      "url": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
     },
     {
       "id": "bridlewood",
@@ -107,7 +110,7 @@
       "cluster": "juanita",
       "beds": 2,
       "baths": 1,
-      "rentMin": 2215,
+      "rentMin": 2155,
       "rentMax": 2255,
       "rangeNote": null,
       "available": "check listing",
@@ -118,8 +121,61 @@
       "pets": "unknown",
       "commuteA": "Drive to LWHS via Juanita / 124th",
       "commuteB": "Bus south; not walkable to Expedia",
-      "notes": "Top of stretch band. EV charging not offered \u2014 garden + home charger math applies.",
-      "fit": "stretch"
+      "notes": "Meadow from $2,155 / Ridge from $2,200 (official site Sep 1 2026). Top of stretch band. EV charging not offered \u2014 garden + home charger math applies.",
+      "fit": "stretch",
+      "url": "https://www.bridlewoodapartmenthomes.com/floorplans"
+    },
+    {
+      "id": "juanita-brook",
+      "name": "Juanita Brook \u2014 A107 / C201",
+      "complex": "Juanita Brook",
+      "address": "11230 NE 132nd St, Kirkland, WA 98034",
+      "lat": 47.7188504,
+      "lng": -122.1908968,
+      "region": "eastside",
+      "cluster": "totem-lake",
+      "beds": 2,
+      "baths": 1,
+      "rentMin": 2295,
+      "rentMax": 2295,
+      "rangeNote": "3rd month free special (ApartmentFinder, updated ~6h ago)",
+      "available": "now",
+      "parking": "1 free assigned surface",
+      "parkingFee": 0,
+      "ev": "unknown",
+      "utils": "W/S/G ~$117/mo extra for 2BR",
+      "pets": "cats/dogs under 35 lbs, max 2",
+      "commuteA": "Short drive to LWHS via 132nd / 124th",
+      "commuteB": "Kingsgate P&R / Totem Lake buses; still a hop to Interbay",
+      "notes": "NEW Sep 1 2026. Units A107 and C201 at $2,295 (860 sf). In-unit W/D. Slightly over stretch band but special softens effective rent. EV not listed \u2014 do not assume.",
+      "fit": "stretch",
+      "url": "https://www.apartmentfinder.com/Washington/Kirkland-Apartments/Juanita-Brook-Apartments"
+    },
+    {
+      "id": "juanita-finn-14022",
+      "name": "14022 Juanita Dr NE \u2014 Finn Hill condo",
+      "complex": "Inglewood Forest / Finn Hill",
+      "address": "14022 Juanita Dr NE, Kirkland, WA 98034",
+      "lat": 47.7269548,
+      "lng": -122.2432914,
+      "region": "eastside",
+      "cluster": "juanita",
+      "beds": 2,
+      "baths": 1,
+      "rentMin": 2195,
+      "rentMax": 2195,
+      "rangeNote": "985 sq ft; W/S/G included",
+      "available": "Sep 1 2026 / check listing",
+      "parking": "in front of unit (listing)",
+      "parkingFee": 0,
+      "ev": "unknown",
+      "utils": "Water/sewer/garbage included",
+      "pets": "case-by-case cats/small dogs \u226435 lbs",
+      "commuteA": "~10\u201312 min drive to LWHS via Juanita Dr",
+      "commuteB": "Bus + transfer toward Seattle; not walkable to Expedia",
+      "notes": "NEW Sep 1 2026. Remodeled Finn Hill 2BR condo. Parking directly in front per listing. EV not mentioned \u2014 ask. Apply via manager site (not Zillow).",
+      "fit": "stretch",
+      "url": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
     },
     {
       "id": "tiburon-306",
@@ -135,7 +191,7 @@
       "rentMin": 1850,
       "rentMax": 1850,
       "rangeNote": null,
-      "available": "check listing",
+      "available": "check listing \u2014 still mirrored ~$1,850",
       "parking": "2 spaces",
       "parkingFee": 0,
       "ev": "unknown",
@@ -144,7 +200,8 @@
       "commuteA": "5\u20138 min drive to LWHS",
       "commuteB": "Near Google Houghton; bus to Seattle, not a walk to Interbay",
       "notes": "No pets. Houghton / Google cluster. Strong for A\u2019s drive.",
-      "fit": "budget"
+      "fit": "budget",
+      "url": "https://www.apartments.com/725-9th-ave-s-kirkland-wa-unit-306/dql6bel/"
     },
     {
       "id": "tiburon-108",
@@ -160,7 +217,7 @@
       "rentMin": 2200,
       "rentMax": 2200,
       "rangeNote": null,
-      "available": "check listing",
+      "available": "verify \u2014 may be off-market",
       "parking": "on-site",
       "parkingFee": 0,
       "ev": "unknown",
@@ -168,8 +225,9 @@
       "pets": "no",
       "commuteA": "5\u20138 min drive to LWHS",
       "commuteB": "Same as #306",
-      "notes": "Same building, higher rent. No pets.",
-      "fit": "stretch"
+      "notes": "Same building, higher rent. No pets. Highrises/Realtor.com show off-market as of Sep 1 2026 while some aggregators still mirror $2,200; confirm with listing agent before touring.",
+      "fit": "stretch",
+      "url": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
     },
     {
       "id": "polaris",
@@ -336,7 +394,7 @@
       "rentMin": 1995,
       "rentMax": 1995,
       "rangeNote": "2 bed / 2 bath",
-      "available": "check listing",
+      "available": "now (units 307 & 402)",
       "parking": "paid",
       "parkingFee": 50,
       "ev": "no",
@@ -345,7 +403,8 @@
       "commuteA": "Drive to Eastside via 520",
       "commuteB": "Better than north Magnolia for Interbay / Expedia",
       "notes": "2/2 near budget. Parking $50 + W/S/G ~$100. No EV.",
-      "fit": "ideal"
+      "fit": "ideal",
+      "url": "https://www.rentable.co/seattle-wa/a368-magnolia-crestview-apartments"
     },
     {
       "id": "vista-manor",
@@ -538,10 +597,10 @@
       "corridor": "i90",
       "beds": 2,
       "baths": 1,
-      "rentMin": 1768,
-      "rentMax": 2718,
-      "rangeNote": "LIHTC / income-restricted; PadMapper ~$1,814",
-      "available": "now",
+      "rentMin": 1409,
+      "rentMax": 2049,
+      "rangeNote": "LIHTC; 2BR Call for Rent; $1,000 move-in special on 12-mo (Sep 1 2026 apartments.com)",
+      "available": "2BRs Available Soon / call",
       "parking": "garage",
       "parkingFee": null,
       "ev": "listing",
@@ -549,7 +608,7 @@
       "pets": "unknown",
       "commuteA": "~18\u201325 min I-90/405 to LWHS",
       "commuteB": "Eastgate P&R then 2 Line South Bellevue; last mile to Interbay",
-      "notes": "Only sub-$2k 2BR found on I-90 \u2014 income limits (~50\u201360% AMI). Listing names EV charging.",
+      "notes": "2BRs not currently priced on apartments.com (Available Soon / Call for Rent) as of Sep 1 2026. Income limits still apply. Listing names EV charging \u2014 still listing not verified on-site.",
       "fit": "budget",
       "url": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
     },

@@ -23,7 +23,7 @@ index.html.
 
 Data goes stale
 ---------------
-Rents, unit numbers, EV stalls, and availability were captured 31 August 2026.
+Rents, unit numbers, EV stalls, and availability were captured / refreshed 1 September 2026.
 Assume anything can be gone by the time you tour. Re-check the listing, income
 limits (Polaris LIHTC, AVA MFTE), parking fees, and charging in writing.
 
