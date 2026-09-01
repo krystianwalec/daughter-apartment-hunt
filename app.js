@@ -197,6 +197,7 @@
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     }).addTo(map);
     markersLayer = L.layerGroup().addTo(map);
+    setTimeout(() => map.invalidateSize(), 200);
   }
 
   loadData().then((data) => {
