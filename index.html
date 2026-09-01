@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Oct 2026 apartment hunt — Eastside &amp; Seattle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#listings">Skip to listings</a>
+  <header class="nav">
+    <div class="brand">Two keys, one October<small>Kirkland · Magnolia · Interbay · Greenwood</small></div>
+    <nav class="nav-links">
+      <a href="#listings">Listings</a>
+      <a href="#map-sec">Map</a>
+      <a href="#commute">Commute</a>
+      <a href="#costs">Costs</a>
+      <a href="#ev">EV</a>
+      <a href="#amenities">Amenities</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <div class="kicker">Roommate search · move-in October 2026</div>
+      <h1>Find a 2BR that respects both jobs — and the rent cap.</h1>
+      <p class="lede">
+        Two people, two very different commutes. <strong>A</strong> drives an EV to Lake Washington High School
+        in Rose Hill. <strong>B</strong> has no car and needs a sane path to Expedia HQ in Interbay.
+        Ideal rent is <strong>$1,800</strong>; stretch is <strong>$2,000–$2,250</strong>. This page is the shared briefing —
+        market reality, every listing we tracked, a map, and what actually hits the bank account.
+        Renters do <em>not</em> pay property tax.
+      </p>
+      <p class="lede" id="as-of">Data as of 31 Aug 2026</p>
+    </div>
+    <div class="pair">
+      <div class="who">
+        <span class="tag">Roommate A · EV</span>
+        <strong>Lake Washington High School</strong>
+        12033 NE 80th St, Kirkland · drive-first
+      </div>
+      <div class="who">
+        <span class="tag">Roommate B · no car</span>
+        <strong>Expedia Group HQ</strong>
+        1111 Expedia Group Way W, Interbay · walk / D Line / last mile
+      </div>
+    </div>
+  </section>
+
+  <div class="reality">
+    <div class="reality-grid">
+      <div class="stat"><b>$1,800</b><span>Target 2BR rent. Eastside garden stock still exists here; new midrise usually does not.</span></div>
+      <div class="stat"><b>$2,250</b><span>Hard stretch. Above this, you are paying for EV stalls, Interbay walkability, or brand-new buildings.</span></div>
+      <div class="stat"><b>2 Line</b><span>Cross-lake Link opened 28 Mar 2026. ST Express 550 was eliminated 29 Aug 2026. Plan around the train, not the 550.</span></div>
+      <div class="stat"><b>No property tax</b><span>You are renting. Washington property tax is the landlord’s line, not yours. Budget utilities, internet, renters insurance, parking, EV.</span></div>
+    </div>
+  </div>
+
+  <section id="listings">
+    <div class="section-head">
+      <h2>Filterable listings</h2>
+      <p>All addresses were geocoded for the map. Asking rents go stale — treat every number as a 31 Aug 2026 snapshot. <span id="count"></span></p>
+    </div>
+    <div class="filters">
+      <button type="button" data-filter="all" class="is-on">All</button>
+      <button type="button" data-filter="eastside">Eastside</button>
+      <button type="button" data-filter="seattle">Seattle</button>
+      <button type="button" data-filter="under2000">From ≤ $2,000</button>
+      <button type="button" data-filter="under2250">From ≤ $2,250</button>
+      <button type="button" data-filter="ev">EV listed / verified</button>
+      <button type="button" data-filter="drive-a">A’s Eastside drive</button>
+      <button type="button" data-filter="walk-b">B’s Interbay cluster</button>
+      <input class="search" id="q" type="search" placeholder="Search name, street, notes…" />
+    </div>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="map-sec">
+    <div class="section-head">
+      <h2>Every pin, plus both workplaces</h2>
+      <p>Teal = Eastside homes. Rose = Seattle homes. Copper = A’s school. Navy = B’s HQ. OSM tiles, no API key.</p>
+    </div>
+    <div id="map"></div>
+    <div class="map-legend">
+      <span><i class="dot e"></i>Eastside listing</span>
+      <span><i class="dot s"></i>Seattle listing</span>
+      <span><i class="dot a"></i>LWHS (A)</span>
+      <span><i class="dot b"></i>Expedia HQ (B)</span>
+    </div>
+  </section>
+
+  <section id="commute">
+    <div class="section-head">
+      <h2>How commuting actually works in fall 2026</h2>
+      <p>Do not plan using a 2024 bus map. The east-west spine changed this year.</p>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>2 Line is real</h3>
+        <p>Sound Transit opened the Crosslake Connection on <strong>28 March 2026</strong> — light rail across I-90 between Bellevue / Mercer Island / Judkins Park and International District/Chinatown, completing the 2 Line. Trains, not the old Bellevue–Seattle freeway bus, are the trunk.</p>
+      </div>
+      <div class="panel">
+        <h3>ST 550 is gone</h3>
+        <p>Route <strong>550 was discontinued 29 August 2026</strong> with the fall service change. Riders were told to use the 2 Line. Do not screenshot an old 550 timetable into a roommate spreadsheet.</p>
+      </div>
+      <div class="panel">
+        <h3>Voyager — unconfirmed</h3>
+        <p>There is <strong>no confirmed “Voyager”</strong> Kirkland–Seattle / Interbay service you can set an alarm by. Kirkland’s funded BRT path is RapidRide <strong>K Line (target ~2030)</strong>, Totem Lake–downtown Kirkland–Bellevue. Until something is on a published timetable, treat Voyager as rumor, not a commute.</p>
+      </div>
+      <div class="panel">
+        <h3>D Line last mile</h3>
+        <p>RapidRide <strong>D</strong> (Crown Hill–Ballard–15th / Interbay–Uptown–downtown) is the frequent north–south bus. It helps Greenwood and Interbay. It does <strong>not</strong> drop B at the Expedia front door from every listing: Greenwood still needs a last-mile transfer or bike; Ivy / ION are the walkable cluster; Magnolia still needs a Magnolia-to-Interbay hop.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="costs">
+    <div class="section-head">
+      <h2>Monthly cost cheat sheet</h2>
+      <p>Washington has no renter property-tax line. Landlords bake tax into rent. Your extras are utilities, net, insurance, parking, and charging.</p>
+    </div>
+    <div class="panel">
+      <table>
+        <thead>
+          <tr><th>Line</th><th>Garden + home EV</th><th>Midrise + EV stall</th><th>Notes</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rent (target / stretch)</td>
+            <td>$1,800 / $2,000–2,250</td>
+            <td>Same headline rent, often higher asking</td>
+            <td>2BR unless noted (Bell, ION, AVA market)</td>
+          </tr>
+          <tr>
+            <td>All-in extras (ex-rent)</td>
+            <td class="warn">+$160–$340</td>
+            <td class="warn">+$380–$750</td>
+            <td>Parking + EV + power + internet + insurance, stacked</td>
+          </tr>
+          <tr>
+            <td>Electric (PSE Eastside / SCL Seattle)</td>
+            <td colspan="2">Varies by season; EV home charging is the swing factor on the Eastside</td>
+            <td>Ask for 12-month average if the unit is separately metered</td>
+          </tr>
+          <tr>
+            <td>Water / sewer / garbage</td>
+            <td colspan="2">Sometimes in rent (D115, Landon). Crestview ~$100 extra</td>
+            <td>Inglenook: extras via ConService (~$6 admin)</td>
+          </tr>
+          <tr>
+            <td>Internet</td>
+            <td colspan="2">$40–$90</td>
+            <td>Ziply / Comcast / Ziply fiber pockets on the Eastside; Seattle mixed</td>
+          </tr>
+          <tr>
+            <td>Renters insurance</td>
+            <td colspan="2">$11–$18 per person</td>
+            <td>Most landlords require it; two policies or one shared — ask the carrier</td>
+          </tr>
+          <tr>
+            <td>Parking</td>
+            <td>Often free / carport</td>
+            <td>Polaris $150; Crestview $50; Taylor $95; Ivy stacker $225–$315; AVA garage $150–$200; Bell EV stall $150</td>
+            <td>Stackers are hostile to EVs</td>
+          </tr>
+          <tr>
+            <td>Property tax</td>
+            <td colspan="2"><strong>None for renters</strong></td>
+            <td>Do not add King County property tax to this budget</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="ev">
+    <div class="section-head">
+      <h2>EV reality for roommate A</h2>
+      <p>Garden apartments plus a 14-50 or 240V home charger is the cheap path. Unassigned L2 stalls in new midrise are the expensive path. Stackers are usually a dead end.</p>
+    </div>
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Verified or advertised</h3>
+        <ul>
+          <li><strong>Bell Totem Lake</strong> — verified Level 2, about $150 EV stall. 2BR is ~$3,485+ (out of band).</li>
+          <li><strong>ION Interbay</strong> — official building EV. 2BR $3,095+.</li>
+          <li><strong>AVA Queen Anne</strong> — Blink L2. MFTE 2BR ~$2,028 if eligible; market $3,360+.</li>
+          <li><strong>Arete</strong> — EV mentioned on the listing; confirm count, reservation rules, and whether it is L2 vs 120V.</li>
+        </ul>
+      </div>
+      <div class="panel">
+        <h3>Unknown / no</h3>
+        <ul>
+          <li>Most Juanita / 124th / Bridlewood / Kenmore / Bothell / Magnolia / Greenwood listings: <strong>no</strong> or <strong>unknown</strong>.</li>
+          <li>Polaris: unverified. Get it in email before you count it.</li>
+          <li>Ivy stacker $225–$315: EV install is unlikely.</li>
+          <li>Garden + home EV extras: <strong>+$160–$340</strong>. Midrise stall: <strong>+$380–$750</strong>.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="amenities">
+    <div class="section-head">
+      <h2>Named places, by cluster</h2>
+      <p>Only real storefronts and parks. If a listing sits in a cluster, this is the errand map — not a vibe paragraph.</p>
+    </div>
+    <div class="amenity-grid">
+      <article class="amenity panel">
+        <h3>Village at Totem Lake</h3>
+        <p>Trader Joe’s (12520 Totem Lake Blvd NE), Whole Foods Market (12501 120th Ave NE), Cinemark Totem Lake Kirkland and XD (12600 120th Ave NE), Nordstrom Rack, Chipotle, MOD Pizza, Hen House, Dué Cucina, Stack 571, Kati Vegan Thai, Silverlake Ramen. Separate but close: QFC at 11224 NE 124th St.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Juanita Village</h3>
+        <p>Walkable mixed-use at 98th Ave NE &amp; NE 116th / 97th Ln NE: Oto Sushi, Padria Mediterranean Café, Urban Coffee Lounge, Top Pot Doughnuts, Mongolian Grill, Mezcal Grill, JB Bungalow, Spud Fish &amp; Chips on Juanita Dr. Groceries: QFC Juanita at 14130 Juanita Dr NE (north of the village). Juanita Beach Park on the water.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Houghton / Google</h3>
+        <p>Google Kirkland campus (6th St S) and Feriton Spur Park (pickleball, caboose taproom) on the Cross Kirkland Corridor. Nearby: Sarducci’s, Toshi’s Teriyaki, Bibi, Fan Tang Asian Café, Koza Turkish Grocery, Houghton Beach Park / Houghton Beach Bites. Houghton Village on NE 68th is in a city redevelopment conversation — verify who is still open before you lean on it.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Downtown Kirkland</h3>
+        <p>Marina Park and Lake St restaurant row, Peter Kirk Park, Kirkland Performance Center, Kirkland Urban (Google offices, QFC at 425 Urban Plaza, Shake Shack). PCC Community Markets at 430 Kirkland Way. Cross Kirkland Corridor through town. Arete sits on Central Way in this cluster.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Kenmore / Bothell</h3>
+        <p>Safeway Kenmore at 6850 NE Bothell Way. ST Express 522 is the Seattle-bound bus spine from Kenmore. Bothell PCC is at 22621 Bothell Everett Hwy (Canyon Park — a drive from Hillside, not a stroll). St. Edward / Log Boom parks are the recreation, not the grocery.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Magnolia Village</h3>
+        <p>Metropolitan Market Magnolia (3830 34th Ave W), W McGraw shops: Mondello Ristorante, Pink Salt, Slice Box / Queen Margherita, Petit Pierre Bakery, Uptown Espresso, Serendipity Café, Magnolia Farmers Market (seasonal Saturdays).</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Interbay</h3>
+        <p>Expedia HQ at 1111 Expedia Group Way W. Whole Foods Interbay (2001 15th Ave W). RapidRide D on 15th Ave W. ION and Ivy are the walk-to-HQ cluster; AVA is Lower Queen Anne with a bike/bus last mile.</p>
+      </article>
+      <article class="amenity panel">
+        <h3>Greenwood Ave</h3>
+        <p>Corridor grocery: Fred Meyer Greenwood (100 NW 85th St), nearby Safeway on Greenwood. QFC on Holman Rd NW. PCC Green Lake Aurora (7504 Aurora Ave N) is a short hop, not on Greenwood itself. D Line is the frequent bus; last mile to Expedia remains real from 81st and from 125th.</p>
+      </article>
+    </div>
+  </section>
+
+  <footer>
+    Built as static files for a shared family email. Listings and rents age quickly — re-check availability, income limits (Polaris LIHTC, AVA MFTE), parking, and EV in writing before anyone puts down a hold fee.
+    Leaflet via unpkg · map tiles © OpenStreetMap contributors.
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="listings-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
