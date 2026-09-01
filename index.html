@@ -15,10 +15,9 @@
   <header class="nav">
     <div class="brand">Two keys, one October<small>Kirkland · I-90 · Magnolia · Interbay</small></div>
     <nav class="nav-links">
-      <a href="#listings">Listings</a>
       <a href="#map-sec">Map</a>
-      <a href="#commute">Commute</a>
-      <a href="#by-area">By area</a>
+      <a href="#listings">Listings</a>
+      <a href="#by-area">Commute by area</a>
       <a href="#costs">Costs</a>
       <a href="#ev">EV</a>
       <a href="#amenities">Amenities</a>
@@ -32,9 +31,7 @@
       <p class="lede">
         Two people, two very different commutes. <strong>A</strong> drives an EV to Lake Washington High School
         in Rose Hill. <strong>B</strong> has no car and needs a sane path to Expedia HQ in Interbay.
-        Ideal rent is <strong>$1,800</strong>; stretch is <strong>$2,000–$2,250</strong>. This page is the shared briefing —
-        market reality, every listing we tracked, a map, and what actually hits the bank account.
-        Renters do <em>not</em> pay property tax.
+        Ideal rent is <strong>$1,800</strong>; stretch is <strong>$2,000–$2,250</strong>. Map, listings, commute-by-area, and all-in extras.
       </p>
       <p class="lede" id="as-of">Data as of 31 Aug 2026</p>
     </div>
@@ -56,10 +53,25 @@
     <div class="reality-grid">
       <div class="stat"><b>$1,800</b><span>Target 2BR rent. Eastside garden stock still exists here; new midrise usually does not.</span></div>
       <div class="stat"><b>$2,250</b><span>Hard stretch. Above this, you are paying for EV stalls, Interbay walkability, or brand-new buildings.</span></div>
-      <div class="stat"><b>2 Line</b><span>Cross-lake Link opened 28 Mar 2026. ST Express 550 was eliminated 29 Aug 2026. Plan around the train, not the 550.</span></div>
-      <div class="stat"><b>No property tax</b><span>You are renting. Washington property tax is the landlord’s line, not yours. Budget utilities, internet, renters insurance, parking, EV.</span></div>
+      <div class="stat"><b>2 Line</b><span>Cross-lake Link opened 28 Mar 2026. ST Express 550 is gone. B’s trunk is the train plus a D Line last mile, not the 550.</span></div>
     </div>
   </div>
+
+  <section id="map-sec">
+    <div class="section-head">
+      <h2>Every pin, plus both workplaces</h2>
+      <p>Dot <strong>size and color both show asking rent</strong> (bigger / warmer = more expensive). Workplaces stay copper (school) and navy (Expedia). OSM tiles, no API key.</p>
+    </div>
+    <div id="map"></div>
+    <div class="map-legend">
+      <span><i class="dot cheap"></i>~$1.7k</span>
+      <span><i class="dot mid"></i>~$2.4k</span>
+      <span><i class="dot spend"></i>~$3k+</span>
+      <span>Bigger dot = higher rent</span>
+      <span><i class="dot a"></i>LWHS (A)</span>
+      <span><i class="dot b"></i>Expedia HQ (B)</span>
+    </div>
+  </section>
 
   <section id="listings">
     <div class="section-head">
@@ -81,47 +93,8 @@
     <div class="cards" id="cards"></div>
   </section>
 
-  <section id="map-sec">
+  <section id="by-area">
     <div class="section-head">
-      <h2>Every pin, plus both workplaces</h2>
-      <p>Dot <strong>size and color both show asking rent</strong> (bigger / warmer = more expensive). Workplaces stay copper (school) and navy (Expedia). OSM tiles, no API key.</p>
-    </div>
-    <div id="map"></div>
-    <div class="map-legend">
-      <span><i class="dot cheap"></i>~$1.7k</span>
-      <span><i class="dot mid"></i>~$2.4k</span>
-      <span><i class="dot spend"></i>~$3k+</span>
-      <span>Bigger dot = higher rent</span>
-      <span><i class="dot a"></i>LWHS (A)</span>
-      <span><i class="dot b"></i>Expedia HQ (B)</span>
-    </div>
-  </section>
-
-  <section id="commute">
-    <div class="section-head">
-      <h2>How commuting actually works in fall 2026</h2>
-      <p>Do not plan using a 2024 bus map. The east-west spine changed this year.</p>
-    </div>
-    <div class="grid-2">
-      <div class="panel">
-        <h3>2 Line is real</h3>
-        <p>Sound Transit opened the Crosslake Connection on <strong>28 March 2026</strong> — light rail across I-90 between Bellevue / Mercer Island / Judkins Park and International District/Chinatown, completing the 2 Line. Trains, not the old Bellevue–Seattle freeway bus, are the trunk.</p>
-      </div>
-      <div class="panel">
-        <h3>ST 550 is gone</h3>
-        <p>Route <strong>550 was discontinued 29 August 2026</strong> with the fall service change. Riders were told to use the 2 Line. Do not screenshot an old 550 timetable into a roommate spreadsheet.</p>
-      </div>
-      <div class="panel">
-        <h3>Voyager — unconfirmed</h3>
-        <p>There is <strong>no confirmed “Voyager”</strong> Kirkland–Seattle / Interbay service you can set an alarm by. Kirkland’s funded BRT path is RapidRide <strong>K Line (target ~2030)</strong>, Totem Lake–downtown Kirkland–Bellevue. Until something is on a published timetable, treat Voyager as rumor, not a commute.</p>
-      </div>
-      <div class="panel">
-        <h3>D Line last mile</h3>
-        <p>RapidRide <strong>D</strong> (Crown Hill–Ballard–15th / Interbay–Uptown–downtown) is the frequent north–south bus. It helps Greenwood and Interbay. It does <strong>not</strong> drop B at the Expedia front door from every listing: Greenwood still needs a last-mile transfer or bike; Ivy / ION are the walkable cluster; Magnolia still needs a Magnolia-to-Interbay hop.</p>
-      </div>
-    </div>
-
-    <div class="section-head" id="by-area" style="margin-top:2rem">
       <h2>Commute by area</h2>
       <p><strong>A’s clock:</strong> school is <strong>7:55 AM arrival, out ~3:00 PM</strong>, so she is in the 7:00–7:50 AM peak (leave home early enough to be in the lot by ~7:50) but <em>out before</em> the 4:30–6:30 PM crush. Homebound at 3:00 is closer to midday plus Kirkland pickup traffic, not full rush hour. <strong>B</strong> has no car: 2 Line + RapidRide D (or 24/32) to Interbay. The train does not stop at Expedia. Rain and 405/90 incidents still blow the ranges.</p>
     </div>
@@ -198,7 +171,7 @@
   <section id="costs">
     <div class="section-head">
       <h2>Monthly cost cheat sheet</h2>
-      <p>Washington has no renter property-tax line. Landlords bake tax into rent. Your extras are utilities, net, insurance, parking, and charging.</p>
+      <p>Extras on top of rent: utilities, internet, insurance, parking, EV charging.</p>
     </div>
     <div class="panel">
       <table>
