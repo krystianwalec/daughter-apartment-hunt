@@ -2,6 +2,42 @@
   "entries": [
     {
       "date": "2026-09-01",
+      "title": "North-end 1 Line: Lynnwood, Mountlake Terrace, Shoreline",
+      "lede": "Added the Lynnwood Link corridor. B rides 1 Line to Westlake then RapidRide D. A uses I-5/405 to Kirkland for a 7:55 arrival.",
+      "new": [
+        {
+          "text": "Heather Ridge Lynnwood \u2014 2BR $1,749\u2013$1,805. Cheap; B is bus+Link.",
+          "href": "https://www.heatherridgelynnwood.com"
+        },
+        {
+          "text": "Capri / Andorra Mountlake Terrace \u2014 from ~$1,739\u2013$1,799.",
+          "href": "https://www.liveatcapriapts.com/floorplans"
+        },
+        {
+          "text": "Zinnia Shoreline \u2014 $2,485\u2013$2,660, walk to 148th, garage EV.",
+          "href": "https://www.liveatzinnia.com/"
+        },
+        {
+          "text": "The LINE / Verdant at 145th \u2014 MFTE + market; walk to Shoreline South.",
+          "href": "https://liveattheline.com/floorplans/"
+        },
+        {
+          "text": "Traxx / Terrace Station MLT \u2014 walk to Link, EV in garage, ~$2,795\u2013$3,085.",
+          "href": "https://traxxapartments.com/"
+        },
+        {
+          "text": "Kinect Lynnwood \u2014 walk to Lynnwood City Center Link, ~$2,495.",
+          "href": "https://www.kinectlynnwood.com/"
+        },
+        {
+          "text": "Avalon Alderwood \u2014 best north-end drive to school (~18\u201332 min AM), weaker Link walk.",
+          "href": "https://www.avaloncommunities.com/washington/lynnwood-apartments/avalon-alderwood/"
+        }
+      ],
+      "changed": []
+    },
+    {
+      "date": "2026-09-01",
       "title": "Totem Lake and Juanita additions",
       "lede": "Four new Kirkland 2BRs landed; Inglenook ticked down a bit; Mercer Park looks gone.",
       "new": [

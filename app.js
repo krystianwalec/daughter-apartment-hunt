@@ -102,7 +102,7 @@
           </header>
           <div class="meta">${l.address}</div>
           <div class="badges">
-            <span class="badge">${l.corridor === "i90" ? "I-90" : l.region === "eastside" ? "Eastside" : "Seattle"}</span>
+            <span class="badge">${l.corridor === "i90" ? "I-90" : l.corridor === "link-north" ? "1 Line north" : l.region === "eastside" ? "Eastside" : "Seattle"}</span>
             <span class="badge ${evClass}">${evLabel[l.ev] || l.ev}</span>
             <span class="badge ${l.fit === "over" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
             <span class="badge">${l.beds}BR</span>
@@ -140,6 +140,7 @@
         if (f === "walk-b" && l.cluster !== "interbay") return false;
         if (f === "drive-a" && l.region !== "eastside") return false;
         if (f === "i90" && l.corridor !== "i90") return false;
+        if (f === "north" && l.corridor !== "link-north") return false;
       }
       return true;
     });
