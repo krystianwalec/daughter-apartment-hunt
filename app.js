@@ -17,6 +17,7 @@
     stretch: "Stretch",
     over: "Over band",
     mfte: "MFTE / dual price",
+    gone: "Likely gone",
   };
 
   let ALL = [];
@@ -104,7 +105,7 @@
           <div class="badges">
             <span class="badge">${l.corridor === "i90" ? "I-90" : l.corridor === "link-north" ? "1 Line north" : l.region === "eastside" ? "Eastside" : "Seattle"}</span>
             <span class="badge ${evClass}">${evLabel[l.ev] || l.ev}</span>
-            <span class="badge ${l.fit === "over" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
+            <span class="badge ${l.fit === "over" || l.fit === "gone" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
             <span class="badge">${l.beds}BR</span>
           </div>
           <div class="meta">Parking: ${l.parking}${l.parkingFee ? " (" + money(l.parkingFee) + (l.parkingFeeMax ? "–" + money(l.parkingFeeMax) : "") + ")" : ""}</div>

@@ -1,36 +1,67 @@
 {
   "entries": [
     {
+      "date": "2026-09-02",
+      "title": "D115 looks gone; D114 up; Tiburon 108 active again",
+      "lede": "Daily recheck. Budget Totem Lake condo D115 was removed from Rentalsource. Magnolia Vista/Manor is advertising a month free. Core Juanita/Totem Lake stack mostly stable.",
+      "new": [],
+      "changed": [
+        {
+          "text": "11112 NE 124th Ln D115 — Rentalsource removed / may be occupied. Treat as gone.",
+          "href": "https://www.rentalsource.com/details/11112-ne-124th-lane-kirkland-wa-84013303/"
+        },
+        {
+          "text": "Same building D114 — HotPads ~$2,099 (was $1,999).",
+          "href": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
+        },
+        {
+          "text": "Tiburon #108 — Coldwell Active again at $2,200 (was maybe off-market).",
+          "href": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
+        },
+        {
+          "text": "Magnolia Vista & Manor — 1 month free on 12-mo; 2BRs still ~$1,995–$2,195.",
+          "href": "https://www.rentalsource.com/details/2710-w-manor-place-seattle-wa-83676601/"
+        },
+        {
+          "text": "Vue Kirkland — still from $2,039 (7× 2BRs); Rentable still lists EV charging (confirm).",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Inglenook B201 still $1,847 Oct 16; Crestview 307/402 still $1,995; Juanita Brook A107/C201 still $2,295 + 3rd month free; Bridlewood Meadow/Ridge unchanged; Montebello P300 still $2,189; Finn Hill condo still $2,195."
+        }
+      ]
+    },
+    {
       "date": "2026-09-01",
       "title": "North-end 1 Line: Lynnwood, Mountlake Terrace, Shoreline",
       "lede": "Added the Lynnwood Link corridor. B rides 1 Line to Westlake then RapidRide D. A uses I-5/405 to Kirkland for a 7:55 arrival.",
       "new": [
         {
-          "text": "Heather Ridge Lynnwood \u2014 2BR $1,749\u2013$1,805. Cheap; B is bus+Link.",
+          "text": "Heather Ridge Lynnwood — 2BR $1,749–$1,805. Cheap; B is bus+Link.",
           "href": "https://www.heatherridgelynnwood.com"
         },
         {
-          "text": "Capri / Andorra Mountlake Terrace \u2014 from ~$1,739\u2013$1,799.",
+          "text": "Capri / Andorra Mountlake Terrace — from ~$1,739–$1,799.",
           "href": "https://www.liveatcapriapts.com/floorplans"
         },
         {
-          "text": "Zinnia Shoreline \u2014 $2,485\u2013$2,660, walk to 148th, garage EV.",
+          "text": "Zinnia Shoreline — $2,485–$2,660, walk to 148th, garage EV.",
           "href": "https://www.liveatzinnia.com/"
         },
         {
-          "text": "The LINE / Verdant at 145th \u2014 MFTE + market; walk to Shoreline South.",
+          "text": "The LINE / Verdant at 145th — MFTE + market; walk to Shoreline South.",
           "href": "https://liveattheline.com/floorplans/"
         },
         {
-          "text": "Traxx / Terrace Station MLT \u2014 walk to Link, EV in garage, ~$2,795\u2013$3,085.",
+          "text": "Traxx / Terrace Station MLT — walk to Link, EV in garage, ~$2,795–$3,085.",
           "href": "https://traxxapartments.com/"
         },
         {
-          "text": "Kinect Lynnwood \u2014 walk to Lynnwood City Center Link, ~$2,495.",
+          "text": "Kinect Lynnwood — walk to Lynnwood City Center Link, ~$2,495.",
           "href": "https://www.kinectlynnwood.com/"
         },
         {
-          "text": "Avalon Alderwood \u2014 best north-end drive to school (~18\u201332 min AM), weaker Link walk.",
+          "text": "Avalon Alderwood — best north-end drive to school (~18–32 min AM), weaker Link walk.",
           "href": "https://www.avaloncommunities.com/washington/lynnwood-apartments/avalon-alderwood/"
         }
       ],
@@ -42,25 +73,25 @@
       "lede": "Four new Kirkland 2BRs landed; Inglenook ticked down a bit; Mercer Park looks gone.",
       "new": [
         {
-          "text": "Vue Kirkland (Totem Lake) \u2014 2BR from $2,039, now. Listing says EV charging.",
+          "text": "Vue Kirkland (Totem Lake) — 2BR from $2,039, now. Listing says EV charging.",
           "href": "https://www.apartments.com/vue-kirkland-kirkland-wa/4nq531j/"
         },
         {
-          "text": "Montebello \u2014 2/1 $2,189, now. Parking/EV unclear.",
+          "text": "Montebello — 2/1 $2,189, now. Parking/EV unclear.",
           "href": "https://www.apartments.com/montebello-kirkland-wa/gfbjcmy/"
         },
         {
-          "text": "Juanita Brook \u2014 $2,295, 3rd month free, 1 assigned stall.",
+          "text": "Juanita Brook — $2,295, 3rd month free, 1 assigned stall.",
           "href": "https://www.apartments.com/juanita-brook-apartments-kirkland-wa/tgvvvdc/"
         },
         {
-          "text": "Finn Hill condo, 14022 Juanita Dr NE \u2014 $2,195, W/S/G in.",
+          "text": "Finn Hill condo, 14022 Juanita Dr NE — $2,195, W/S/G in.",
           "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 still Oct 16, rent $1,857 \u2192 $1,847. G202 $1,987 Oct 7.",
+          "text": "Inglenook B201 still Oct 16, rent $1,857 → $1,847. G202 $1,987 Oct 7.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
@@ -72,7 +103,7 @@
           "href": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
         },
         {
-          "text": "Mercer Park looks gone. Tiburon #108 mixed \u2014 verify before touring."
+          "text": "Mercer Park looks gone. Tiburon #108 mixed — verify before touring."
         },
         {
           "text": "Magnolia Crestview still $1,995 (307 and 402).",
