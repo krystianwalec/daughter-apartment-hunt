@@ -17,7 +17,8 @@
     <nav class="nav-links">
       <a href="#map-sec">Map</a>
       <a href="#log">Updates</a>
-      <a href="#listings">Listings</a>
+      <a href="#listings">2BR listings</a>
+      <a href="#onebr">1BR ~$1,500</a>
       <a href="#by-area">Commute by area</a>
       <a href="#costs">Costs</a>
       <a href="#ev">EV</a>
@@ -32,7 +33,7 @@
       <p class="lede">
         Two people, two very different commutes. <strong>A</strong> drives an EV to Lake Washington High School
         in Rose Hill. <strong>B</strong> has no car and needs a sane path to Expedia HQ in Interbay.
-        Ideal rent is <strong>$1,800</strong>; stretch is <strong>$2,000–$2,250</strong>. Map, listings, commute-by-area, and all-in extras.
+        Ideal <strong>2BR</strong> rent is <strong>$1,800</strong> (stretch $2,000–$2,250). Also hunting <strong>1BRs around $1,500</strong> if they share a bedroom plan. Map, listings, commute-by-area, and all-in extras.
       </p>
       <p class="lede" id="as-of">Data as of 31 Aug 2026</p>
     </div>
@@ -60,8 +61,8 @@
 
   <section id="map-sec">
     <div class="section-head">
-      <h2>Every pin, plus both workplaces</h2>
-      <p>Dot <strong>size and color both show asking rent</strong> (bigger / warmer = more expensive). Workplaces stay copper (school) and navy (Expedia). OSM tiles, no API key.</p>
+      <h2>2BR map</h2>
+      <p>Dot <strong>size and color both show asking rent</strong> (bigger / warmer = more expensive). Workplaces stay copper (school) and navy (Expedia).</p>
     </div>
     <div id="map"></div>
     <div class="map-legend">
@@ -84,8 +85,8 @@
 
   <section id="listings">
     <div class="section-head">
-      <h2>Filterable listings</h2>
-      <p>All addresses were geocoded for the map. Asking rents go stale — treat every number as a 31 Aug 2026 snapshot. <span id="count"></span></p>
+      <h2>2-bedroom listings</h2>
+      <p>Asking rents go stale — re-check before touring. <span id="count"></span></p>
     </div>
     <div class="filters">
       <button type="button" data-filter="all" class="is-on">All</button>
@@ -101,6 +102,35 @@
       <input class="search" id="q" type="search" placeholder="Search name, street, notes…" />
     </div>
     <div class="cards" id="cards"></div>
+  </section>
+
+
+  <section id="onebr">
+    <div class="section-head">
+      <h2>1-bedroom option (~$1,500)</h2>
+      <p>If they can share a 1BR, the rent math gets easier — but square footage and privacy get harder. Target <strong>~$1,500</strong>, stretch to ~$1,800. Separate map from the 2BRs. <span id="count1"></span></p>
+    </div>
+    <div id="map1" class="map-box"></div>
+    <div class="map-legend">
+      <span><i class="dot cheap"></i>~$1.3k</span>
+      <span><i class="dot mid"></i>~$1.6k</span>
+      <span><i class="dot spend"></i>~$1.9k+</span>
+      <span>Bigger dot = higher rent</span>
+      <span><i class="dot a"></i>LWHS (A)</span>
+      <span><i class="dot b"></i>Expedia HQ (B)</span>
+    </div>
+    <div class="filters" id="filters1" style="margin-top:1rem">
+      <button type="button" data-filter1="all" class="is-on">All</button>
+      <button type="button" data-filter1="eastside">Eastside</button>
+      <button type="button" data-filter1="seattle">Seattle</button>
+      <button type="button" data-filter1="i90">I-90</button>
+      <button type="button" data-filter1="north">1 Line north</button>
+      <button type="button" data-filter1="under1500">From ≤ $1,500</button>
+      <button type="button" data-filter1="under1800">From ≤ $1,800</button>
+      <button type="button" data-filter1="ev">EV listed / verified</button>
+      <input class="search" id="q1" type="search" placeholder="Search 1BRs…" />
+    </div>
+    <div class="cards" id="cards1"></div>
   </section>
 
   <section id="by-area">
@@ -322,6 +352,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
   <script src="listings-data.js"></script>
+  <script src="listings1-data.js"></script>
   <script src="updates-data.js"></script>
   <script src="app.js"></script>
 </body>

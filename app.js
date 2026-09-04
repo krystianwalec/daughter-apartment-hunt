@@ -12,7 +12,7 @@
   };
 
   const fitLabel = {
-    budget: "At / under $1.8k",
+    budget: "At / under target",
     ideal: "Ideal band",
     stretch: "Stretch",
     over: "Over band",
@@ -21,9 +21,10 @@
   };
 
   let ALL = [];
+  let ALL1 = [];
   let workplaces = [];
   let map, markersLayer;
-
+  let map1, markersLayer1;
 
   function esc(s) {
     return String(s || "")
@@ -34,7 +35,8 @@
 
   function itemLi(it) {
     const text = esc(it.text || it);
-    if (it && it.href) return `<li><a href="${esc(it.href)}" target="_blank" rel="noopener">${text}</a></li>`;
+    if (it && it.href)
+      return `<li><a href="${esc(it.href)}" target="_blank" rel="noopener">${text}</a></li>`;
     return `<li>${text}</li>`;
   }
 
@@ -81,50 +83,76 @@
       .catch(() => window.APARTMENT_DATA);
   }
 
+  function loadData1() {
+    return fetch("listings1.json")
+      .then((r) => {
+        if (!r.ok) throw new Error("no 1br json");
+        return r.json();
+      })
+      .catch(() => window.APARTMENT_DATA_1BR || { listings: [] });
+  }
+
+  function corridorBadge(l) {
+    if (l.corridor === "i90") return "I-90";
+    if (l.corridor === "link-north") return "1 Line north";
+    if (l.region === "eastside") return "Eastside";
+    return "Seattle";
+  }
+
+  function cardHtml(l, flyAttr) {
+    const range =
+      l.rentMin === l.rentMax
+        ? money(l.rentMin)
+        : money(l.rentMin) + "–" + money(l.rentMax);
+    const evClass =
+      l.ev === "yes"
+        ? "ev-yes"
+        : l.ev === "no" || l.ev === "likely-no"
+        ? "ev-no"
+        : "ev-unknown";
+    return `<article class="card" data-id="${l.id}">
+      <header>
+        <h3>${l.name}</h3>
+        <div class="price">${range}</div>
+      </header>
+      <div class="meta">${l.address}</div>
+      <div class="badges">
+        <span class="badge">${corridorBadge(l)}</span>
+        <span class="badge ${evClass}">${evLabel[l.ev] || l.ev}</span>
+        <span class="badge ${l.fit === "over" || l.fit === "gone" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
+        <span class="badge">${l.beds}BR</span>
+      </div>
+      <div class="meta">Parking: ${l.parking}${l.parkingFee ? " (" + money(l.parkingFee) + (l.parkingFeeMax ? "–" + money(l.parkingFeeMax) : "") + ")" : ""}</div>
+      <div class="meta">Utils: ${l.utils}</div>
+      <div class="meta">A: ${l.commuteA}<br>B: ${l.commuteB}</div>
+      ${l.rangeNote ? `<div class="meta">${l.rangeNote}</div>` : ""}
+      <p class="meta">${l.notes || ""}</p>
+      <button type="button" ${flyAttr}="${l.id}">Show on map</button>
+      ${l.url ? `<a href="${l.url}" target="_blank" rel="noopener">Listing</a>` : ""}
+    </article>`;
+  }
+
   function renderCards(list) {
     const root = document.getElementById("cards");
     document.getElementById("count").textContent = list.length + " homes";
-    root.innerHTML = list
-      .map((l) => {
-        const range =
-          l.rentMin === l.rentMax
-            ? money(l.rentMin)
-            : money(l.rentMin) + "–" + money(l.rentMax);
-        const evClass =
-          l.ev === "yes"
-            ? "ev-yes"
-            : l.ev === "no" || l.ev === "likely-no"
-            ? "ev-no"
-            : "ev-unknown";
-        return `<article class="card" data-id="${l.id}">
-          <header>
-            <h3>${l.name}</h3>
-            <div class="price">${range}</div>
-          </header>
-          <div class="meta">${l.address}</div>
-          <div class="badges">
-            <span class="badge">${l.corridor === "i90" ? "I-90" : l.corridor === "link-north" ? "1 Line north" : l.region === "eastside" ? "Eastside" : "Seattle"}</span>
-            <span class="badge ${evClass}">${evLabel[l.ev] || l.ev}</span>
-            <span class="badge ${l.fit === "over" || l.fit === "gone" ? "over" : ""} ${l.fit === "mfte" ? "mfte" : ""}">${fitLabel[l.fit] || l.fit}</span>
-            <span class="badge">${l.beds}BR</span>
-          </div>
-          <div class="meta">Parking: ${l.parking}${l.parkingFee ? " (" + money(l.parkingFee) + (l.parkingFeeMax ? "–" + money(l.parkingFeeMax) : "") + ")" : ""}</div>
-          <div class="meta">Utils: ${l.utils}</div>
-          <div class="meta">A: ${l.commuteA}<br>B: ${l.commuteB}</div>
-          ${l.rangeNote ? `<div class="meta">${l.rangeNote}</div>` : ""}
-          <p class="meta">${l.notes}</p>
-          <button type="button" data-fly="${l.id}">Show on map</button>
-          ${l.url ? `<a href="${l.url}" target="_blank" rel="noopener">Listing</a>` : ""}
-        </article>`;
-      })
-      .join("");
+    root.innerHTML = list.map((l) => cardHtml(l, "data-fly")).join("");
+  }
+
+  function renderCards1(list) {
+    const root = document.getElementById("cards1");
+    const count = document.getElementById("count1");
+    if (!root) return;
+    if (count) count.textContent = list.length + " homes";
+    root.innerHTML = list.map((l) => cardHtml(l, "data-fly1")).join("");
   }
 
   function activeFilters() {
-    const on = [...document.querySelectorAll(".filters button.is-on")].map(
+    const on = [...document.querySelectorAll(".filters:not(#filters1) button.is-on")].map(
       (b) => b.dataset.filter
     );
-    const q = document.getElementById("q").value.trim().toLowerCase();
+    const q = (document.getElementById("q") || { value: "" }).value
+      .trim()
+      .toLowerCase();
     return ALL.filter((l) => {
       if (q) {
         const blob = [l.name, l.address, l.complex, l.notes, l.cluster]
@@ -147,8 +175,37 @@
     });
   }
 
+  function activeFilters1() {
+    const box = document.getElementById("filters1");
+    if (!box) return ALL1;
+    const on = [...box.querySelectorAll("button.is-on")].map(
+      (b) => b.dataset.filter1
+    );
+    const q = (document.getElementById("q1") || { value: "" }).value
+      .trim()
+      .toLowerCase();
+    return ALL1.filter((l) => {
+      if (q) {
+        const blob = [l.name, l.address, l.complex, l.notes, l.cluster]
+          .join(" ")
+          .toLowerCase();
+        if (!blob.includes(q)) return false;
+      }
+      for (const f of on) {
+        if (f === "eastside" && l.region !== "eastside") return false;
+        if (f === "seattle" && l.region !== "seattle") return false;
+        if (f === "ev" && !(l.ev === "yes" || l.ev === "listing")) return false;
+        if (f === "under1500" && l.rentMin > 1500) return false;
+        if (f === "under1800" && l.rentMin > 1800) return false;
+        if (f === "i90" && l.corridor !== "i90") return false;
+        if (f === "north" && l.corridor !== "link-north") return false;
+      }
+      return true;
+    });
+  }
+
   function rentForSize(l) {
-    return Number(l.rentMin) || 1800;
+    return Number(l.rentMin) || 1500;
   }
 
   function rentRadius(rent, minR, maxR) {
@@ -158,11 +215,11 @@
 
   function rentColor(rent) {
     const stops = [
-      [1600, [46, 134, 122]],
-      [2000, [61, 139, 154]],
-      [2400, [212, 160, 23]],
-      [3000, [196, 107, 58]],
-      [3800, [155, 61, 74]],
+      [1300, [46, 134, 122]],
+      [1600, [61, 139, 154]],
+      [1900, [212, 160, 23]],
+      [2400, [196, 107, 58]],
+      [3200, [155, 61, 74]],
     ];
     if (rent <= stops[0][0]) {
       const [r, g, b] = stops[0][1];
@@ -184,23 +241,42 @@
     return "#c46b3a";
   }
 
-  function addMarkers(list) {
-    markersLayer.clearLayers();
-    const rents = (list.length ? list : ALL).map(rentForSize);
-    const minR = Math.min(...rents, 1700);
-    const maxR = Math.max(...rents, 3500);
+  function paintMarkers(layer, list, fallbackPool, mapRef) {
+    layer.clearLayers();
+    const pool = list.length ? list : fallbackPool;
+    if (!pool.length) {
+      workplaces.forEach((w) => {
+        const color = w.who === "A" ? "#c46b3a" : "#2a3f73";
+        L.circleMarker([w.lat, w.lng], {
+          radius: 9,
+          color: "#fff",
+          weight: 3,
+          fillColor: color,
+          fillOpacity: 1,
+        })
+          .bindPopup(
+            `<strong>${w.who}: ${w.name}</strong><br>${w.address}<br><em>${w.note}</em>`
+          )
+          .addTo(layer);
+      });
+      return;
+    }
+    const rents = pool.map(rentForSize);
+    const minR = Math.min(...rents);
+    const maxR = Math.max(...rents);
     workplaces.forEach((w) => {
       const color = w.who === "A" ? "#c46b3a" : "#2a3f73";
-      const m = L.circleMarker([w.lat, w.lng], {
+      L.circleMarker([w.lat, w.lng], {
         radius: 9,
         color: "#fff",
         weight: 3,
         fillColor: color,
         fillOpacity: 1,
-      }).bindPopup(
-        `<strong>${w.who}: ${w.name}</strong><br>${w.address}<br><em>${w.note}</em>`
-      );
-      m.addTo(markersLayer);
+      })
+        .bindPopup(
+          `<strong>${w.who}: ${w.name}</strong><br>${w.address}<br><em>${w.note}</em>`
+        )
+        .addTo(layer);
     });
     list.forEach((l) => {
       const rent = rentForSize(l);
@@ -216,8 +292,18 @@
         }<br>${l.address}<br>EV: ${l.ev}`
       );
       m._listingId = l.id;
-      m.addTo(markersLayer);
+      m.addTo(layer);
     });
+  }
+
+  function addMarkers(list) {
+    if (!markersLayer) return;
+    paintMarkers(markersLayer, list, ALL);
+  }
+
+  function addMarkers1(list) {
+    if (!markersLayer1) return;
+    paintMarkers(markersLayer1, list, ALL1);
   }
 
   function flyTo(id) {
@@ -230,53 +316,98 @@
     document.getElementById("map").scrollIntoView({ behavior: "smooth", block: "center" });
   }
 
+  function flyTo1(id) {
+    const l = ALL1.find((x) => x.id === id);
+    if (!l || !map1) return;
+    map1.flyTo([l.lat, l.lng], 15, { duration: 0.8 });
+    markersLayer1.eachLayer((layer) => {
+      if (layer._listingId === id) layer.openPopup();
+    });
+    document.getElementById("map1").scrollIntoView({ behavior: "smooth", block: "center" });
+  }
+
   function apply() {
     const list = activeFilters();
     renderCards(list);
     addMarkers(list.length ? list : ALL);
   }
 
-  function initMap() {
-    map = L.map("map", { scrollWheelZoom: true }).setView(
-      [47.66, -122.28],
-      11
-    );
+  function apply1() {
+    const list = activeFilters1();
+    renderCards1(list);
+    addMarkers1(list.length ? list : ALL1);
+  }
+
+  function initMapEl(elId) {
+    const m = L.map(elId, { scrollWheelZoom: true }).setView([47.66, -122.28], 11);
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution:
         '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
-    markersLayer = L.layerGroup().addTo(map);
-    setTimeout(() => map.invalidateSize(), 200);
+    }).addTo(m);
+    const layer = L.layerGroup().addTo(m);
+    setTimeout(() => m.invalidateSize(), 200);
+    return { map: m, layer };
   }
 
-  Promise.all([loadData(), loadUpdates()]).then(([data, updates]) => {
-    ALL = data.listings;
-    workplaces = data.workplaces;
-    document.getElementById("as-of").textContent = "Data as of " + (data.asOf || "1 Sep 2026");
-    renderLog((updates && updates.entries) || []);
-    initMap();
-    apply();
-    document.querySelector(".filters").addEventListener("click", (e) => {
-      const b = e.target.closest("button[data-filter]");
+  function wireFilterToggle(containerSel, allAttr, allValue, onApply) {
+    const box = document.querySelector(containerSel);
+    if (!box) return;
+    box.addEventListener("click", (e) => {
+      const b = e.target.closest(`button[${allAttr}]`);
       if (!b) return;
-      if (b.dataset.filter === "all") {
-        document
-          .querySelectorAll(".filters button[data-filter]")
-          .forEach((x) => x.classList.remove("is-on"));
+      if (b.getAttribute(allAttr) === allValue) {
+        box.querySelectorAll(`button[${allAttr}]`).forEach((x) => x.classList.remove("is-on"));
         b.classList.add("is-on");
       } else {
-        document
-          .querySelector('[data-filter="all"]')
-          .classList.remove("is-on");
+        const allBtn = box.querySelector(`button[${allAttr}="${allValue}"]`);
+        if (allBtn) allBtn.classList.remove("is-on");
         b.classList.toggle("is-on");
       }
+      onApply();
+    });
+  }
+
+  Promise.all([loadData(), loadData1(), loadUpdates()]).then(
+    ([data, data1, updates]) => {
+      ALL = (data && data.listings) || [];
+      ALL1 = (data1 && data1.listings) || [];
+      workplaces = (data && data.workplaces) || [];
+      document.getElementById("as-of").textContent =
+        "Data as of " + ((data && data.asOf) || (data1 && data1.asOf) || "3 Sep 2026");
+      renderLog((updates && updates.entries) || []);
+
+      const m0 = initMapEl("map");
+      map = m0.map;
+      markersLayer = m0.layer;
       apply();
-    });
-    document.getElementById("q").addEventListener("input", apply);
-    document.getElementById("cards").addEventListener("click", (e) => {
-      const b = e.target.closest("[data-fly]");
-      if (b) flyTo(b.dataset.fly);
-    });
-  });
+
+      if (document.getElementById("map1")) {
+        const m1 = initMapEl("map1");
+        map1 = m1.map;
+        markersLayer1 = m1.layer;
+        apply1();
+      }
+
+      wireFilterToggle(".filters:not(#filters1)", "data-filter", "all", apply);
+      wireFilterToggle("#filters1", "data-filter1", "all", apply1);
+
+      const q = document.getElementById("q");
+      if (q) q.addEventListener("input", apply);
+      const q1 = document.getElementById("q1");
+      if (q1) q1.addEventListener("input", apply1);
+
+      document.getElementById("cards").addEventListener("click", (e) => {
+        const b = e.target.closest("[data-fly]");
+        if (b) flyTo(b.dataset.fly);
+      });
+      const cards1 = document.getElementById("cards1");
+      if (cards1) {
+        cards1.addEventListener("click", (e) => {
+          const b = e.target.closest("[data-fly1]");
+          if (b) flyTo1(b.dataset.fly1);
+        });
+      }
+    }
+  );
 })();
