@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "date": "2026-09-04",
+      "title": "Inglenook B201 $1,757; Mountain View + Pacific Place + Peaks",
+      "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down another $10. Three new options joined: a cheap Lynnwood 2BR with weeks free, a Magnolia 2BR at $1,995, and The Peaks with a big Sep concession.",
+      "new": [
+        {
+          "text": "Mountain View Lynnwood \u2014 2BR 30R $1,695 now; 3 weeks free.",
+          "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
+        },
+        {
+          "text": "Pacific Place Magnolia Unit 10 \u2014 2BR $1,995 now (strong for B).",
+          "href": "https://www.rentable.co/seattle-wa/pacific-place-apartments"
+        },
+        {
+          "text": "The Peaks Lynnwood \u2014 2BR from $1,999; 6 weeks free for Sep move-in.",
+          "href": "https://www.apartmentlist.com/wa/lynnwood/the-peaks-luxury-apartments"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook B201 \u2014 $1,767 \u2192 $1,757 on Rentable; still Oct 16.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Elevate \u2014 still from $2,060 / 1BR $1,725; now 1 mo free + waived fees on select (incl. 2BR L02).",
+          "href": "https://www.rentable.co/lynnwood-wa/elevate"
+        },
+        {
+          "text": "Heather Ridge \u2014 up to 4 weeks free on select; 2BR band still ~$1,749\u2013$1,899.",
+          "href": "https://www.heatherridgelynnwood.com"
+        },
+        {
+          "text": "Capri still from $1,799 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Finn Hill still $2,195; Greenwood 1BR still $1,300."
+        }
+      ]
+    },
+    {
       "date": "2026-09-03",
       "title": "Inglenook B201 drops; Capri 2 months free; two Lynnwood adds",
       "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down again. Capri is pushing a big concession. Two new Lynnwood options joined the north set.",
