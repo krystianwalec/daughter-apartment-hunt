@@ -2,6 +2,49 @@
   "entries": [
     {
       "date": "2026-09-03",
+      "title": "Inglenook B201 drops; Capri 2 months free; two Lynnwood adds",
+      "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down again. Capri is pushing a big concession. Two new Lynnwood options joined the north set.",
+      "new": [
+        {
+          "text": "Elevate Lynnwood \u2014 2BR from $2,060 (2/1) / $2,295 (2/2). Carport $55.",
+          "href": "https://www.rentable.co/lynnwood-wa/elevate"
+        },
+        {
+          "text": "Lynnwood Country Club \u2014 renovated 1\u20132BR band $1,825\u2013$2,250; confirm 2BR ask.",
+          "href": "https://www.lynnwoodcountryclubapts.com/"
+        },
+        {
+          "text": "Capri 1BR from $1,499 \u2014 added to the $1,500 1BR board (2 mo free on select).",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
+        },
+        {
+          "text": "Elevate 1BR from $1,725 \u2014 stretch add on the 1BR board.",
+          "href": "https://www.rentable.co/lynnwood-wa/elevate"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook B201 \u2014 $1,847 \u2192 $1,767 on Rentable; still Oct 16.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Capri 2BR \u2014 still from $1,799; now advertising 2 months FREE on selected.",
+          "href": "https://www.liveatcapriapts.com/floorplans"
+        },
+        {
+          "text": "Vue Kirkland \u2014 still 7\u00d7 2BR from $2,039; 4 weeks free; EV charging listed on Rentable.",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Crestview 307/402 still $1,995; Finn Hill condo still $2,195; Bridlewood Meadow/Ridge $2,155/$2,200; Magnolia Vista still 1 month free."
+        },
+        {
+          "text": "10044 NE 138th Pl Finn Hill townhome (~$2,100) showed on aggregators but Rentable marks rented \u2014 not added."
+        }
+      ]
+    },
+    {
+      "date": "2026-09-03",
       "title": "1-bedroom board (~$1,500) added",
       "lede": "Separate map and list for 1BRs if they share a bedroom. Target ~$1,500, stretch ~$1,800. True dual-commute $1500 market 1BRs are rare.",
       "new": [
