@@ -1,6 +1,45 @@
 {
   "entries": [
     {
+      "date": "2026-09-05",
+      "title": "Inglenook B201 $1,749; Hillcliff + Arabella II + Polaris Shoreline; Cinebar 1BR",
+      "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) ticked down again. Three new Shoreline 2BRs joined the north board, plus a strong Interbay 1BR for B. Elevate 1BRs also dropped.",
+      "new": [
+        {
+          "text": "Hillcliff Shoreline Unit 302 \u2014 2BR $1,850 Sep 10.",
+          "href": "https://www.rentable.co/shoreline-wa/hillcliff-apartments"
+        },
+        {
+          "text": "Arabella II Shoreline \u2014 2BR from $1,800 MFTE (Oct 1) / $2,149 market now.",
+          "href": "https://www.rentable.co/shoreline-wa/arabella-apartment-homes-ii"
+        },
+        {
+          "text": "Polaris at Shoreline \u2014 2BR from ~$1,999\u2013$2,161; income rules may apply.",
+          "href": "https://www.liveatpolaris.com/"
+        },
+        {
+          "text": "Cinebar Interbay 1BR \u2014 ~$1,350\u2013$1,495; $1,000 move-in special (aggregators).",
+          "href": "https://www.zillow.com/apartments/seattle-wa/cinebar-apartments/CnqJzN/"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook B201 \u2014 $1,757 \u2192 $1,749 on Rentable; still Oct 16.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Elevate 1BR \u2014 $1,725 \u2192 $1,695; still 1 mo free on select.",
+          "href": "https://www.rentable.co/lynnwood-wa/elevate"
+        },
+        {
+          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Mountain View still $1,695 + 3 wks free; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Greenwood 1BR still $1,300."
+        },
+        {
+          "text": "Houghton 1BR and Bertona #7 marked likely gone/stale pending landlord confirm."
+        }
+      ]
+    },
+    {
       "date": "2026-09-04",
       "title": "Inglenook B201 $1,757; Mountain View + Pacific Place + Peaks",
       "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down another $10. Three new options joined: a cheap Lynnwood 2BR with weeks free, a Magnolia 2BR at $1,995, and The Peaks with a big Sep concession.",

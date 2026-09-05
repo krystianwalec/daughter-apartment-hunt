@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-09-04",
+  "asOf": "2026-09-05",
   "listings": [
     {
       "id": "1br-124th-a3",
@@ -70,7 +70,7 @@
       "rentMin": 1795,
       "rentMax": 1795,
       "rangeNote": "W/S/G + internet/cable listed included",
-      "available": "now",
+      "available": "likely gone \u2014 confirm with PM",
       "parking": "1 space + storage locker",
       "parkingFee": 0,
       "ev": "no",
@@ -78,8 +78,8 @@
       "pets": "unknown",
       "commuteA": "~8\u201312 min \u2014 best A drive on the 1BR list",
       "commuteB": "~65\u201385 min 405/520 \u2192 Seattle \u2192 D",
-      "notes": "Best school commute among 1BRs.",
-      "fit": "stretch",
+      "notes": "Sep 5 2026: Sep 4 check treated as gone; Rent.com still mirrors $1,795 but no clear live availability \u2014 treat as stale until MacPherson confirms.",
+      "fit": "gone",
       "url": "https://www.apartmentfinder.com/Washington/Kirkland-Apartments/1-Bed-1-Bath-Houghton-Condo-In-Kirkland-1795-Month-Apartments-nd3mbgm"
     },
     {
@@ -368,7 +368,7 @@
       "rentMin": 1675,
       "rentMax": 1675,
       "rangeNote": "W/S/G ~$85/resident",
-      "available": "listed",
+      "available": "likely gone / off-market",
       "parking": "off-street",
       "parkingFee": 0,
       "ev": "no",
@@ -376,8 +376,8 @@
       "pets": "unknown",
       "commuteA": "AM ~30\u201340 min",
       "commuteB": "walk/D to Expedia ~15\u201325 min",
-      "notes": "Interbay/Magnolia edge.",
-      "fit": "stretch",
+      "notes": "Sep 5 2026: carried as gone from Sep 4 recheck (HotPads/off-market). Do not tour until reconfirmed.",
+      "fit": "gone",
       "url": "https://hotpads.com/2014-w-bertona-st-seattle-wa-98199-skkwtp/7/pad"
     },
     {
@@ -503,7 +503,7 @@
       "rentMin": 1300,
       "rentMax": 1300,
       "rangeNote": "uncovered assigned $50/mo",
-      "available": "active Sep 4",
+      "available": "active Sep 5",
       "parking": "uncovered assigned",
       "parkingFee": 50,
       "ev": "no",
@@ -511,7 +511,7 @@
       "pets": "unknown",
       "commuteA": "AM ~30\u201340 min",
       "commuteB": "E Line corridor \u2192 D ~40\u201355 min",
-      "notes": "Sep 4 2026: Rentalsource still Active at $1,300. Parking $50. Shared W/D. One cat. Unchanged.",
+      "notes": "Sep 5 2026: Rentalsource still Active at $1,300 (checked today). Parking $50. Shared W/D. One cat OK.",
       "fit": "budget",
       "url": "https://www.rentalsource.com/details/9244-greenwood-ave-n-seattle-wa-83937559/"
     },
@@ -538,7 +538,7 @@
       "pets": "unknown",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405; 3pm ~20\u201332",
       "commuteB": "~1.3 mi to MLT Link then 1 Line + D. ~55\u201375 min.",
-      "notes": "Sep 4 2026: still from $1,499 (many now\u2013Nov). 2 months FREE on selected (verify applies to 1BR). EV unknown.",
+      "notes": "Sep 5 2026: still from $1,499+ with Oct/Nov units; still 2 months FREE on select (verify 1BR). EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
     },
@@ -554,7 +554,7 @@
       "corridor": "1-line-north",
       "beds": 1,
       "baths": 1,
-      "rentMin": 1725,
+      "rentMin": 1695,
       "rentMax": 1845,
       "rangeNote": "717 sf",
       "available": "now / Oct 7 2026",
@@ -565,9 +565,36 @@
       "pets": "dogs/cats OK (fees)",
       "commuteA": "AM ~28\u201345 min I-5/522/405; 3pm ~22\u201335",
       "commuteB": "Bus toward Lynnwood City Center Link, then 1 Line + D. ~65\u201390 min.",
-      "notes": "Sep 4 2026: still from $1,725 (A12/K05 now; K06 Sep 12; K08 Oct 7). Promo: 1 Month Free + waived app/admin on select (A12/K05 named). Carport $55. EV not listed.",
+      "notes": "Sep 5 2026: 1BR from $1,695 (A12/K05 now; K06 Sep 12; K08 Oct 7) \u2014 was $1,725. Promo: 1 mo free + waived fees on select. Carport $55.",
       "fit": "stretch",
       "url": "https://www.rentable.co/lynnwood-wa/elevate"
+    },
+    {
+      "id": "1br-cinebar",
+      "name": "Cinebar Apartments",
+      "complex": "Cinebar",
+      "address": "3250 15th Ave W, Seattle, WA 98119",
+      "lat": 47.6501176,
+      "lng": -122.3757828,
+      "region": "seattle",
+      "cluster": "interbay",
+      "corridor": "interbay-15th",
+      "beds": 1,
+      "baths": 1,
+      "rentMin": 1350,
+      "rentMax": 1495,
+      "rangeNote": "lower-level ~$1,350; balcony ~$1,495; $1,000 move-in special (aggregators)",
+      "available": "now",
+      "parking": "free onsite (listing)",
+      "parkingFee": 0,
+      "ev": "unknown",
+      "utils": "WSG via RUBS",
+      "pets": "cats/small dogs; $35/mo + $400 deposit",
+      "commuteA": "Drive to Kirkland via 520 \u2014 longer AM than Eastside (~30\u201345+)",
+      "commuteB": "Excellent: Interbay / 15th Ave W near Expedia (~5\u201315 min walk/bus)",
+      "notes": "Sep 5 2026: NEW. Multiple aggregators show 1BRs ~$1,350\u2013$1,495 with $1,000 off move-in. Strong for B. EV unknown \u2014 do not invent chargers.",
+      "fit": "budget",
+      "url": "https://www.zillow.com/apartments/seattle-wa/cinebar-apartments/CnqJzN/"
     }
   ]
 }
