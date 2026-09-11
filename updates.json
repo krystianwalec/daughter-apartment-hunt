@@ -1,6 +1,63 @@
 {
   "entries": [
     {
+      "date": "2026-09-11",
+      "title": "Inglenook B201 gone; Finn Hill $1,995; Duet + Kenmore 18200; Shoreline 1BR $1,430",
+      "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201 at $1,669) left Rentable — live 2BRs there now start ~$1,799. Finn Hill condo dropped $200 to $1,995. Vue 2BR floor rose to $2,138+. Two 2BRs and four 1BRs joined the board.",
+      "new": [
+        {
+          "text": "18200 73rd Ave NE — Kenmore condo — $2,000 (now).",
+          "href": "https://www.rentable.co/kenmore-wa/18200-73rd-ave-ne"
+        },
+        {
+          "text": "Duet Apartments — 2BR — $2,095–$2,290 (now).",
+          "href": "https://www.rentable.co/lynnwood-wa/duet"
+        },
+        {
+          "text": "15015 15th Ave NE — Unit 306 — $1,430 (now).",
+          "href": "https://www.rentable.co/shoreline-wa/15015-15th-ave-ne"
+        },
+        {
+          "text": "Crown Hill Court — Unit 102 — $1,699 (10 Oct 2026).",
+          "href": "https://www.rentable.co/seattle-wa/crown-hill-court"
+        },
+        {
+          "text": "Trondheim Apartments — 1BR — $1,695 (ask / now).",
+          "href": "https://www.rentable.co/seattle-wa/trondheim-apartments"
+        },
+        {
+          "text": "Duet Apartments — 1BR — $1,395–$1,845 (now).",
+          "href": "https://www.rentable.co/lynnwood-wa/duet"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook Court — B201 ($1,669 Oct 16) gone from Rentable; cheapest live 2BRs now from $1,799 (G104 Sep 15).",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Finn Hill condo 14022 Juanita Dr NE — $2,195→$1,995 now on Rentable.",
+          "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
+        },
+        {
+          "text": "Vue Kirkland — 2BR floor $2,039→$2,138+ (7 units now); prior cheaper 2BRs rented.",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Bridlewood — official floorplans: Meadow from $2,155 / Ridge from $2,200 (was Zillow B201 $2,190 Oct 17).",
+          "href": "https://www.bridlewoodapartmenthomes.com/floorplans"
+        },
+        {
+          "text": "The Lodge @ 73rd — L15 not re-confirmed; aggregators show other 2BRs ~$1,850–$2,000 (EV amenity still listed — confirm stall).",
+          "href": "https://www.apartmentfinder.com/Washington/Kenmore-Apartments/The-Lodge-73Rd-Apartments-z8gcf1y"
+        },
+        {
+          "text": "Andorra — Cordoba 2BR still from $1,739+ now; Seville $2,149 (RentCafe).",
+          "href": "https://www.rentcafe.com/apartments/wa/mountlake-terrace/andorra/default.aspx"
+        }
+      ]
+    },
+    {
       "date": "2026-09-10",
       "title": "Inglenook B201 $1,669; Crestwood + Fernwood Kenmore; Pacific Place gone",
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) dropped another $10 to $1,669 for Oct 16. Two Kenmore 2BRs joined the board. Magnolia Pacific Place Unit 10 left the board (all rented).",
