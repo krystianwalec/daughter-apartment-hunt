@@ -1,6 +1,55 @@
 window.HUNT_UPDATES = {
   "entries": [
     {
+      "date": "2026-09-13",
+      "title": "Inglenook floor $1,809; Lodge EV + $2,000 Sep 22; Elevate 2/2 $2,195; new Bothell Ridge 1BR",
+      "lede": "On-demand recheck. Inglenook 2BR floor rose $1,719\u2192$1,809. Lodge official 2BR $2,000 on Sep 22 with EV charging listed. Elevate 2/2 dropped to $2,195. Country Club 2BRs are $2,100 (Sep 30 / Oct 16). Fernwood likely gone. New 1BRs: Bothell Ridge $1,757\u2013$1,937 and Country Club Apt 104 $1,775 Sep 18. Interbay/Magnolia 1BRs still holding.",
+      "new": [
+        {
+          "text": "Bothell Ridge \u2014 1BR \u2014 $1,757\u2013$1,937 (now / Oct 5 / Oct 24). No live 2BRs.",
+          "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
+        },
+        {
+          "text": "Lynnwood Country Club \u2014 1BR Apt 104 \u2014 $1,775 (18 Sep 2026).",
+          "href": "https://www.rentable.co/lynnwood-wa/beautifully-renovated-1-2-bedroom-apartments-in-lynnwood"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook Court \u2014 2BR floor $1,719\u2192$1,809 (G104 Sep 15); 2/2 from $1,959.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "The Lodge @ 73rd \u2014 official 2BR $2,000 on 22 Sep 2026; EV charging listed on WIP site.",
+          "href": "https://www.wipproperties.com/properties/the-lodge"
+        },
+        {
+          "text": "Elevate \u2014 2/2 floor $2,295\u2192$2,195 (D04/G07 now).",
+          "href": "https://www.rentable.co/lynnwood-wa/elevate"
+        },
+        {
+          "text": "Lynnwood Country Club \u2014 live 2BRs Apt 105 $2,100 Sep 30 / Apt 101 $2,100 Oct 16 (prior $1,825 band was 1\u20132BR combined).",
+          "href": "https://www.rentable.co/lynnwood-wa/beautifully-renovated-1-2-bedroom-apartments-in-lynnwood"
+        },
+        {
+          "text": "Aspire MLT \u2014 1BR no longer now; H103 $1,700 Oct 5 / B104 Oct 17.",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/aspire-apartments-at-mountlake-terrace"
+        },
+        {
+          "text": "Vue Kirkland \u2014 still $2,138+; 5 units now (was 6\u20137); EV charging still listed.",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Fernwood Trails \u2014 likely gone (PadMapper 2BR unavailable; Jun 12 date stale).",
+          "href": "https://hotpads.com/fernwood-trails-kenmore-wa-98028-2539dk3/pad"
+        },
+        {
+          "text": "North City Place \u2014 Rentable 404; confirm via JL (no live prices on official page).",
+          "href": "https://www.jlapartments.com/north-city-place"
+        }
+      ]
+    },
+    {
       "date": "2026-09-12",
       "title": "Inglenook $1,719; Trailside + Cedar Terrace + Kirkland 8222; Barrett 1BR gone",
       "lede": "Daily recheck. Inglenook 2BR floor dropped to $1,719. Three new 2BRs joined (Trailside Bothell $1,995, Cedar Terrace MLT $1,995, Kirkland 8222 $2,100). Barrett 1BR rented; Elevate 1BRs to $1,845; Montebello over stretch; Heather 2BR only Nov 10. Also new 1BRs at Peaks, Aspire, Canal Nickerson, and Timbers Kenmore.",

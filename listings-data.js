@@ -1,5 +1,5 @@
 window.APARTMENT_DATA = {
-  "asOf": "2026-09-12",
+  "asOf": "2026-09-13",
   "workplaces": [
     {
       "id": "lwsh",
@@ -35,7 +35,7 @@ window.APARTMENT_DATA = {
       "baths": 2,
       "rentMin": 2100,
       "rentMax": 2100,
-      "rangeNote": "RentalSource active Sep 12 2026 (last updated Sep 2; checked Sep 12): ground-floor end unit 2/2 1,073 sf $2,100. W/D in ",
+      "rangeNote": "ShowMeTheRent Unit C-10 still $2,100 / 1,073 sf (RentalSource captcha this run)",
       "available": "now / within 30 days of application",
       "parking": "2 reserved parking spaces (explicit on listing)",
       "parkingFee": null,
@@ -44,7 +44,7 @@ window.APARTMENT_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~10\u201320 min to LWHS \u2014 strong for A",
       "commuteB": "Bus/drive toward Seattle then D to Interbay \u2014 longer for B",
-      "notes": "Sep 12 2026: NEW. RentalSource active Sep 12 2026 (last updated Sep 2; checked Sep 12): ground-floor end unit 2/2 1,073 sf $2,100. W/D in unit, balcony, W/S/G included; pets case-by-case under 40 lbs. Credit 700+, income 3x, managed by WJL Homeservices. Strong A commute (LWSD / near LWHS). Stretch vs ideal $1800 but under $2250 ceiling.",
+      "notes": "Sep 13 2026: Still $2,100. RentalSource captcha; ShowMeTheRent Unit C-10 2/2 1,073 sf $2,100, 2 reserved spaces, W/S/G included, W/D, pets case-by-case under 40 lbs, WJL Homeservices, lease within 30 days of application. EV unknown.",
       "fit": "stretch",
       "url": "https://www.rentalsource.com/details/8222-126th-ave-ne-kirkland-wa-84150717/"
     },
@@ -71,7 +71,7 @@ window.APARTMENT_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25\u201340 min to LWHS via 405",
       "commuteB": "Link MLT \u2192 Seattle then D to Interbay",
-      "notes": "Sep 12 2026: NEW. Apartment List updated Sep 11 2026: Unit 7A 2/1 ~820 sf $1,995 Available Now (Intellirent). Cats OK / no dogs on older mirrors; W/D in unit claimed on Rent.com/Zillow mirrors. Link North / Alderwood corridor \u2014 good B transit; A ~25\u201340 min to LWHS. Not tracked. Confirm parking before tour.",
+      "notes": "Sep 13 2026: Apartment List still Unit 7A 2/1 $1,995 Available Now (Intellirent). Confirm parking before tour. EV unknown.",
       "fit": "budget",
       "url": "https://www.apartmentlist.com/wa/mountlake-terrace/23101-44th-avenue-west--1"
     },
@@ -98,7 +98,7 @@ window.APARTMENT_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~20\u201335 min via Juanita/405 to LWHS; 3pm ~15\u201330",
       "commuteB": "ST Express 522 corridor then last mile to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: NEW. Rentable live Sep 12 2026 (updated ~1\u20132h): only live 2/2 is 17723 unit 303 $1,995 / 924 sf Available Now. In-unit W/D, balcony/patio, dishwasher; no pets. Near Burke-Gilman / Bothell downtown \u2014 solid A drive to LWHS via 405/522; B needs 522/transit toward Interbay. Not on shortlist.",
+      "notes": "Sep 13 2026: Rentable still only live 2/2 is 17723 unit 303 $1,995 / 924 sf Available Now (updated ~2h). In-unit W/D, balcony/patio; no pets. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/bothell-wa/17725-hall-rd"
     },
@@ -125,7 +125,7 @@ window.APARTMENT_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~30\u201345 min I-5/405 to LWHS; 3pm ~25\u201340",
       "commuteB": "1 Line Lynnwood \u2192 Seattle then D/bus to Interbay \u2014 long but doable",
-      "notes": "Sep 12 2026: 2BR still A105 $2,095 through B317 $2,290 Available Now (7 units). EV unknown.",
+      "notes": "Sep 13 2026: 2BR still A105 $2,095 through A305 $2,290 Available Now. EV unknown.",
       "fit": "stretch",
       "url": "https://www.rentable.co/lynnwood-wa/duet"
     },
@@ -152,7 +152,7 @@ window.APARTMENT_DATA = {
       "pets": "dogs/cats OK on some mirrors \u2014 confirm HOA",
       "commuteA": "AM ~20\u201335 min via Juanita / 405 to LWHS; 3pm ~15\u201330",
       "commuteB": "ST Express 522 corridor then last mile to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: ApartmentList still $2,000 (verified ~hours ago). Rentable URL 409 this run. EV unknown.",
+      "notes": "Sep 13 2026: Rentable live \u2014 2/2 868 sf $2,000 Available Now (SJA). EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/kenmore-wa/18200-73rd-ave-ne"
     },
@@ -167,9 +167,9 @@ window.APARTMENT_DATA = {
       "cluster": "juanita",
       "beds": 2,
       "baths": 1,
-      "rentMin": 1719,
-      "rentMax": 2069,
-      "rangeNote": "2/1 from G104 $1,719 Sep 15; K204 $1,849 / M208 $1,889 now; 2/2 from E102 $1,967 Oct 8",
+      "rentMin": 1809,
+      "rentMax": 2067,
+      "rangeNote": "2/1 from G104 $1,809 Sep 15; K204 $1,869 / M208 $1,909 now; 2/2 H207 $1,987 / C202 $2,067 now; E102 $1,959 Oct 8",
       "available": "now / mid Sep\u2013early Oct 2026",
       "parking": "included or on-site",
       "parkingFee": 0,
@@ -178,7 +178,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "~10 min drive to LWHS",
       "commuteB": "Bus + transfer; ST 522 corridor nearby",
-      "notes": "Sep 12 2026: 2BR floor $1,799\u2192$1,719 (G104 Sep 15). Also K204 $1,849 now, M208 $1,889 now, I205/E101 $1,949 mid/late Sep, F105 $1,977 Sep 30; 2/2 H207 $1,989 now / C202 $2,069 now / E102 $1,967 Oct 8. EV unknown.",
+      "notes": "Sep 13 2026: 2BR floor $1,719\u2192$1,809 (G104 Sep 15). K204 $1,869 now, M208 $1,909 now, I205 $1,969 Sep 15, E101 $1,969 Sep 25, F105 $1,997 Sep 30; 2/2 H207 $1,987 now / C202 $2,067 now / E102 $1,959 Oct 8. Rentable updated ~14h. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/kirkland-wa/inglenook-court"
     },
@@ -194,20 +194,20 @@ window.APARTMENT_DATA = {
       "corridor": "522-corridor",
       "beds": 2,
       "baths": 1,
-      "rentMin": 1900,
-      "rentMax": 1900,
-      "rangeNote": "ApartmentFinder: 2BR ~$1,900 (L15 Sep 22 noted)",
-      "available": "22 Sep 2026 / check unit",
+      "rentMin": 2000,
+      "rentMax": 2000,
+      "rangeNote": "Official WIP: 2BR $2,000 Available 22 Sep 2026 (remodeled). 1BR $1,750 Oct 5.",
+      "available": "22 Sep 2026",
       "parking": "assigned uncovered (extra ~$30 listing)",
       "parkingFee": 30,
-      "ev": "listed on some aggregators \u2014 confirm stall",
+      "ev": "yes \u2014 EV charging listed on official WIP site",
       "utils": "confirm",
       "pets": "cats OK (listing)",
       "commuteA": "AM ~20\u201335 min via Juanita / 405 to LWHS; 3pm ~15\u201330",
       "commuteB": "ST Express 522 toward UW/Seattle then last mile to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: ApartmentFinder shows ~$1,900 (was $1,850\u2013$2,000 band). EV amenity historically listed \u2014 confirm stall; do not invent.",
+      "notes": "Sep 13 2026: Official WIP page: 2BR starting $2,000 Available 9/22/2026 remodeled; 1BR $1,750 Oct 5. Community perks explicitly list EV Charging + assigned parking. ApartmentFinder 403 this run. Confirm stall assignment in writing.",
       "fit": "budget",
-      "url": "https://www.apartmentfinder.com/Washington/Kenmore-Apartments/The-Lodge-73Rd-Apartments-z8gcf1y"
+      "url": "https://www.wipproperties.com/properties/the-lodge"
     },
     {
       "id": "kenmore-193rd",
@@ -232,7 +232,7 @@ window.APARTMENT_DATA = {
       "pets": "small dogs \u226425 lbs & cats (2 max)",
       "commuteA": "AM ~20\u201335 min to LWHS via Juanita / 405; 3pm ~15\u201330",
       "commuteB": "ST 522 corridor then last mile to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: ShowMojo still $1,995 Available now. EV unknown.",
+      "notes": "Sep 13 2026: ShowMojo still $1,995. EV unknown.",
       "fit": "budget",
       "url": "https://showmojo.com/l/930a5410e7/6135-ne-193rd-pl-lower-left-unit-kenmore-wa-98028"
     },
@@ -258,7 +258,7 @@ window.APARTMENT_DATA = {
       "pets": "ask",
       "commuteA": "~15\u201325 min drive to LWHS via Juanita / 522",
       "commuteB": "ST 522 / bus spine toward Seattle then toward Interbay \u2014 longer than Eastside TOD",
-      "notes": "Sep 12 2026: Official floor plans still 2BR from $1,959 / $1,989\u2013$2,179. EV unknown.",
+      "notes": "Sep 13 2026: Official floor-plans still $1,959\u2013$2,179. EV unknown.",
       "fit": "budget",
       "url": "https://www.crestwoodapartments.net/floor-plans/"
     },
@@ -276,7 +276,7 @@ window.APARTMENT_DATA = {
       "rentMin": 1999,
       "rentMax": 1999,
       "rangeNote": "HotPads/Realtor: Unit 15D $1,999 Available Now (was 15E $1,990)",
-      "available": "now",
+      "available": "likely gone \u2014 PadMapper 2BR unavailable; Jun 12 date stale",
       "parking": "reserved (listing; fee may apply)",
       "parkingFee": null,
       "ev": "unknown",
@@ -284,8 +284,8 @@ window.APARTMENT_DATA = {
       "pets": "cats OK (deposit); ask dogs",
       "commuteA": "~15\u201325 min drive to LWHS via Juanita / 522",
       "commuteB": "ST 522 / bus toward Seattle then Interbay \u2014 workable but longer",
-      "notes": "Sep 12 2026: HotPads live Unit 15D $1,999 now (not 15E). EV unknown.",
-      "fit": "budget",
+      "notes": "Sep 13 2026: PadMapper shows 2BR UNAVAILABLE. Zillow/Realtor still mirror Unit 15E $1,990 with Jun 12 2026 date (past). HotPads 403. Treat as stale / likely gone until JL confirms a live unit. EV unknown.",
+      "fit": "gone",
       "url": "https://hotpads.com/fernwood-trails-kenmore-wa-98028-2539dk3/pad"
     },
     {
@@ -362,7 +362,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "Drive to LWHS via Juanita / 124th",
       "commuteB": "Bus south; not walkable to Expedia",
-      "notes": "Sep 12 2026: Official Meadow $2,155\u2013$2,255 / Ridge $2,200\u2013$2,250; Ridge available on 9/18/2026. EV unknown.",
+      "notes": "Sep 13 2026: Official Meadow 2BR still from $2,155. EV stored no.",
       "fit": "stretch",
       "url": "https://www.bridlewoodapartmenthomes.com/floorplans"
     },
@@ -405,8 +405,8 @@ window.APARTMENT_DATA = {
       "baths": 1,
       "rentMin": 2138,
       "rentMax": 2385,
-      "rangeNote": "6\u00d7 2BR from $2,138+ Available Now",
-      "available": "now (7\u00d7 2BR on Rentable)",
+      "rangeNote": "5\u00d7 2BR $2,138+ Available Now (A-04/B-05/A-12/B-07/A-11)",
+      "available": "now (5\u00d7 2BR on Rentable)",
       "parking": "available (fees may apply)",
       "parkingFee": null,
       "ev": "yes \u2014 EV charging stations listed",
@@ -414,7 +414,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "~10 min drive to LWHS from Totem Lake",
       "commuteB": "Totem Lake Transit Center nearby; long hop to Interbay",
-      "notes": "Sep 12 2026: 2BR still $2,138\u2013$2,385 (6 Available Now). EV charging stations explicitly listed on Rentable/parking. Income-qualified ARCH program \u2014 confirm eligibility.",
+      "notes": "Sep 13 2026: Still $2,138+; inventory 6\u20137\u21925 Available Now. EV charging stations still listed on Rentable (amenities + parking). ARCH income-qualified \u2014 confirm eligibility. Updated ~9h.",
       "fit": "stretch",
       "url": "https://www.rentable.co/kirkland-wa/vue-kirkland"
     },
@@ -466,7 +466,7 @@ window.APARTMENT_DATA = {
       "pets": "case-by-case cats/small dogs \u226435 lbs",
       "commuteA": "~10\u201312 min drive to LWHS via Juanita Dr",
       "commuteB": "Bus + transfer toward Seattle; not walkable to Expedia",
-      "notes": "Sep 12 2026: Still $1,995 Available Now on Rentable (SJA). W/S/G included. EV unknown.",
+      "notes": "Sep 13 2026: Still $1,995 Available Now on Rentable (SJA; updated ~2h). Some search indexes still show $2,195 \u2014 live page is $1,995. EV unknown.",
       "fit": "stretch",
       "url": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
     },
@@ -569,7 +569,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "Drive south on Juanita Dr / I-405 to LWHS",
       "commuteB": "ST Express 522 toward UW / Seattle; last mile to Interbay still required",
-      "notes": "Sep 12 2026: Rentable still 2BR from $1,799\u2013$1,999 Available Now. EV unknown.",
+      "notes": "Sep 13 2026: Rentable still 2BR from $1,799\u2013$1,999 Available Now (updated minutes ago). EV unknown / stored no.",
       "fit": "budget",
       "url": "https://www.rentable.co/kenmore-wa/asteria-place-apartments"
     },
@@ -696,7 +696,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "Drive to Eastside via 520",
       "commuteB": "Better than north Magnolia for Interbay / Expedia",
-      "notes": "Sep 12 2026: Units 307 & 402 still $1,995 Available Now. EV unknown.",
+      "notes": "Sep 13 2026: Units 307 & 402 still $1,995 Available Now. EV unknown / stored no.",
       "fit": "ideal",
       "url": "https://www.rentable.co/seattle-wa/a368-magnolia-crestview-apartments"
     },
@@ -1282,7 +1282,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "AM ~30\u201345 min I-5/522/405; 3pm ~22\u201335",
       "commuteB": "CT bus to Lynnwood City Center Link, then 1 Line + D. ~70\u201390 min \u2014 weakest B of the north set.",
-      "notes": "Sep 12 2026: ApartmentList shows only 2BR B301 $1,749 available Nov 10 (misses ideal Oct window). 1BRs from $1,499 Sep 14\u201316. Official site JS-only. EV unknown.",
+      "notes": "Sep 13 2026: ApartmentList still only 2BR B301 $1,749 Nov 10 (misses ideal Oct window). 1BRs from $1,499 mid-Sep. EV unknown.",
       "fit": "budget",
       "url": "https://www.apartmentlist.com/wa/lynnwood/heather-ridge"
     },
@@ -1309,7 +1309,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405; 3pm ~20\u201332",
       "commuteB": "~1.3 mi to MLT Link then 1 Line + D. ~55\u201375 min.",
-      "notes": "Sep 12 2026: Rentable 2BR from $1,799\u2013$1,875 (many now / some Nov). EV unknown.",
+      "notes": "Sep 13 2026: Rentable still 2BR from $1,799\u2013$1,875 (many now / some Nov). Official floorplans same band. EV unknown.",
       "fit": "budget",
       "url": "https://www.liveatcapriapts.com/floorplans"
     },
@@ -1336,7 +1336,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "On I-5 at Lake Ballinger. AM ~22\u201338; 3pm ~18\u201330",
       "commuteB": "Bus/walk to MLT Link (~1.5 mi) then 1 Line + D. ~60\u201380 min.",
-      "notes": "Sep 12 2026: Cordoba 2BR still from $1,739+ (F212 etc.); higher 2BRs ~$2,139. EV unknown.",
+      "notes": "Sep 13 2026: RentCafe Cordoba 2BR still from $1,739 (F212 $1,769 / G414 $1,749 now). EV unknown.",
       "fit": "budget",
       "url": "https://www.rentcafe.com/apartments/wa/mountlake-terrace/andorra/default.aspx"
     },
@@ -1364,7 +1364,7 @@ window.APARTMENT_DATA = {
       "pets": "unknown",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 405; 3pm ~20\u201332",
       "commuteB": "CT bus to Lynnwood City Center Link (~2 mi) then 1 Line + D. ~65\u201385 min.",
-      "notes": "Sep 12 2026: RentCafe shows 2BR floorplans from about $1,861\u2013$2,312. EV unknown.",
+      "notes": "Sep 13 2026: RentCafe 2BR still from $1,861 (Depot J202 now). EV unknown.",
       "fit": "budget",
       "url": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
     },
@@ -1651,9 +1651,9 @@ window.APARTMENT_DATA = {
       "beds": 2,
       "baths": 1,
       "rentMin": 2060,
-      "rentMax": 2295,
-      "rangeNote": "2/1 L02/F10 $2,060 now; 2/2 $2,295 now",
-      "available": "now",
+      "rentMax": 2195,
+      "rangeNote": "2/1 L02/F10 $2,060 now; 2/2 D04/G07 $2,195 now (was $2,295); J02 Sep 26 / D07 Sep 30",
+      "available": "now / late Sep 2026",
       "parking": "carport or garage (paid)",
       "parkingFee": 55,
       "ev": "unknown",
@@ -1661,7 +1661,7 @@ window.APARTMENT_DATA = {
       "pets": "dogs/cats OK (fees)",
       "commuteA": "AM ~28\u201345 min I-5/522/405; 3pm ~22\u201335",
       "commuteB": "Bus toward Lynnwood City Center Link, then 1 Line + D. ~65\u201390 min \u2014 not a station walk.",
-      "notes": "Sep 12 2026: 2BR still from $2,060 now (L02/F10); 2/2 D04/G07 $2,295 now. EV unknown.",
+      "notes": "Sep 13 2026: 2/1 still L02/F10 $2,060 now. 2/2 floor $2,295\u2192$2,195 (D04/G07 now; J02 Sep 26 / D07 Sep 30). EV unknown.",
       "fit": "stretch",
       "url": "https://www.rentable.co/lynnwood-wa/elevate"
     },
@@ -1676,10 +1676,10 @@ window.APARTMENT_DATA = {
       "cluster": "lynnwood",
       "beds": 2,
       "baths": 1,
-      "rentMin": 1825,
-      "rentMax": 2250,
-      "rangeNote": "site quotes $1,825\u2013$2,250 for 1\u20132BR renovated; confirm 2BR ask",
-      "available": "leasing now",
+      "rentMin": 2100,
+      "rentMax": 2100,
+      "rangeNote": "Rentable (same address): Apt 105 $2,100 Sep 30; Apt 101 $2,100 Oct 16. Prior $1,825 band was 1\u20132BR combined.",
+      "available": "30 Sep / 16 Oct 2026",
       "parking": "ample on-site",
       "parkingFee": 0,
       "ev": "unknown",
@@ -1687,8 +1687,8 @@ window.APARTMENT_DATA = {
       "pets": "pet deposit/fee ($200+$200)",
       "commuteA": "AM ~30\u201345 min I-5/522/405; 3pm ~22\u201335",
       "commuteB": "CT bus to Lynnwood City Center Link, then 1 Line + D. ~70\u201390 min.",
-      "notes": "Sep 3 2026: NEW. Official site: renovated 1\u20132BR, rent band $1,825\u2013$2,250, in-unit W/D, ample parking. Call to confirm which plans are 2BR and Oct availability. EV not mentioned.",
-      "fit": "budget",
+      "notes": "Sep 13 2026: Live Rentable units at 5620-5624 183rd St SW: 2/1 Apt 105 $2,100 Sep 30 and Apt 101 $2,100 Oct 16 (900 sf). Free on-site parking listed. Official site still quotes a $1,825\u2013$2,250 1\u20132BR band (1BR Apt 104 $1,775 Sep 18 tracked separately). EV unknown.",
+      "fit": "stretch",
       "url": "https://www.lynnwoodcountryclubapts.com/"
     },
     {
@@ -1767,7 +1767,7 @@ window.APARTMENT_DATA = {
       "pets": "dogs/cats OK",
       "commuteA": "AM ~28\u201345 min I-5/522/405; 3pm ~22\u201335",
       "commuteB": "Bus toward Lynnwood City Center Link, then 1 Line + D. ~65\u201390 min.",
-      "notes": "Sep 12 2026: ApartmentList 2BR from $1,999 now. EV unknown.",
+      "notes": "Sep 13 2026: ApartmentList 2BR Unit 219 $1,999 now / Unit 111 $2,099 now. 1BRs Oct 7 tracked separately. EV unknown.",
       "fit": "stretch",
       "url": "https://www.apartmentlist.com/wa/lynnwood/the-peaks-luxury-apartments"
     },
@@ -1794,7 +1794,7 @@ window.APARTMENT_DATA = {
       "pets": "dogs \u226445 lb / cats; $25/mo pet rent",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405 to LWHS; 3pm ~20\u201335",
       "commuteB": "Bus/1 Line corridor toward Seattle then D to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: Unit 302 still $1,850 Available Now. EV unknown.",
+      "notes": "Sep 13 2026: Unit 302 still $1,850 Available Now. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/shoreline-wa/hillcliff-apartments"
     },
@@ -1821,7 +1821,7 @@ window.APARTMENT_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405; 3pm ~20\u201335",
       "commuteB": "Near 1 Line / Shoreline corridor then D \u2014 ~50\u201375 min",
-      "notes": "Sep 12 2026: Unit 413 $1,800+ Oct 1; Unit 207 $2,149+ Available Now. EV unknown.",
+      "notes": "Sep 13 2026: Unit 413 $1,800+ Oct 1; Unit 207 $2,149+ Available Now. Unchanged. EV unknown.",
       "fit": "stretch",
       "url": "https://www.rentable.co/shoreline-wa/arabella-apartment-homes-ii"
     },
@@ -1902,7 +1902,7 @@ window.APARTMENT_DATA = {
       "pets": "cats OK; no dogs (service dogs OK)",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405; 3pm ~20\u201335",
       "commuteB": "Near MLT Link / I-5 then D \u2014 ~50\u201375 min",
-      "notes": "Sep 12 2026: RentCafe still 2BR $1,910\u2013$1,955. EV unknown.",
+      "notes": "Sep 13 2026: Still $1,910\u2013$1,955. EV unknown.",
       "fit": "stretch",
       "url": "https://www.rcqalive.com/apartments/wa/mountlake-terrace/lakeside-apartments-11/default.aspx"
     },
@@ -1921,7 +1921,7 @@ window.APARTMENT_DATA = {
       "rentMin": 1870,
       "rentMax": 2045,
       "rangeNote": "Rentable: $1,870 now / $2,045 Sep 30",
-      "available": "now / 30 Sep 2026",
+      "available": "confirm \u2014 Rentable 404; official JL page has no live prices",
       "parking": "reserved available (extra)",
       "parkingFee": null,
       "ev": "unknown",
@@ -1929,9 +1929,9 @@ window.APARTMENT_DATA = {
       "pets": "cats OK (listing)",
       "commuteA": "AM ~25\u201340 min I-5 \u2192 522/405 to LWHS; 3pm ~20\u201335",
       "commuteB": "Bus / 1 Line corridor toward Seattle then D to Interbay \u2014 ~55\u201380 min",
-      "notes": "Sep 12 2026: Rentable 2BR from $1,870 (1546-103 now) and $2,045 (Sep 30). Was $1,899\u2013$1,999. EV unknown.",
+      "notes": "Sep 13 2026: Rentable /north-city-place 404. Official JL page lists 1BR/2BR but no current rents. Last stored $1,870 now / $2,045 Sep 30 \u2014 do not treat as live until JL/Appfolio confirms. EV unknown.",
       "fit": "budget",
-      "url": "https://www.rentable.co/shoreline-wa/north-city-place"
+      "url": "https://www.jlapartments.com/north-city-place"
     },
     {
       "id": "barrett-interbay",
@@ -1955,7 +1955,7 @@ window.APARTMENT_DATA = {
       "pets": "cats/dogs OK (listing)",
       "commuteA": "AM ~25\u201340 min over 520/I-5 to LWHS; 3pm ~20\u201335",
       "commuteB": "Excellent: Interbay / 15th Ave W near Expedia / D Line",
-      "notes": "Sep 12 2026: Cheaper 2BRs rented. Live: Unit 301 $2,420 Available Now; Unit 201 $2,395 Sep 18. Over combined stretch. EV unknown.",
+      "notes": "Sep 13 2026: Still Unit 301 $2,420 Available Now; Unit 201 $2,395 Sep 18. Over combined stretch. EV unknown.",
       "fit": "over",
       "url": "https://www.rentable.co/seattle-wa/2850-15th-ave"
     }
