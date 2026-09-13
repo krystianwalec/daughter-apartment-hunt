@@ -2,6 +2,71 @@
   "entries": [
     {
       "date": "2026-09-13",
+      "title": "Lakeside 2BR $1,700; Interlakken $1,800; Boston West $1,525/$1,995; Lodge 1BR EV",
+      "lede": "Daily 4pm refresh. Big move: Lakeside MLT 2BR dropped $1,910\u2192$1,700 (Sep 18\u201324). New ideal-budget Interlakken Bothell 2BR $1,800. Magnolia/Interbay Boston West adds 1BR $1,525 and 2BR $1,995. Also new: Heron View Kenmore $2,080 with EV, Lynnwood 5725 200th $2,000, Finn Hill 14128 $2,150, Lodge 1BR $1,750 Oct 5 (EV), Vue 1BRs $1,895. Crane IZ now lists EV charging. Polaris Eastgate 2BRs gone; Cresswell/Barrett/Evergreen 1BRs gone.",
+      "new": [
+        {
+          "text": "Interlakken (Bothell) \u2014 2BR \u2014 $1,800 (now). Ideal-budget.",
+          "href": "https://www.rentable.co/bothell-wa/interlakken-apartments"
+        },
+        {
+          "text": "Boston West \u2014 1BR Unit 202 \u2014 $1,525 (now). Interbay/Magnolia.",
+          "href": "https://www.apartmentlist.com/wa/seattle/boston-west-apartments"
+        },
+        {
+          "text": "Boston West \u2014 2BR Unit 303 \u2014 $1,995 (now).",
+          "href": "https://www.apartmentlist.com/wa/seattle/boston-west-apartments"
+        },
+        {
+          "text": "Heron View (Kenmore) \u2014 2BR B203/C205 \u2014 $2,080; EV charging listed.",
+          "href": "https://www.wipproperties.com/properties/heron-view"
+        },
+        {
+          "text": "5725 200th St SW (Lynnwood) \u2014 2BR Unit 02 \u2014 $2,000 (now).",
+          "href": "https://www.rentable.co/lynnwood-wa/5725-200th-st-sw"
+        },
+        {
+          "text": "14128 74th Pl NE #A17 \u2014 Finn Hill 2BR \u2014 $2,150.",
+          "href": "https://www.apartments.com/14128-74th-pl-ne-kirkland-wa/spwnrq4/"
+        },
+        {
+          "text": "The Lodge @ 73rd \u2014 1BR \u2014 $1,750 (5 Oct); EV charging listed.",
+          "href": "https://www.wipproperties.com/properties/the-lodge"
+        },
+        {
+          "text": "Lakeside MLT \u2014 1BR \u2014 $1,597\u2013$1,632 (now / mid Sep).",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
+        },
+        {
+          "text": "Vue Kirkland \u2014 1BR \u2014 $1,895 (Oct); ARCH \u2014 confirm eligibility.",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Lakeside MLT \u2014 2BR $1,910\u2013$1,955 \u2192 $1,700\u2013$1,745 (Sep 18\u201324).",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
+        },
+        {
+          "text": "Crane at Interbay (IZ 1BR) \u2014 EV charging newly listed on AffordableHousing amenities; still $1,695.",
+          "href": "https://www.affordablehousing.com/seattle-wa/3200-16th-ave-w-1031805/"
+        },
+        {
+          "text": "Polaris Eastgate \u2014 no 2BRs available (gone for 2BR shortlist).",
+          "href": "https://www.apartmentlist.com/wa/bellevue/polaris-at-eastgate"
+        },
+        {
+          "text": "Cresswell / Barrett / Evergreen 1BRs \u2014 marked gone.",
+          "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
+        },
+        {
+          "text": "Inglenook / Trailside / Elevate / Capri / Peaks / Canal \u2014 rechecked; holding from morning.",
+          "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-13",
       "title": "Inglenook floor $1,809; Lodge EV + $2,000 Sep 22; Elevate 2/2 $2,195; new Bothell Ridge 1BR",
       "lede": "On-demand recheck. Inglenook 2BR floor rose $1,719\u2192$1,809. Lodge official 2BR $2,000 on Sep 22 with EV charging listed. Elevate 2/2 dropped to $2,195. Country Club 2BRs are $2,100 (Sep 30 / Oct 16). Fernwood likely gone. New 1BRs: Bothell Ridge $1,757\u2013$1,937 and Country Club Apt 104 $1,775 Sep 18. Interbay/Magnolia 1BRs still holding.",
       "new": [
