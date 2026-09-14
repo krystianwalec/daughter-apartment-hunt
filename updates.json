@@ -1,6 +1,79 @@
 {
   "entries": [
     {
+      "date": "2026-09-14",
+      "title": "Fernwood back $1,999; Bothell Ridge 2BR $2,139; new Glen Grove / 21302 $1,695; Back Nine $1,525",
+      "lede": "Daily refresh. Fernwood Trails 2BR live again on Rentable at $1,999 (was marked gone). Bothell Ridge adds 2BR Unit 0428 $2,139 Oct 4. New: Glen Grove Bothell $2,195, MLT 21302 50th $1,695 (confirm address), North Country Manor $2,025+, Park Place Kenmore $2,200 Oct 10, Quartz Creek $2,195; 1BRs Geo $1,574, 205 Apts $1,515, Tivalli $1,773. Back Nine dropped $1,565\u2192$1,525. Inglenook floor $1,819. Station Nine Depot from $1,899. Lakeside/Lodge/Interlakken/Boston West holding.",
+      "new": [
+        {
+          "text": "Glen Grove (Bothell) \u2014 2BR \u2014 $2,195 (now, 2 units). Stretch.",
+          "href": "https://www.rentable.co/bothell-wa/10295-ne-189th-st"
+        },
+        {
+          "text": "21302 50th (MLT) \u2014 2BR \u2014 $1,695 (now, 700 sf). Ideal-budget \u2014 confirm address/zip.",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/21302-50th-st"
+        },
+        {
+          "text": "North Country Manor (Bothell) \u2014 2BR \u2014 $2,025\u2013$2,175.",
+          "href": "https://www.rentable.co/bothell-wa/north-country-manor"
+        },
+        {
+          "text": "Park Place (Kenmore 73rd) \u2014 2BR \u2014 $2,200 (10 Oct).",
+          "href": "https://www.rentable.co/kenmore-wa/park-place-apartments"
+        },
+        {
+          "text": "Quartz Creek (MLT) \u2014 2BR \u2014 from $2,195.",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/quartz-creek"
+        },
+        {
+          "text": "Bothell Ridge \u2014 2BR Unit 0428 \u2014 $2,139 (4 Oct). Was all 2BRs rented.",
+          "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
+        },
+        {
+          "text": "Geo (Shoreline) \u2014 1BR \u2014 from $1,574.",
+          "href": "https://www.rentable.co/shoreline-wa/geo"
+        },
+        {
+          "text": "205 Apartments (Shoreline) \u2014 1BR \u2014 $1,515\u2013$1,625.",
+          "href": "https://www.rentable.co/shoreline-wa/205-apartments-1795-st"
+        },
+        {
+          "text": "Tivalli (Lynnwood) \u2014 1BR \u2014 from $1,773.",
+          "href": "https://www.rentable.co/lynnwood-wa/tivalli-apartments"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Fernwood Trails \u2014 2BR live again $1,999 Available Now (was likely gone).",
+          "href": "https://www.rentable.co/kenmore-wa/fernwood-trails-apartments"
+        },
+        {
+          "text": "Back Nine (Interbay) \u2014 1BR $1,565\u2192$1,525.",
+          "href": "https://www.rentable.co/seattle-wa/2635-prosch-ave-w"
+        },
+        {
+          "text": "Inglenook \u2014 2BR floor $1,809\u2192$1,819.",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Station Nine Depot \u2014 2BR floor from ~$1,861\u2192$1,899.",
+          "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
+        },
+        {
+          "text": "Vista Manor \u2014 2BR live band now tops at $1,995 (prior $2,195 gone).",
+          "href": "https://www.rentable.co/seattle-wa/2710-w-manor-pl"
+        },
+        {
+          "text": "Collins Junction 1x1 \u2014 floor $1,614\u2192$1,580 (#G182).",
+          "href": "https://collinsjunction.com/floorplans/1x1/"
+        },
+        {
+          "text": "Lakeside / Lodge / Interlakken / Boston West / Capri / Peaks \u2014 rechecked; holding.",
+          "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
+        }
+      ]
+    },
+    {
       "date": "2026-09-13",
       "title": "Lakeside 2BR $1,700; Interlakken $1,800; Boston West $1,525/$1,995; Lodge 1BR EV",
       "lede": "Daily 4pm refresh. Big move: Lakeside MLT 2BR dropped $1,910\u2192$1,700 (Sep 18\u201324). New ideal-budget Interlakken Bothell 2BR $1,800. Magnolia/Interbay Boston West adds 1BR $1,525 and 2BR $1,995. Also new: Heron View Kenmore $2,080 with EV, Lynnwood 5725 200th $2,000, Finn Hill 14128 $2,150, Lodge 1BR $1,750 Oct 5 (EV), Vue 1BRs $1,895. Crane IZ now lists EV charging. Polaris Eastgate 2BRs gone; Cresswell/Barrett/Evergreen 1BRs gone.",
