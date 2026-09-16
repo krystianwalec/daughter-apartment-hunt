@@ -1,6 +1,135 @@
 {
   "entries": [
     {
+      "date": "2026-09-16",
+      "title": "Junction 160 / Allai / Olde Towne / Urban Center 2BRs; Inglenook $1,887; Station Nine $1,899; 3425 1BR $1,595",
+      "lede": "Daily refresh. New ideal/budget 2BRs include Junction 160 & Allai ($1,695), Olde Towne ($1,795), Urban Center ($1,799) + Whispering Cedars / Millwood / Bristol / Canyon Springs. 1BRs: Urban Center $1,449, Largo Vista $1,375, ION Town Center $1,717 EV. Material moves: Inglenook 2BR $1,827→$1,887; Station Nine Depot floor →$1,899; 3425 14th 1BR $1,649→$1,595; Ivy $1,818; Timbers 1BR now $1,895 (over stretch).",
+      "new": [
+        {
+          "text": "Junction 160 2BR from $1,695",
+          "href": "https://www.rentable.co/shoreline-wa/j160-holdings-llc"
+        },
+        {
+          "text": "Allai Apartments 2BR from $1,695",
+          "href": "https://www.rentable.co/shoreline-wa/allai-apartments"
+        },
+        {
+          "text": "2152 N 185th 2BR from $1,716",
+          "href": "https://www.rentable.co/shoreline-wa/2152-n-185th-st-unit-307"
+        },
+        {
+          "text": "Olde Towne 2BR from $1,795",
+          "href": "https://www.rentable.co/bothell-wa/olde-towne"
+        },
+        {
+          "text": "Urban Center 2BR from $1,799",
+          "href": "https://www.rentable.co/lynnwood-wa/urban-center"
+        },
+        {
+          "text": "Whispering Cedars 2BR from $1,875",
+          "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
+        },
+        {
+          "text": "20034 15th Ave NE 2BR from $1,850",
+          "href": "https://www.rentable.co/shoreline-wa/20034-15th-ave-ne"
+        },
+        {
+          "text": "18235 73rd Ave NE 2BR from $1,900",
+          "href": "https://www.rentable.co/kenmore-wa/18235-73rd-ave-ne"
+        },
+        {
+          "text": "Bristol Square 2BR from $1,918",
+          "href": "https://www.rentable.co/lynnwood-wa/bristol-square-apartments"
+        },
+        {
+          "text": "Millwood Estates 2BR from $1,925",
+          "href": "https://www.rentable.co/lynnwood-wa/millwood-estates"
+        },
+        {
+          "text": "Canyon Springs 2BR from $1,949",
+          "href": "https://www.rentable.co/lynnwood-wa/canyon-springs"
+        },
+        {
+          "text": "Novo on 52nd 2BR from $2,000",
+          "href": "https://www.rentable.co/lynnwood-wa/novo-on-52nd"
+        },
+        {
+          "text": "Alderwood Heights 2BR from $2,026",
+          "href": "https://www.rentable.co/lynnwood-wa/alderwood-heights"
+        },
+        {
+          "text": "Evergreen Heights 2BR from $2,057",
+          "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
+        },
+        {
+          "text": "Alpine Ridge 2BR from $2,125",
+          "href": "https://www.rentable.co/kirkland-wa/alpine-ridge"
+        },
+        {
+          "text": "Urban Center 1BR from $1,449",
+          "href": "https://www.rentable.co/lynnwood-wa/urban-center"
+        },
+        {
+          "text": "Largo Vista 1BR from $1,375",
+          "href": "https://www.rentable.co/shoreline-wa/20333-15th-ave"
+        },
+        {
+          "text": "Whispering Cedars 1BR from $1,535",
+          "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
+        },
+        {
+          "text": "192 Shoreline 1BR from $1,612",
+          "href": "https://www.rentable.co/shoreline-wa/192-shoreline"
+        },
+        {
+          "text": "Millwood Estates 1BR from $1,618",
+          "href": "https://www.rentable.co/lynnwood-wa/millwood-estates"
+        },
+        {
+          "text": "18235 73rd Ave NE 1BR from $1,650",
+          "href": "https://www.rentable.co/kenmore-wa/18235-73rd-ave-ne"
+        },
+        {
+          "text": "Bristol Square 1BR from $1,690",
+          "href": "https://www.rentable.co/lynnwood-wa/bristol-square-apartments"
+        },
+        {
+          "text": "Canyon Springs 1BR from $1,709",
+          "href": "https://www.rentable.co/lynnwood-wa/canyon-springs"
+        },
+        {
+          "text": "ION Town Center 1BR from $1,717",
+          "href": "https://www.rentable.co/shoreline-wa/ion-town-center"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Inglenook 2BR floor $1,827→$1,887",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Station Nine Depot 2BR floor $1,861→$1,899",
+          "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
+        },
+        {
+          "text": "3425 14th Ave W 1BR $1,649→$1,595",
+          "href": "https://www.rentable.co/seattle-wa/3425-14th-ave-w"
+        },
+        {
+          "text": "Ivy at Interbay 1BR $1,793→$1,818",
+          "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
+        },
+        {
+          "text": "Tivalli 1BR $1,773→$1,761",
+          "href": "https://www.rentable.co/lynnwood-wa/tivalli-apartments"
+        },
+        {
+          "text": "Timbers Kenmore 1BR $1,801→$1,895 (over stretch)",
+          "href": "https://www.rentable.co/kenmore-wa/timbers-apartments"
+        }
+      ]
+    },
+    {
       "date": "2026-09-15",
       "title": "Quinn 2BR $1,699 EV; Elevate 1BR $1,695; Heron Rentable $1,950; Heather 2BR gone",
       "lede": "Daily refresh. Standout new: Quinn by Vintage Shoreline 2BR from $1,699 with EV charging listed (1BR $1,499). Elevate 1BR dropped $1,845→$1,695. Heron View Rentable 2BR from $1,950 (RentCafe still $2,080). Heather Ridge 2BR B301 gone. Two 10 MFTE plans show $1,791–$1,850. Also new: Martha Lake, Madison Way, Willow Tree, District, Paceline, Ascent, Stonehedge, Forest Hills, Autumn Ridge; 1BRs Timber Grove/Encore/Kelsey/Blakely/Modera. Inglenook floor $1,827. Lakeside/Lodge/Interlakken/Boston West/Fernwood holding.",
