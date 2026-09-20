@@ -2,6 +2,102 @@
   "entries": [
     {
       "date": "2026-09-19",
+      "title": "Expired listings cleanup",
+      "lede": "Removed 10 stale/expired 2BR and 10 stale/expired 1BR listings (board 117→107 2BR, 77→67 1BR). Verified gone: Timber Grove / Bristol Square 1BR / Grata 1BR (Sep 2027 only) / Autumn Ridge 2BR / Heather Ridge 2BR / Ivy 2BR / Polaris Eastgate 2BR / Mountain View / Pacific Place / 124th D114–D115 / Tiburon #108 / FOREMAN1 / Cresswell / Brighton North / Evergreen Hill / Bertona #7 / Houghton #520 / Admiralty / Cinebar. Revived: Carrington 2BR Unit H06 $2,295; Barrett 1BR Unit 206 $1,629. Kept shortlist (Junction/Allai/Quinn/Millwood/Inglenook/Grata 2BR $1,686/Paceline 1BR EV). Unverified kept: Mercer Park, North City Place.",
+      "new": [],
+      "changed": [
+        {
+          "text": "Autumn Ridge — 2BR removed (was $2,095) — no 2BR available (Rentable 0; 1BR only)",
+          "href": "https://www.rentable.co/shoreline-wa/15135-stone-ln-n"
+        },
+        {
+          "text": "11112 NE 124th Ln — D115 removed (was $1,899) — occupied / do not disturb (RentalSource removed)",
+          "href": "https://www.rentalsource.com/details/11112-ne-124th-lane-kirkland-wa-84013303/"
+        },
+        {
+          "text": "11112 NE 124th Ln — D114 removed (was $2,099) — no longer available (HotPads; Zumper 0)",
+          "href": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
+        },
+        {
+          "text": "Tiburon — #108 removed (was $2,200) — ColdwellBanker 404 / off-market",
+          "href": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
+        },
+        {
+          "text": "Ivy Interbay — 2BR removed (was $2,150) — all 2BRs rented (0 available)",
+          "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
+        },
+        {
+          "text": "Polaris at Eastgate — 2BR removed (was $1,409) — no 2BRs available (Apartments.com)",
+          "href": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
+        },
+        {
+          "text": "Heather Ridge — 2BR removed (was $1,749) — no 2BRs available (ApartmentList; 1BRs only)",
+          "href": "https://www.apartmentlist.com/wa/lynnwood/heather-ridge"
+        },
+        {
+          "text": "Mountain View — 30R removed (was $1,695) — not accepting / all units rented",
+          "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
+        },
+        {
+          "text": "Pacific Place — Unit 10 removed (was $1,995) — not accepting / all units rented",
+          "href": "https://www.rentable.co/seattle-wa/pacific-place-apartments"
+        },
+        {
+          "text": "FOREMAN1 — 4303 214th St SW removed (was $1,850) — occupied / do not disturb (RentalSource removed)",
+          "href": "https://www.rentalsource.com/details/4303-214th-st-sw-mountlake-terrace-wa-84148169/"
+        },
+        {
+          "text": "Timber Grove — 1BR removed (was $1,385) — all units rented / not accepting",
+          "href": "https://www.rentable.co/lynnwood-wa/1805-filbert-rd"
+        },
+        {
+          "text": "Bristol Square — 1BR removed (was $1,690) — 0 available (all 1BRs rented; 2BR still live)",
+          "href": "https://www.rentable.co/lynnwood-wa/bristol-square-apartments"
+        },
+        {
+          "text": "Grata at Totem Lake — 1BR removed (was $1,398) — only Sep 3 2027 — stale for Oct 2026 move-in",
+          "href": "https://www.rentable.co/kirkland-wa/grata-apartments"
+        },
+        {
+          "text": "Evergreen Hill condo removed (was $1,750) — 0 units available (ApartmentList)",
+          "href": "https://www.apartmentlist.com/wa/kirkland/clean-top-floor-1br-1ba-condo-with-wood-burning-fireplace"
+        },
+        {
+          "text": "Brighton North removed (was $1,495) — 1BR UNAVAILABLE (PadMapper)",
+          "href": "https://www.padmapper.com/buildings/p119557/brighton-north-apartments-at-1549-ne-177th-st-shoreline-wa-98155"
+        },
+        {
+          "text": "Cresswell #203/#304 removed (was $1,595) — official NW Apartments shows 0 vacant",
+          "href": "https://northwest.appfolio.com"
+        },
+        {
+          "text": "Cinebar Apartments removed (was $1,195) — stale — updated over 1 month ago",
+          "href": "https://www.rentable.co/seattle-wa/cinebar-apartments"
+        },
+        {
+          "text": "Bertona Apt #7 removed (was $1,675) — no longer available (HotPads)",
+          "href": "https://hotpads.com/2014-w-bertona-st-seattle-wa-98199-skkwtp/7/pad"
+        },
+        {
+          "text": "Houghton condo Unit 520 removed (was $1,795) — Rentable shows Rented / 0 available",
+          "href": "https://www.apartmentfinder.com/Washington/Kirkland-Apartments/1-Bed-1-Bath-Houghton-Condo-In-Kirkland-1795-Month-Apartments-nd3mbgm"
+        },
+        {
+          "text": "Admiralty Way condo removed (was $1,445) — stale — ApartmentList last updated Aug 9 2026",
+          "href": "https://www.apartmentlist.com/wa/north-lynnwood/ideal-1-bed-1-bath-lynnwood-condo-with-w-d-in-unit"
+        },
+        {
+          "text": "The Carrington 2BR LIVE AGAIN — Unit H06 $2,295 Sep 30 (was marked gone)",
+          "href": "https://www.apartmentlist.com/wa/bellevue/carrington"
+        },
+        {
+          "text": "Barrett Unit 206 1BR LIVE AGAIN — $1,629 Available Now (was marked gone)",
+          "href": "https://www.rentable.co/seattle-wa/2850-15th-ave"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-19",
       "title": "Grata 2BR $1,686; Inglenook $1,729; Paceline 1BR $1,569; Nantucket $2,145; Emerson Totem Lake",
       "lede": "Daily refresh. NEW: Nantucket Garden Lynnwood 2BR $2,145; Emerson Totem Lake 2BR from $2,220 / 1BR $1,900; Alderwood Heights 1BR from $1,836 (EV). MATERIAL: Grata Totem Lake 2BR $2,056→$1,686 (ideal); Inglenook 2BR $1,799→$1,729; Martha Lake 2BR $1,897→$1,847; Paceline 1BR $1,704→$1,569 + EV confirmed; Canyon Pointe 2BR $1,997→$2,067. GONE/STALE: Timber Grove 1BR off-market; Bristol Square 1BR gone; Grata 1BR only Sep 2027 (not Oct 2026). Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne/Millwood/Serra) mostly steady.",
       "new": [
