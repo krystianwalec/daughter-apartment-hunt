@@ -1,6 +1,75 @@
 window.UPDATES_DATA = {
   "entries": [
     {
+      "date": "2026-09-22",
+      "title": "Martha Lake 2BR $1,729; Vue $1,899 EV; NEW Asbury Park + Orchard Ridge",
+      "lede": "Material Tuesday refresh: Martha Lake 2BR $1,829→$1,729 (into ideal); Vue Kirkland 2BR $2,138→$1,899 with EV chargers; Glen Grove $2,195→$1,995; Inglenook 1BR $1,587→$1,697; Martha Lake 1BR $1,647→$1,687; 192 Shoreline 1BR $1,612→$1,099 (verify). NEW: Asbury Park Totem Lake 2BR from $1,825; Orchard Ridge Lynnwood 2BR $2,180 + 1BR $1,860; Villa Bonita 1BR $1,800. Beaver Creek index ~$1,550 AMI (HotPads 403). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Inglenook 2BR $1,667.",
+      "new": [
+        {
+          "text": "Asbury Park — 2BR from $1,825 (Totem Lake; confirm floor)",
+          "href": "https://www.rentable.co/kirkland-wa/asbury-park"
+        },
+        {
+          "text": "Orchard Ridge — 2BR from $2,180 (Lynnwood / 164th)",
+          "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
+        },
+        {
+          "text": "Orchard Ridge — 1BR from $1,860",
+          "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
+        },
+        {
+          "text": "Villa Bonita — 1BR from $1,800 (Kirkland)",
+          "href": "https://www.rentable.co/kirkland-wa/villa-bonita"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Martha Lake — 2BR $1,829→$1,729",
+          "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
+        },
+        {
+          "text": "Martha Lake — 1BR $1,647→$1,687",
+          "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
+        },
+        {
+          "text": "Vue Kirkland — 2BR $2,138→$1,899 (EV)",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Glen Grove — 2BR $2,195→$1,995",
+          "href": "https://www.rentable.co/bothell-wa/10295-ne-189th-st"
+        },
+        {
+          "text": "Inglenook Court — 1BR $1,587→$1,697",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Alderwood Heights — 2BR $2,026→$1,999 (EV)",
+          "href": "https://www.rentable.co/lynnwood-wa/alderwood-heights"
+        },
+        {
+          "text": "Stonehedge Village — 2BR $1,989→$1,949",
+          "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
+        },
+        {
+          "text": "Geo — 1BR $1,574→$1,885",
+          "href": "https://www.rentable.co/shoreline-wa/geo"
+        },
+        {
+          "text": "192 Shoreline — 1BR $1,612→$1,099 (verify)",
+          "href": "https://www.rentable.co/shoreline-wa/192-shoreline"
+        },
+        {
+          "text": "Beaver Creek — 2BR $1,676→$1,550 AMI (index; live 403)",
+          "href": "https://hotpads.com/beaver-creek-lynnwood-wa-98036-skfjgh/pad"
+        },
+        {
+          "text": "Evergreen Heights — 2BR $2,229→$2,369",
+          "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "title": "Inglenook 2BR $1,677; Martha Lake 1BR $1,647; NEW Serene Village + Octavia",
       "lede": "Material Monday refresh: Inglenook 2BR $1,707→$1,677 (A204 Oct 14); Canyon Pointe 1BR $1,659→$1,697; Martha Lake 1BR $1,567→$1,647. NEW: Serene Village Lynnwood 2BR from $1,875 (+1BR $1,625) and Octavia Shoreline 1BR from $1,415. Gone: Olde Towne 2BR (0 available) and Encore 1BR (only Dec at $1,795). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Beaver Creek $1,676 AMI.",
