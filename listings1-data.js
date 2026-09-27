@@ -1,6 +1,33 @@
 window.LISTINGS1_DATA = {
-  "asOf": "2026-09-26",
+  "asOf": "2026-09-27",
   "listings": [
+    {
+      "id": "1br-brittany-place",
+      "name": "Brittany Place — 1BR",
+      "complex": "Brittany Place",
+      "address": "19805 48th Ave W, Lynnwood, WA 98036",
+      "lat": 47.8189784,
+      "lng": -122.2974752,
+      "region": "north",
+      "cluster": "lynnwood",
+      "corridor": "link-north",
+      "beds": 1,
+      "baths": 1,
+      "rentMin": 1350,
+      "rentMax": 1410,
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,350 (ground floor Now) + $1,410 larger Now",
+      "available": "now (from $1,350)",
+      "parking": "free parking (listing)",
+      "parkingFee": 0,
+      "ev": "unknown",
+      "utils": null,
+      "pets": "cats and dogs OK (listing)",
+      "commuteA": "AM ~25–40 min I-5 → 405 to LWHS; near Lynnwood Transit Center",
+      "commuteB": "Walk/bus to Lynnwood City Center Link then 1 Line + RapidRide D — ~55–75 min",
+      "notes": "Sep 27 2026 daily: NEW companion 1BR at Brittany Place from $1,350 (ideal). Free parking per listing; EV unknown.",
+      "fit": "ideal",
+      "url": "https://www.rentable.co/lynnwood-wa/brittany-place-apartments"
+    },
     {
       "id": "1br-heather-ridge",
       "name": "Heather Ridge — 1BR",
@@ -15,7 +42,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1499,
       "rentMax": 1515,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,499 (H205 Now; H206 Sep 28; H301 $1,515 Now)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,499 (H205 Now; H206 Sep 28; H301 $1,515 Now)",
       "available": "now / Sep 28 2026 (from $1,499)",
       "parking": "on-site (confirm fee)",
       "parkingFee": null,
@@ -24,9 +51,36 @@ window.LISTINGS1_DATA = {
       "pets": "cats and dogs OK (listing)",
       "commuteA": "AM ~25–40 min I-5 → 405 to LWHS",
       "commuteB": "Toward Lynnwood City Center Link then 1 Line + RapidRide D",
-      "notes": "Sep 26 2026 daily: still from $1,499. Sep 25 2026 daily: still 1BR from $1,499. Sep 24 2026 daily: still from $1,499. Sep 23 2026 daily: NEW re-list after Sep 19 cleanup — 1BR from $1,499 (ideal). Floorplans also show 2BR $1,599 but FAQ rent range only $1,499–$1,515 (2BR not confirmed available). EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,499 (2BR still not confirmed on Rentable FAQ). Sep 26 2026 daily: still from $1,499. Sep 25 2026 daily: still 1BR from $1,499. Sep 24 2026 daily: still from $1,499. Sep 23 2026 daily: NEW re-list after Sep 19 cleanup — 1BR from $1,499 (ideal). Floorplans also show 2BR $1,599 but FAQ rent range only $1,499–$1,515 (2BR not confirmed available). EV unknown.",
       "fit": "ideal",
       "url": "https://www.rentable.co/lynnwood-wa/20427-68th-ave-w"
+    },
+    {
+      "id": "1br-asteria",
+      "name": "Asteria Place — 1BR",
+      "complex": "Asteria Place",
+      "address": "17525 80th Ave NE, Kenmore, WA",
+      "lat": 47.7564902,
+      "lng": -122.2342874,
+      "region": "eastside",
+      "cluster": "kenmore-bothell",
+      "corridor": "522-corridor",
+      "beds": 1,
+      "baths": 1,
+      "rentMin": 1575,
+      "rentMax": 1799,
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,575 (FAQ; 4 units vacant now)",
+      "available": "now (from $1,575)",
+      "parking": "on-site",
+      "parkingFee": 0,
+      "ev": "no",
+      "utils": "typically extra",
+      "pets": "unknown",
+      "commuteA": "Drive south on Juanita Dr / I-405 to LWHS",
+      "commuteB": "ST Express 522 toward UW / Seattle; last mile to Interbay still required",
+      "notes": "Sep 27 2026 daily: NEW tracked 1BR companion at Asteria from $1,575 (budget). Same complex as ideal 2BR $1,799. EV stored no.",
+      "fit": "budget",
+      "url": "https://www.rentable.co/kenmore-wa/asteria-place-apartments"
     },
     {
       "id": "1br-villa-bonita",
@@ -213,7 +267,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405 to LWHS; 3pm ~20–35",
       "commuteB": "Near Shoreline / 1 Line corridor then RapidRide D to Interbay — ~50–75 min",
-      "notes": "Sep 25 2026 daily: still 1BR from $1,525. Sep 24 2026 daily: 1BR $1,499→$1,525 (ideal→budget). Sep 19 2026 daily: 1BR still from $1,499. Verified Rentable.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,525. Sep 25 2026 daily: still 1BR from $1,525. Sep 24 2026 daily: 1BR $1,499→$1,525 (ideal→budget). Sep 19 2026 daily: 1BR still from $1,499. Verified Rentable.",
       "fit": "budget",
       "url": "https://www.rentable.co/shoreline-wa/two-10-by-vintage"
     },
@@ -310,10 +364,10 @@ window.LISTINGS1_DATA = {
       "corridor": null,
       "beds": 1,
       "baths": 1,
-      "rentMin": 1797,
-      "rentMax": 1857,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,797 (H204 Oct 3); others $1,807–$1,857",
-      "available": "now / Oct 2026 (from $1,797)",
+      "rentMin": 1727,
+      "rentMax": 1877,
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,727 (H204 Oct 3); others $1,817–$1,877",
+      "available": "now / Oct 2026 (from $1,727)",
       "parking": "on-site (confirm fee)",
       "parkingFee": null,
       "ev": "unknown",
@@ -321,7 +375,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "~10 min drive to LWHS",
       "commuteB": "Bus + transfer; ST 522 corridor nearby",
-      "notes": "Sep 26 2026 daily: 1BR min $1719→$1,797 (+$78). H204 $1,797 Oct 3; N208 $1,807 Oct 7; M110 $1,857 Now. Still stretch. Sep 25 2026 daily: 1BR $1,747→$1,719 (M103 Oct 10). Under $50 — tracked. Sep 24 2026 daily: 1BR $1,657→$1,747. Sep 23 2026 daily: 1BR $1,607→$1,657. Sep 22 2026 daily: 1BR $1,609→$1,607 (cosmetic).",
+      "notes": "Sep 27 2026 daily: 1BR $1,797→$1,727 (−$70). Still stretch. Sep 26 2026 daily: 1BR min $1719→$1,797 (+$78). H204 $1,797 Oct 3; N208 $1,807 Oct 7; M110 $1,857 Now. Still stretch. Sep 25 2026 daily: 1BR $1,747→$1,719 (M103 Oct 10). Under $50 — tracked. Sep 24 2026 daily: 1BR $1,657→$1,747. Sep 23 2026 daily: 1BR $1,607→$1,657. Sep 22 2026 daily: 1BR $1,609→$1,607 (cosmetic).",
       "fit": "stretch",
       "url": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
     },
@@ -364,10 +418,10 @@ window.LISTINGS1_DATA = {
       "corridor": "405-corridor",
       "beds": 1,
       "baths": 1,
-      "rentMin": 1557,
+      "rentMin": 1669,
       "rentMax": 1717,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,557 (G203 Now) to $1,717",
-      "available": "now / Oct–Nov 2026 (from $1,557)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,669 (L102 Oct 13); N106 $1,707 Now",
+      "available": "now / Oct–Nov 2026 (from $1,669)",
       "parking": "included or on-site",
       "parkingFee": 0,
       "ev": "unknown",
@@ -375,8 +429,8 @@ window.LISTINGS1_DATA = {
       "pets": "dogs/cats with fees",
       "commuteA": "~10 min drive to LWHS",
       "commuteB": "Bus + transfer; ST 522 corridor nearby",
-      "notes": "Sep 26 2026 daily: 1BR min $1577→$1,557 (−$20, non-material). G203 $1,557 Now. Sep 25 2026 daily: still 1BR from $1,577 (G203 Available Now). Sep 24 2026 daily: 1BR $1,587→$1,577 (cosmetic). Sep 23 2026 daily: 1BR $1,697→$1,587 — into budget. Sep 22 2026 daily: 1BR $1,587→$1,697 (cheaper 1BRs gone). Still stretch. EV unknown.",
-      "fit": "budget",
+      "notes": "Sep 27 2026 daily: 1BR $1,557→$1,669 (budget→stretch). Cheaper $1,557 band gone. Sep 26 2026 daily: 1BR min $1577→$1,557 (−$20, non-material). G203 $1,557 Now. Sep 25 2026 daily: still 1BR from $1,577 (G203 Available Now). Sep 24 2026 daily: 1BR $1,587→$1,577 (cosmetic). Sep 23 2026 daily: 1BR $1,697→$1,587 — into budget. Sep 22 2026 daily: 1BR $1,587→$1,697 (cheaper 1BRs gone). Still stretch. EV unknown.",
+      "fit": "stretch",
       "url": "https://www.rentable.co/kirkland-wa/inglenook-court"
     },
     {
@@ -403,8 +457,8 @@ window.LISTINGS1_DATA = {
       "fit": "ideal",
       "available": "now (Unit 19 $1,375)",
       "url": "https://www.rentable.co/shoreline-wa/20333-15th-ave",
-      "rangeNote": "Rentable live Sep 26 2026: Unit 19 $1,375 Available Now",
-      "notes": "Sep 26 2026 daily: still Unit 19 $1,375 Available Now. Sep 21 2026 daily: Unit 19 still $1,375 Available Now. Verified Rentable."
+      "rangeNote": "Rentable live Sep 27 2026: Unit 19 $1,375 Available Now",
+      "notes": "Sep 27 2026 daily: still Unit 19 $1,375 Available Now. Sep 26 2026 daily: still Unit 19 $1,375 Available Now. Sep 21 2026 daily: Unit 19 still $1,375 Available Now. Verified Rentable."
     },
     {
       "baths": 1,
@@ -430,8 +484,8 @@ window.LISTINGS1_DATA = {
       "fit": "ideal",
       "available": "now / Oct 2026 (from $1,449)",
       "url": "https://www.rentable.co/lynnwood-wa/urban-center",
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,449 (D602 Now)",
-      "notes": "Sep 26 2026 daily: still from $1,449. Sep 25 2026 daily: still 1BR from $1,449. Sep 22 2026 daily: still from $1,449."
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,449 (D602 Now)",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,449. Sep 26 2026 daily: still from $1,449. Sep 25 2026 daily: still 1BR from $1,449. Sep 22 2026 daily: still from $1,449."
     },
     {
       "baths": 1,
@@ -457,8 +511,8 @@ window.LISTINGS1_DATA = {
       "fit": "budget",
       "available": "now / Nov–Dec 2026 (from $1,590)",
       "url": "https://www.rentable.co/lynnwood-wa/whispering-cedars",
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,590",
-      "notes": "Sep 26 2026 daily: 1BR min $1580→$1,590 (+$10, non-material). Sep 25 2026 daily: 1BR from $1,550→$1,580. Sep 24 2026 daily: still from $1,550. Sep 23 2026 daily: $1,530→$1,550. Sep 22 2026 daily: 1BR $1,540→$1,530 (cosmetic)."
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,590",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,590. Sep 26 2026 daily: 1BR min $1580→$1,590 (+$10, non-material). Sep 25 2026 daily: 1BR from $1,550→$1,580. Sep 24 2026 daily: still from $1,550. Sep 23 2026 daily: $1,530→$1,550. Sep 22 2026 daily: 1BR $1,540→$1,530 (cosmetic)."
     },
     {
       "baths": 1,
@@ -484,8 +538,8 @@ window.LISTINGS1_DATA = {
       "fit": "ideal",
       "available": "now / Oct–Nov 2026 (from $1,099)",
       "url": "https://www.rentable.co/shoreline-wa/192-shoreline",
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,099 (A309 Now); many $1,421–$1,730",
-      "notes": "Sep 26 2026 daily: still from $1,099 (verify unit). Sep 23 2026 daily: still 1BR from $1,099 (verify). Sep 22 2026 daily: 1BR $1,612→$1,099 per Rentable FAQ — verify unit type/income restrictions before touring. EV unknown."
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,099 (A309 Now); many $1,421–$1,730",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,099 (verify unit quality). Sep 26 2026 daily: still from $1,099 (verify unit). Sep 23 2026 daily: still 1BR from $1,099 (verify). Sep 22 2026 daily: 1BR $1,612→$1,099 per Rentable FAQ — verify unit type/income restrictions before touring. EV unknown."
     },
     {
       "baths": 1,
@@ -566,7 +620,7 @@ window.LISTINGS1_DATA = {
       "available": "now (8 units community)",
       "url": "https://www.rentable.co/lynnwood-wa/canyon-springs",
       "rangeNote": "Rentable live Sep 24 2026: from $1,675",
-      "notes": "Sep 24 2026 daily: still from $1,675. Sep 23 2026 daily: 1BR $1,709→$1,675 (quiet). Sep 16 2026 daily: NEW. Stretch 1BR from $1,709. EV unknown."
+      "notes": "Sep 27 2026 daily: still 1BR from $1,675. Sep 24 2026 daily: still from $1,675. Sep 23 2026 daily: 1BR $1,709→$1,675 (quiet). Sep 16 2026 daily: NEW. Stretch 1BR from $1,709. EV unknown."
     },
     {
       "baths": 1,
@@ -609,7 +663,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1499,
       "rentMax": 1725,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,499 (A614 Now; B121 Sep 30; several Oct 31)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,499 (A614 Now; B121 Sep 30; several Oct 31)",
       "available": "now / Sep 30 / Oct 31 2026",
       "parking": "on-site (confirm fee)",
       "parkingFee": null,
@@ -618,7 +672,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405",
       "commuteB": "Near Ballinger / Shoreline then 1 Line + D",
-      "notes": "Sep 26 2026 daily: still from $1,499 EV. Sep 25 2026 daily: still 1BR from $1,499 EV. Sep 24 2026 daily: still 1BR from $1,499; EV Charging Station. Sep 23 2026 daily: still 1BR from $1,499; EV Charging Station. Sep 22 2026 daily: still from $1,499; EV Charging Station.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,499 (EV). Sep 26 2026 daily: still from $1,499 EV. Sep 25 2026 daily: still 1BR from $1,499 EV. Sep 24 2026 daily: still 1BR from $1,499; EV Charging Station. Sep 23 2026 daily: still 1BR from $1,499; EV Charging Station. Sep 22 2026 daily: still from $1,499; EV Charging Station.",
       "fit": "ideal",
       "url": "https://www.rentable.co/shoreline-wa/quinn-by-vintage"
     },
@@ -636,7 +690,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1637,
       "rentMax": 1687,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,637–$1,687",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,637–$1,687",
       "available": "now-ish window (from $1,637)",
       "parking": "on-site (listing)",
       "parkingFee": null,
@@ -645,7 +699,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~28–45 min I-5/405",
       "commuteB": "CT / Link toward Seattle then D",
-      "notes": "Sep 26 2026 daily: still from $1,637. Sep 25 2026 daily: still 1BR from $1,637 (E206 Oct 29). Sep 24 2026 daily: 1BR $1,687→$1,637. Sep 23 2026 daily: still 1BR from $1,687. Sep 22 2026 daily: 1BR $1,647→$1,687. EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,637. Sep 26 2026 daily: still from $1,637. Sep 25 2026 daily: still 1BR from $1,637 (E206 Oct 29). Sep 24 2026 daily: 1BR $1,687→$1,637. Sep 23 2026 daily: still 1BR from $1,687. Sep 22 2026 daily: 1BR $1,647→$1,687. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/lynnwood-wa/martha-lake"
     },
@@ -690,7 +744,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1450,
       "rentMax": 1450,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR $1,450 (N302/N303/N307/S204 Now)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR $1,450 (N302/N303/N307/S204 Now)",
       "available": "now (several $1,450)",
       "parking": "garage attached (listing)",
       "parkingFee": null,
@@ -699,7 +753,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405",
       "commuteB": "Near Shoreline transit / 1 Line then D",
-      "notes": "Sep 26 2026 daily: still $1,450 Available Now. Sep 15 2026 daily: NEW. 1BR from $1,450. Garage attached listed. EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,450 Available Now. Sep 26 2026 daily: still $1,450 Available Now. Sep 15 2026 daily: NEW. 1BR from $1,450. Garage attached listed. EV unknown.",
       "fit": "ideal",
       "url": "https://www.rentable.co/shoreline-wa/kelsey-house-apartments"
     },
@@ -744,7 +798,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1617,
       "rentMax": 2260,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,617 (Unit 434 Now; 336 Oct 10; 619 Oct 14)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,617 (Unit 434 Now; 336 Oct 10; 619 Oct 14)",
       "available": "now / Oct 2026 (from $1,617)",
       "parking": "on-site (confirm)",
       "parkingFee": null,
@@ -753,7 +807,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405",
       "commuteB": "Aurora corridor / 1 Line then D",
-      "notes": "Sep 26 2026 daily: still from $1,617 budget EV. Sep 25 2026 daily: 1BR $1,694→$1,617 (Unit 434 Available Now); stretch→budget. EV yes. Sep 24 2026 daily: 1BR $1,569→$1,694. Sep 23 2026 daily: still 1BR from $1,569. Sep 22 2026 daily: still from $1,569; EV yes.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,617; EV charging listed. Sep 26 2026 daily: still from $1,617 budget EV. Sep 25 2026 daily: 1BR $1,694→$1,617 (Unit 434 Available Now); stretch→budget. EV yes. Sep 24 2026 daily: 1BR $1,569→$1,694. Sep 23 2026 daily: still 1BR from $1,569. Sep 22 2026 daily: still from $1,569; EV yes.",
       "fit": "budget",
       "url": "https://www.rentable.co/shoreline-wa/paceline"
     },
@@ -985,10 +1039,10 @@ window.LISTINGS1_DATA = {
       "corridor": "link-north",
       "beds": 1,
       "baths": 1,
-      "rentMin": 1509,
-      "rentMax": 1544,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,509 (I307/G213/E204 Now)",
-      "available": "now (from $1,509)",
+      "rentMin": 1538,
+      "rentMax": 1573,
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,538 (I307/G213/E204 Now)",
+      "available": "now (from $1,538)",
       "parking": "confirm on-site",
       "parkingFee": null,
       "ev": "unknown",
@@ -996,7 +1050,7 @@ window.LISTINGS1_DATA = {
       "pets": "pet-friendly community",
       "commuteA": "AM ~25–40 min I-5/405 to LWHS",
       "commuteB": "Link MLT → Seattle then D to Interbay",
-      "notes": "Sep 26 2026 daily: 1BR min $1555→$1,509 (−$46, non-material). Sep 25 2026 daily: 1BR from $1,545→$1,555 Available Now. Sep 23 2026 daily: $1,567→$1,545. Sep 15 2026 daily: 1BR floor now $1,584. ",
+      "notes": "Sep 27 2026 daily: 1BR $1,509→$1,538 (+$29, non-material). Sep 26 2026 daily: 1BR min $1555→$1,509 (−$46, non-material). Sep 25 2026 daily: 1BR from $1,545→$1,555 Available Now. Sep 23 2026 daily: $1,567→$1,545. Sep 15 2026 daily: 1BR floor now $1,584. ",
       "fit": "budget",
       "url": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
     },
@@ -1212,7 +1266,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~30–45 min I-5/405 to LWHS",
       "commuteB": "1 Line Lynnwood → Seattle then D to Interbay",
-      "notes": "Sep 13 2026 daily: Floor still from $1,390 (B208 now) up through ~$1,845. EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,390. Sep 13 2026 daily: Floor still from $1,390 (B208 now) up through ~$1,845. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/lynnwood-wa/duet"
     },
@@ -1338,7 +1392,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1550,
       "rentMax": 1550,
-      "rangeNote": "Rentable live Sep 26 2026: Unit 102 $1,550 Available Oct 1 (680 sq ft)",
+      "rangeNote": "Rentable live Sep 27 2026: Unit 102 $1,550 Available Oct 1 (680 sq ft)",
       "available": "Oct 1 2026 (Unit 102 $1,550)",
       "parking": "confirm",
       "parkingFee": null,
@@ -1347,7 +1401,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405 to LWHS",
       "commuteB": "Near Shoreline / 1 Line corridor then RapidRide D — ~50–75 min",
-      "notes": "Sep 26 2026 daily: NEW Shoreline Linden Ave 1BR Unit 102 $1,550 Available Oct 1 (budget; near ideal). Same Linden corridor as Linden II / Junction / Modera. Maple Leaf Management. EV unknown.",
+      "notes": "Sep 27 2026 daily: still Unit 102 $1,550 Oct 1. Sep 26 2026 daily: NEW Shoreline Linden Ave 1BR Unit 102 $1,550 Available Oct 1 (budget; near ideal). Same Linden corridor as Linden II / Junction / Modera. Maple Leaf Management. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/shoreline-wa/18524-tm-jd-gisz-llc"
     },
@@ -1363,10 +1417,10 @@ window.LISTINGS1_DATA = {
       "corridor": "link-north",
       "beds": 1,
       "baths": 1,
-      "rentMin": 1565,
+      "rentMin": 1303,
       "rentMax": 2324,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,565 (several Now / Oct)",
-      "available": "now / Oct–Nov 2026 (from $1,565)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,303 (E_210/J_305/G_303 Now; several Oct)",
+      "available": "now / Oct–Nov 2026 (from $1,303)",
       "parking": "on-site (confirm fee)",
       "parkingFee": null,
       "ev": "unknown",
@@ -1374,8 +1428,8 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 405",
       "commuteB": "Bus to Lynnwood City Center Link then 1 Line + D — ~65–85 min",
-      "notes": "Sep 26 2026 daily: NEW Lynnwood Hwy 99 1BR from $1,565 (budget). Multiple Oct move-ins. EV unknown.",
-      "fit": "budget",
+      "notes": "Sep 27 2026 daily: 1BR $1,565→$1,303 (budget→ideal). Multiple Now/Oct units at $1,303+. Sep 26 2026 daily: NEW Lynnwood Hwy 99 1BR from $1,565 (budget). Multiple Oct move-ins. EV unknown.",
+      "fit": "ideal",
       "url": "https://www.rentable.co/lynnwood-wa/properties/4517147"
     },
     {
@@ -1392,7 +1446,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1650,
       "rentMax": 1650,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR $1,650 Available Now (600 sq ft); Quorum Real Estate",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR $1,650 Available Now (600 sq ft); Quorum Real Estate",
       "available": "now ($1,650)",
       "parking": "confirm",
       "parkingFee": null,
@@ -1401,7 +1455,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~20–35 min I-5 → 405 to LWHS; 3pm ~18–30",
       "commuteB": "Near MLT / Link then 1 Line + D to Interbay — ~55–75 min",
-      "notes": "Sep 26 2026 daily: NEW Mountlake Terrace 1BR #E131 $1,650 Available Now (budget). Pool amenity mentioned. EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR $1,650 Available Now. Sep 26 2026 daily: NEW Mountlake Terrace 1BR #E131 $1,650 Available Now (budget). Pool amenity mentioned. EV unknown.",
       "fit": "budget",
       "url": "https://www.rentable.co/mountlake-terrace-wa/1-bedroom-1-bathroom-amenities-in-mountlake-terrace"
     },
@@ -1635,8 +1689,8 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1580,
       "rentMax": 1953,
-      "rangeNote": "Official 1x1: floor #G182 $1,580 now (was from $1,614); #B116 $1,953 Oct 8; also #D126 $1,811 / #F147 $1,796 now.",
-      "available": "now / 8 Oct 2026",
+      "rangeNote": "Rentable live Sep 27 2026: not accepting new tenants (0 available)",
+      "available": "gone — Rentable: not currently accepting new tenants (Sep 27)",
       "parking": "assigned/surface lot",
       "parkingFee": null,
       "ev": "no",
@@ -1644,8 +1698,8 @@ window.LISTINGS1_DATA = {
       "pets": "unknown",
       "commuteA": "AM ~35–50 min via 405",
       "commuteB": "Lynnwood Link → 1 Line → D. ~55–75 min",
-      "notes": "Sep 15 2026 daily: Still from $1,580 (#G182 band). ",
-      "fit": "stretch",
+      "notes": "Sep 27 2026 daily: GONE/stale on Rentable — property not currently accepting new tenants (0 available). Sep 15 2026 daily: Still from $1,580 (#G182 band). ",
+      "fit": "gone",
       "url": "https://collinsjunction.com/floorplans/1x1/"
     },
     {
@@ -1852,7 +1906,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1499,
       "rentMax": 1695,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR from $1,499 (many units)",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR from $1,499 (many units)",
       "available": "now (from $1,499)",
       "parking": "on-site",
       "parkingFee": 0,
@@ -1861,7 +1915,7 @@ window.LISTINGS1_DATA = {
       "pets": "unknown",
       "commuteA": "AM ~25–40 min I-5 → 522/405; 3pm ~20–32",
       "commuteB": "~1.3 mi to MLT Link then 1 Line + D. ~55–75 min.",
-      "notes": "Sep 26 2026 daily: still from $1,499. Sep 23 2026 daily: still 1BR from $1,499 / 2BR from $1,799. Sep 13 2026 daily: Still 1BRs from $1,499 (many now through Dec). EV unknown.",
+      "notes": "Sep 27 2026 daily: still 1BR from $1,499. Sep 26 2026 daily: still from $1,499. Sep 23 2026 daily: still 1BR from $1,499 / 2BR from $1,799. Sep 13 2026 daily: Still 1BRs from $1,499 (many now through Dec). EV unknown.",
       "fit": "ideal",
       "url": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
     },
@@ -2014,7 +2068,7 @@ window.LISTINGS1_DATA = {
       "baths": 1,
       "rentMin": 1495,
       "rentMax": 1495,
-      "rangeNote": "Rentable live Sep 26 2026: 1BR B25 $1,495 Available Now",
+      "rangeNote": "Rentable live Sep 27 2026: 1BR B25 $1,495 Available Now",
       "available": "now (B25 $1,495)",
       "parking": "on-site (confirm fee)",
       "parkingFee": null,
@@ -2023,7 +2077,7 @@ window.LISTINGS1_DATA = {
       "pets": "confirm",
       "commuteA": "AM ~25–40 min I-5 → 522/405 to LWHS",
       "commuteB": "Near Shoreline / 1 Line corridor then RapidRide D — ~50–75 min",
-      "notes": "Sep 26 2026 daily: still B25 $1,495 Available Now. Sep 25 2026 daily: still 1BR B25 $1,495 Available Now; companion 2BR $1,695 also live. Sep 24 2026 daily: NEW Shoreline 1BR from $1,495 (ideal). Distinct from Junction 160 / Modera on Linden Ave. EV unknown.",
+      "notes": "Sep 27 2026 daily: still B25 $1,495 Available Now. Sep 26 2026 daily: still B25 $1,495 Available Now. Sep 25 2026 daily: still 1BR B25 $1,495 Available Now; companion 2BR $1,695 also live. Sep 24 2026 daily: NEW Shoreline 1BR from $1,495 (ideal). Distinct from Junction 160 / Modera on Linden Ave. EV unknown.",
       "fit": "ideal",
       "url": "https://www.rentable.co/shoreline-wa/linden-ii"
     },
@@ -2109,4 +2163,4 @@ window.LISTINGS1_DATA = {
       "url": "https://www.rentable.co/kenmore-wa/sammamish-river-apartments"
     }
   ]
-};
+}

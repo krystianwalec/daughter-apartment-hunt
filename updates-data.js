@@ -1,6 +1,51 @@
 window.UPDATES_DATA = {
   "entries": [
     {
+      "date": "2026-09-27",
+      "title": "NEW Brittany Place $1,650/$1,350 + Asteria 1BR $1,575; Campo Basso 1BR $1,303; Inglenook 1BR $1,669",
+      "lede": "Material Sunday refresh. NEW: Brittany Place Lynnwood 2BR $1,650 + 1BR from $1,350 (ideal, near Transit Center); Asteria Place Kenmore 1BR from $1,575 (budget companion). CHANGED: Campo Basso 1BR $1,565→$1,303 (budget→ideal); Inglenook 1BR $1,557→$1,669 (budget→stretch); Corbella 1BR $1,797→$1,727; Collins Junction 1BR → gone (not accepting tenants). Asbury Park 2BR still waitlist/$Ask; Serene Village still $1,875 but no Oct move-in dates. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799/$1,449, Heather Ridge / Paceline 1BR $1,617 EV, Capri $1,799/$1,499, Lakeside $1,701/$1,538. Small nudges: Martha Lake 2BR $1,849, Heritage Ridge 2BR $2,204, Lakeside 1BR $1,538.",
+      "new": [
+        {
+          "text": "Brittany Place Lynnwood 2BR $1,650 (ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/brittany-place-apartments"
+        },
+        {
+          "text": "Brittany Place Lynnwood 1BR from $1,350 (ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/brittany-place-apartments"
+        },
+        {
+          "text": "Asteria Place Kenmore 1BR from $1,575 (budget)",
+          "href": "https://www.rentable.co/kenmore-wa/asteria-place-apartments"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Campo Basso 1BR $1,565→$1,303 (budget→ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
+        },
+        {
+          "text": "Corbella 1BR $1,797→$1,727",
+          "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
+        },
+        {
+          "text": "Inglenook Court 1BR $1,557→$1,669 (budget→stretch)",
+          "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
+        },
+        {
+          "text": "Collins Junction 1BR → gone (not accepting tenants)",
+          "href": "https://collinsjunction.com/floorplans/1x1/"
+        },
+        {
+          "text": "Serene Village 2BR still from $1,875 but no move-in dates in next 2 months (Oct risk)",
+          "href": "https://www.rentable.co/lynnwood-wa/serene-village"
+        },
+        {
+          "text": "Asbury Park 2BR still waitlist/$Ask (no priced 2BR)",
+          "href": "https://www.rentable.co/kirkland-wa/asbury-park"
+        }
+      ]
+    },
+    {
       "date": "2026-09-26",
       "title": "NEW Campo Basso + 15536 27th + Linden Ave 1BR; Inglenook 2BR $1,927; Jo-al $1,885; 20034 $1,750",
       "lede": "Material Saturday refresh. NEW 2BRs: Campo Basso Lynnwood from $1,895; 15536 27th Ave NE Shoreline $1,995; Heritage Ridge $2,194 and Newberry Square $2,191 (stretch). NEW 1BRs: 18524 Linden Ave N $1,550 Oct 1; Campo Basso from $1,565; 21311 52nd MLT $1,650. CHANGED: Inglenook 2BR $1,737→$1,927 (ideal→budget); Jo-al $1,999→$1,885; 20034 15th $1,850→$1,750; Corbella 1BR $1,719→$1,797; Asbury Park 2BR still waitlist/$Ask. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799, Heather Ridge / Paceline 1BR $1,617 EV. Small nudges: Inglenook 1BR $1,557, Whispering Cedars 2BR $1,830, Lakeside 1BR $1,509.",
@@ -1704,4 +1749,4 @@ window.UPDATES_DATA = {
       ]
     }
   ]
-};
+}
