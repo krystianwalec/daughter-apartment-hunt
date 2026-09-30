@@ -1,6 +1,51 @@
 {
   "entries": [
     {
+      "date": "2026-09-30",
+      "title": "NEW Mountain View Lynnwood 2BR $1,695 + Griffis/Owl 1BRs; Campo $1,317; Paceline $1,526; Willow Grove 2BR gone",
+      "lede": "3 new listings (Lynnwood Mountain View 2BR ideal; Griffis Shoreline + Owl Northgate 1BRs). Material moves: Campo Basso 1BR down to $1,317; Paceline 1BR $1,526; Urban Center 1BR $1,549 (now budget); 9244 Greenwood $1,300; Ascent $2,237; Willow Tree Grove 2BR marked gone (3BR/4BR only).",
+      "new": [
+        {
+          "text": "Mountain View Apartments 2BR $1,695 (ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
+        },
+        {
+          "text": "Griffis Shoreline — 1BR from $1,755 (stretch)",
+          "href": "https://www.rentable.co/shoreline-wa/the-current"
+        },
+        {
+          "text": "Owl Northgate — 1BR from $1,699 (stretch)",
+          "href": "https://www.rentable.co/seattle-wa/owl-northgate"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Campo Basso 1BR $1,393→$1,317 (still ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
+        },
+        {
+          "text": "Paceline 1BR $1,617→$1,526 (still budget, EV)",
+          "href": "https://www.rentable.co/shoreline-wa/paceline"
+        },
+        {
+          "text": "Urban Center 1BR $1,449→$1,549 (ideal→budget)",
+          "href": "https://www.rentable.co/lynnwood-wa/urban-center"
+        },
+        {
+          "text": "9244 Greenwood 1BR $1,075→$1,300 (still ideal)",
+          "href": "https://www.rentable.co/seattle-wa/9244-greenwood-ave-n"
+        },
+        {
+          "text": "Willow Tree Grove 2BR gone (only 3BR/4BR from $2,195)",
+          "href": "https://www.rentable.co/bothell-wa/willow-tree-grove"
+        },
+        {
+          "text": "Ascent Kirkland 2BR $2,177→$2,237 (still stretch)",
+          "href": "https://www.rentable.co/kirkland-wa/ascent"
+        }
+      ]
+    },
+    {
       "date": "2026-09-29",
       "title": "NEW 17422 2BR $1,925 + Cedarwood $1,850 + Spencer/152nd 1BRs; Inglenook $1,927; Vue $2,138; Serra Vista $1,795",
       "lede": "6 new listings (Lynnwood 2BR townhome, Totem Lake condo, Kenmore/Shoreline 1BRs). Material rent moves on Inglenook, Vue, Canyon Pointe, Serra Vista, Trailside, Campo Basso 1BR, and others.",
