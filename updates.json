@@ -1,6 +1,30 @@
 {
   "entries": [
     {
+      "date": "2026-10-01",
+      "title": "Capri 2BR $1,699 (ideal); Urban Center 1BR $1,449; Serra Vista $1,895; Campo $1,495",
+      "lede": "Material moves: Capri Mountlake Terrace 2BR $1,799→$1,699 (budget→ideal); Urban Center 1BR $1,549→$1,449 (budget→ideal); Serra Vista 2BR $1,795→$1,895 (ideal→budget); Campo Basso 1BR $1,317→$1,495 (still ideal). No new listings verified today.",
+      "new": [],
+      "changed": [
+        {
+          "text": "Capri 2BR $1,799→$1,699 (budget→ideal)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
+        },
+        {
+          "text": "Urban Center 1BR $1,549→$1,449 (budget→ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/urban-center"
+        },
+        {
+          "text": "Serra Vista 2BR $1,795→$1,895 (ideal→budget)",
+          "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
+        },
+        {
+          "text": "Campo Basso 1BR $1,317→$1,495 (still ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
+        }
+      ]
+    },
+    {
       "date": "2026-09-30",
       "title": "NEW Mountain View Lynnwood 2BR $1,695 + Griffis/Owl 1BRs; Campo $1,317; Paceline $1,526; Willow Grove 2BR gone",
       "lede": "3 new listings (Lynnwood Mountain View 2BR ideal; Griffis Shoreline + Owl Northgate 1BRs). Material moves: Campo Basso 1BR down to $1,317; Paceline 1BR $1,526; Urban Center 1BR $1,549 (now budget); 9244 Greenwood $1,300; Ascent $2,237; Willow Tree Grove 2BR marked gone (3BR/4BR only).",
