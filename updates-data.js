@@ -1,38 +1,83 @@
 window.UPDATES_DATA = {
   "entries": [
     {
-      "date": "2026-10-02",
-      "title": "NEW Kenmore Village 2BR $1,945 + The Pop 1BR $1,695; Serra Vista $2,095; Aspire $1,945; Crown Hill $1,625",
-      "lede": "2 new listings (Kenmore Village 2BR budget; The Pop Bothell 1BR stretch). Material moves: Serra Vista 2BR $1,895\u2192$2,095 (budget\u2192stretch); Aspire MLT 2BR $2,075\u2192$1,945 (stretch\u2192budget); Crown Hill Court 1BR $1,699\u2192$1,625 (stretch\u2192budget); Owl Northgate 1BR $1,699\u2192$1,750; Northpointe 1BR $1,720\u2192$1,695.",
+      "date": "2026-10-03",
+      "title": "NEW 12700 116th Ave NE 1BR $1,362 + North City Place 1BR $1,740…; Canyon Pointe $2,037; Stonehedge $1,977; 15536 27th $1,895; Dor-rik $1,450",
+      "lede": "4 new 1BRs (12700 116th Kirkland ideal $1,362; North City Place / Highland Lofts / Waterstone stretch). Material moves: Canyon Pointe 2BR $2,337→$2,037 (over→stretch); Stonehedge $2,077→$1,977 (stretch→budget); Dor-rik 1BR $1,495→$1,450 (budget→ideal); 205 Shoreline 1BR $1,515→$1,625; 15536 27th 2BR $1,995→$1,895.",
       "new": [
         {
-          "text": "Kenmore Village \u2014 2BR Apt 131 $1,945 (budget)",
+          "text": "12700 116th Ave NE — 1BR from $1,362 (ideal)",
+          "href": "https://www.rentable.co/kirkland-wa/12700-116th-ave-ne"
+        },
+        {
+          "text": "North City Place — 1BR from $1,740 (stretch)",
+          "href": "https://www.rentable.co/shoreline-wa/north-city-place-apartments-firs"
+        },
+        {
+          "text": "Highland Lofts — 1BR from $1,795 (stretch)",
+          "href": "https://www.rentable.co/shoreline-wa/highland-lofts-apartments"
+        },
+        {
+          "text": "Waterstone at North Creek — 1BR from $1,782 (stretch)",
+          "href": "https://www.rentable.co/bothell-wa/waterstone-at-silver-creek"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Canyon Pointe 2BR $2,337→$2,037 (over→stretch)",
+          "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
+        },
+        {
+          "text": "Stonehedge Village 2BR $2,077→$1,977 (stretch→budget)",
+          "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
+        },
+        {
+          "text": "15536 27th Ave NE 2BR $1,995→$1,895",
+          "href": "https://www.rentable.co/shoreline-wa/15536-27th-ave-ne"
+        },
+        {
+          "text": "Dor-rik 1BR $1,495→$1,450 (budget→ideal)",
+          "href": "https://www.rentable.co/seattle-wa/2655-14th-ave-w"
+        },
+        {
+          "text": "205 Apartments 1BR $1,515→$1,625",
+          "href": "https://www.rentable.co/shoreline-wa/205-apartments-1795-st"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "title": "NEW Kenmore Village 2BR $1,945 + The Pop 1BR $1,695; Serra Vista $2,095; Aspire $1,945; Crown Hill $1,625",
+      "lede": "2 new listings (Kenmore Village 2BR budget; The Pop Bothell 1BR stretch). Material moves: Serra Vista 2BR $1,895→$2,095 (budget→stretch); Aspire MLT 2BR $2,075→$1,945 (stretch→budget); Crown Hill Court 1BR $1,699→$1,625 (stretch→budget); Owl Northgate 1BR $1,699→$1,750; Northpointe 1BR $1,720→$1,695.",
+      "new": [
+        {
+          "text": "Kenmore Village — 2BR Apt 131 $1,945 (budget)",
           "href": "https://northwest.appfolio.com/listings/detail/2992424e-586a-4742-b8e6-44bb62d994d1"
         },
         {
-          "text": "The Pop Bothell \u2014 1BR from $1,695 (stretch)",
+          "text": "The Pop Bothell — 1BR from $1,695 (stretch)",
           "href": "https://www.rentable.co/bothell-wa/the-pop"
         }
       ],
       "changed": [
         {
-          "text": "Serra Vista 2BR $1,895\u2192$2,095 (budget\u2192stretch)",
+          "text": "Serra Vista 2BR $1,895→$2,095 (budget→stretch)",
           "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
         },
         {
-          "text": "Aspire MLT 2BR $2,075\u2192$1,945 (stretch\u2192budget)",
+          "text": "Aspire MLT 2BR $2,075→$1,945 (stretch→budget)",
           "href": "https://www.rentable.co/mountlake-terrace-wa/aspire-apartments-at-mountlake-terrace"
         },
         {
-          "text": "Crown Hill Court 1BR $1,699\u2192$1,625 (stretch\u2192budget)",
+          "text": "Crown Hill Court 1BR $1,699→$1,625 (stretch→budget)",
           "href": "https://www.rentable.co/seattle-wa/crown-hill-court"
         },
         {
-          "text": "Owl Northgate 1BR $1,699\u2192$1,750 (still stretch, EV)",
+          "text": "Owl Northgate 1BR $1,699→$1,750 (still stretch, EV)",
           "href": "https://www.rentable.co/seattle-wa/owl-northgate"
         },
         {
-          "text": "Northpointe Highlands 1BR $1,720\u2192$1,695 (still stretch)",
+          "text": "Northpointe Highlands 1BR $1,720→$1,695 (still stretch)",
           "href": "https://www.rentable.co/kenmore-wa/17512-83rd-pl-ne"
         }
       ]
@@ -40,23 +85,23 @@ window.UPDATES_DATA = {
     {
       "date": "2026-10-01",
       "title": "Capri 2BR $1,699 (ideal); Urban Center 1BR $1,449; Serra Vista $1,895; Campo $1,495",
-      "lede": "Material moves: Capri Mountlake Terrace 2BR $1,799\u2192$1,699 (budget\u2192ideal); Urban Center 1BR $1,549\u2192$1,449 (budget\u2192ideal); Serra Vista 2BR $1,795\u2192$1,895 (ideal\u2192budget); Campo Basso 1BR $1,317\u2192$1,495 (still ideal). No new listings verified today.",
+      "lede": "Material moves: Capri Mountlake Terrace 2BR $1,799→$1,699 (budget→ideal); Urban Center 1BR $1,549→$1,449 (budget→ideal); Serra Vista 2BR $1,795→$1,895 (ideal→budget); Campo Basso 1BR $1,317→$1,495 (still ideal). No new listings verified today.",
       "new": [],
       "changed": [
         {
-          "text": "Capri 2BR $1,799\u2192$1,699 (budget\u2192ideal)",
+          "text": "Capri 2BR $1,799→$1,699 (budget→ideal)",
           "href": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
         },
         {
-          "text": "Urban Center 1BR $1,549\u2192$1,449 (budget\u2192ideal)",
+          "text": "Urban Center 1BR $1,549→$1,449 (budget→ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/urban-center"
         },
         {
-          "text": "Serra Vista 2BR $1,795\u2192$1,895 (ideal\u2192budget)",
+          "text": "Serra Vista 2BR $1,795→$1,895 (ideal→budget)",
           "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
         },
         {
-          "text": "Campo Basso 1BR $1,317\u2192$1,495 (still ideal)",
+          "text": "Campo Basso 1BR $1,317→$1,495 (still ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
         }
       ]
@@ -71,29 +116,29 @@ window.UPDATES_DATA = {
           "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
         },
         {
-          "text": "Griffis Shoreline \u2014 1BR from $1,755 (stretch)",
+          "text": "Griffis Shoreline — 1BR from $1,755 (stretch)",
           "href": "https://www.rentable.co/shoreline-wa/the-current"
         },
         {
-          "text": "Owl Northgate \u2014 1BR from $1,699 (stretch)",
+          "text": "Owl Northgate — 1BR from $1,699 (stretch)",
           "href": "https://www.rentable.co/seattle-wa/owl-northgate"
         }
       ],
       "changed": [
         {
-          "text": "Campo Basso 1BR $1,393\u2192$1,317 (still ideal)",
+          "text": "Campo Basso 1BR $1,393→$1,317 (still ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
         },
         {
-          "text": "Paceline 1BR $1,617\u2192$1,526 (still budget, EV)",
+          "text": "Paceline 1BR $1,617→$1,526 (still budget, EV)",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Urban Center 1BR $1,449\u2192$1,549 (ideal\u2192budget)",
+          "text": "Urban Center 1BR $1,449→$1,549 (ideal→budget)",
           "href": "https://www.rentable.co/lynnwood-wa/urban-center"
         },
         {
-          "text": "9244 Greenwood 1BR $1,075\u2192$1,300 (still ideal)",
+          "text": "9244 Greenwood 1BR $1,075→$1,300 (still ideal)",
           "href": "https://www.rentable.co/seattle-wa/9244-greenwood-ave-n"
         },
         {
@@ -101,7 +146,7 @@ window.UPDATES_DATA = {
           "href": "https://www.rentable.co/bothell-wa/willow-tree-grove"
         },
         {
-          "text": "Ascent Kirkland 2BR $2,177\u2192$2,237 (still stretch)",
+          "text": "Ascent Kirkland 2BR $2,177→$2,237 (still stretch)",
           "href": "https://www.rentable.co/kirkland-wa/ascent"
         }
       ]
@@ -138,39 +183,39 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Campo Basso 1BR $1,303\u2192$1,393 (still ideal)",
+          "text": "Campo Basso 1BR $1,303→$1,393 (still ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
         },
         {
-          "text": "Inglenook Court 2BR $1,807\u2192$1,927",
+          "text": "Inglenook Court 2BR $1,807→$1,927",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Vue Kirkland 2BR $1,899\u2192$2,138 (budget\u2192stretch, EV)",
+          "text": "Vue Kirkland 2BR $1,899→$2,138 (budget→stretch, EV)",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
-          "text": "Canyon Pointe 2BR $2,069\u2192$2,337 (stretch\u2192over)",
+          "text": "Canyon Pointe 2BR $2,069→$2,337 (stretch→over)",
           "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
         },
         {
-          "text": "Trailside 2BR $1,945\u2192$1,995",
+          "text": "Trailside 2BR $1,945→$1,995",
           "href": "https://www.rentable.co/bothell-wa/17725-hall-rd"
         },
         {
-          "text": "Serra Vista 2BR $1,895\u2192$1,795 (budget\u2192ideal)",
+          "text": "Serra Vista 2BR $1,895→$1,795 (budget→ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
         },
         {
-          "text": "Stonehedge Village 2BR $2,019\u2192$2,077",
+          "text": "Stonehedge Village 2BR $2,019→$2,077",
           "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
         },
         {
-          "text": "Alderwood Heights 1BR $1,826\u2192$1,724 (over\u2192stretch)",
+          "text": "Alderwood Heights 1BR $1,826→$1,724 (over→stretch)",
           "href": "https://www.rentable.co/lynnwood-wa/alderwood-heights"
         },
         {
-          "text": "Bothell Ridge 1BR $1,599\u2192$1,557 (stretch\u2192budget)",
+          "text": "Bothell Ridge 1BR $1,599→$1,557 (stretch→budget)",
           "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
         }
       ]
@@ -178,7 +223,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-28",
       "title": "NEW Delta Estates $1,900 + Laurel Park / 17422 1BRs; Inglenook 2BR $1,807; Polaris $2,138; Millwood 1BR $1,710",
-      "lede": "Material Monday refresh. NEW: Delta Estates Mountlake Terrace 2BR townhomes from $1,900 (budget \u2014 verify live rent); 17422 52nd Ave W Lynnwood 1BR $1,495 (ideal); Laurel Park Kirkland #228 1BR $1,645 (budget, strong A); Polaris Totem Lake 1BR from $1,786 (stretch, LIHTC). CHANGED: Inglenook 2BR $1,927\u2192$1,807; Inglenook 1BR $1,669\u2192$1,749; Millwood 1BR $1,618\u2192$1,710 (budget\u2192stretch); Polaris 2BR $1,685\u2192$2,138 (budget\u2192stretch, LIHTC); 9244 Greenwood 1BR $1,300\u2192$1,075; 3425 14th Ave W 1BR $1,555\u2192$1,475; Hillside still $1,795 (fit\u2192ideal, URL restored). Asbury Park 2BR still waitlist/no priced 2BR; Serene Village still no Oct move-in dates. Shortlist still live: Linden II $1,695/$1,495, Brittany $1,650/$1,350, Junction/Allai $1,695, Quinn $1,699 EV, Millwood 2BR $1,720, Grata $1,686, Vue $1,899 EV, Asteria $1,799/$1,575, Urban Center $1,799/$1,449, 5607 204th $1,595, Capri $1,799/$1,499, Lakeside $1,701/$1,538, Paceline 1BR $1,617 EV.",
+      "lede": "Material Monday refresh. NEW: Delta Estates Mountlake Terrace 2BR townhomes from $1,900 (budget — verify live rent); 17422 52nd Ave W Lynnwood 1BR $1,495 (ideal); Laurel Park Kirkland #228 1BR $1,645 (budget, strong A); Polaris Totem Lake 1BR from $1,786 (stretch, LIHTC). CHANGED: Inglenook 2BR $1,927→$1,807; Inglenook 1BR $1,669→$1,749; Millwood 1BR $1,618→$1,710 (budget→stretch); Polaris 2BR $1,685→$2,138 (budget→stretch, LIHTC); 9244 Greenwood 1BR $1,300→$1,075; 3425 14th Ave W 1BR $1,555→$1,475; Hillside still $1,795 (fit→ideal, URL restored). Asbury Park 2BR still waitlist/no priced 2BR; Serene Village still no Oct move-in dates. Shortlist still live: Linden II $1,695/$1,495, Brittany $1,650/$1,350, Junction/Allai $1,695, Quinn $1,699 EV, Millwood 2BR $1,720, Grata $1,686, Vue $1,899 EV, Asteria $1,799/$1,575, Urban Center $1,799/$1,449, 5607 204th $1,595, Capri $1,799/$1,499, Lakeside $1,701/$1,538, Paceline 1BR $1,617 EV.",
       "new": [
         {
           "text": "Delta Estates MLT 2BR from $1,900 (budget)",
@@ -199,31 +244,31 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Inglenook Court 2BR $1,927\u2192$1,807",
+          "text": "Inglenook Court 2BR $1,927→$1,807",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Inglenook Court 1BR $1,669\u2192$1,749",
+          "text": "Inglenook Court 1BR $1,669→$1,749",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Millwood Estates 1BR $1,618\u2192$1,710 (budget\u2192stretch)",
+          "text": "Millwood Estates 1BR $1,618→$1,710 (budget→stretch)",
           "href": "https://www.rentable.co/lynnwood-wa/millwood-estates"
         },
         {
-          "text": "9244 Greenwood 1BR $1,300\u2192$1,075 (budget\u2192ideal)",
+          "text": "9244 Greenwood 1BR $1,300→$1,075 (budget→ideal)",
           "href": "https://www.rentable.co/seattle-wa/9244-greenwood-ave-n"
         },
         {
-          "text": "3425 14th Ave W 1BR $1,555\u2192$1,475 (budget\u2192ideal)",
+          "text": "3425 14th Ave W 1BR $1,555→$1,475 (budget→ideal)",
           "href": "https://www.rentable.co/seattle-wa/3425-14th-ave-w"
         },
         {
-          "text": "Polaris at Totem Lake 2BR $1,685\u2192$2,138 (budget\u2192stretch, LIHTC)",
+          "text": "Polaris at Totem Lake 2BR $1,685→$2,138 (budget→stretch, LIHTC)",
           "href": "https://www.rentable.co/kirkland-wa/12333-120th-ave-ne"
         },
         {
-          "text": "Hillside Bothell still $1,795 (budget\u2192ideal); URL restored",
+          "text": "Hillside Bothell still $1,795 (budget→ideal); URL restored",
           "href": "https://www.rentable.co/bothell-wa/18125-96th-ave-ne"
         }
       ]
@@ -231,7 +276,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-27",
       "title": "NEW Brittany Place $1,650/$1,350 + Asteria 1BR $1,575; Campo Basso 1BR $1,303; Inglenook 1BR $1,669",
-      "lede": "Material Sunday refresh. NEW: Brittany Place Lynnwood 2BR $1,650 + 1BR from $1,350 (ideal, near Transit Center); Asteria Place Kenmore 1BR from $1,575 (budget companion). CHANGED: Campo Basso 1BR $1,565\u2192$1,303 (budget\u2192ideal); Inglenook 1BR $1,557\u2192$1,669 (budget\u2192stretch); Corbella 1BR $1,797\u2192$1,727; Collins Junction 1BR \u2192 gone (not accepting tenants). Asbury Park 2BR still waitlist/$Ask; Serene Village still $1,875 but no Oct move-in dates. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799/$1,449, Heather Ridge / Paceline 1BR $1,617 EV, Capri $1,799/$1,499, Lakeside $1,701/$1,538. Small nudges: Martha Lake 2BR $1,849, Heritage Ridge 2BR $2,204, Lakeside 1BR $1,538.",
+      "lede": "Material Sunday refresh. NEW: Brittany Place Lynnwood 2BR $1,650 + 1BR from $1,350 (ideal, near Transit Center); Asteria Place Kenmore 1BR from $1,575 (budget companion). CHANGED: Campo Basso 1BR $1,565→$1,303 (budget→ideal); Inglenook 1BR $1,557→$1,669 (budget→stretch); Corbella 1BR $1,797→$1,727; Collins Junction 1BR → gone (not accepting tenants). Asbury Park 2BR still waitlist/$Ask; Serene Village still $1,875 but no Oct move-in dates. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799/$1,449, Heather Ridge / Paceline 1BR $1,617 EV, Capri $1,799/$1,499, Lakeside $1,701/$1,538. Small nudges: Martha Lake 2BR $1,849, Heritage Ridge 2BR $2,204, Lakeside 1BR $1,538.",
       "new": [
         {
           "text": "Brittany Place Lynnwood 2BR $1,650 (ideal)",
@@ -248,19 +293,19 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Campo Basso 1BR $1,565\u2192$1,303 (budget\u2192ideal)",
+          "text": "Campo Basso 1BR $1,565→$1,303 (budget→ideal)",
           "href": "https://www.rentable.co/lynnwood-wa/properties/4517147"
         },
         {
-          "text": "Corbella 1BR $1,797\u2192$1,727",
+          "text": "Corbella 1BR $1,797→$1,727",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         },
         {
-          "text": "Inglenook Court 1BR $1,557\u2192$1,669 (budget\u2192stretch)",
+          "text": "Inglenook Court 1BR $1,557→$1,669 (budget→stretch)",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Collins Junction 1BR \u2192 gone (not accepting tenants)",
+          "text": "Collins Junction 1BR → gone (not accepting tenants)",
           "href": "https://collinsjunction.com/floorplans/1x1/"
         },
         {
@@ -276,7 +321,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-26",
       "title": "NEW Campo Basso + 15536 27th + Linden Ave 1BR; Inglenook 2BR $1,927; Jo-al $1,885; 20034 $1,750",
-      "lede": "Material Saturday refresh. NEW 2BRs: Campo Basso Lynnwood from $1,895; 15536 27th Ave NE Shoreline $1,995; Heritage Ridge $2,194 and Newberry Square $2,191 (stretch). NEW 1BRs: 18524 Linden Ave N $1,550 Oct 1; Campo Basso from $1,565; 21311 52nd MLT $1,650. CHANGED: Inglenook 2BR $1,737\u2192$1,927 (ideal\u2192budget); Jo-al $1,999\u2192$1,885; 20034 15th $1,850\u2192$1,750; Corbella 1BR $1,719\u2192$1,797; Asbury Park 2BR still waitlist/$Ask. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799, Heather Ridge / Paceline 1BR $1,617 EV. Small nudges: Inglenook 1BR $1,557, Whispering Cedars 2BR $1,830, Lakeside 1BR $1,509.",
+      "lede": "Material Saturday refresh. NEW 2BRs: Campo Basso Lynnwood from $1,895; 15536 27th Ave NE Shoreline $1,995; Heritage Ridge $2,194 and Newberry Square $2,191 (stretch). NEW 1BRs: 18524 Linden Ave N $1,550 Oct 1; Campo Basso from $1,565; 21311 52nd MLT $1,650. CHANGED: Inglenook 2BR $1,737→$1,927 (ideal→budget); Jo-al $1,999→$1,885; 20034 15th $1,850→$1,750; Corbella 1BR $1,719→$1,797; Asbury Park 2BR still waitlist/$Ask. Shortlist still live: Linden II $1,695/$1,495, Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Urban Center $1,799, Heather Ridge / Paceline 1BR $1,617 EV. Small nudges: Inglenook 1BR $1,557, Whispering Cedars 2BR $1,830, Lakeside 1BR $1,509.",
       "new": [
         {
           "text": "Campo Basso Lynnwood 2BR from $1,895 (budget)",
@@ -309,19 +354,19 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Inglenook Court 2BR $1,737\u2192$1,927 (ideal\u2192budget)",
+          "text": "Inglenook Court 2BR $1,737→$1,927 (ideal→budget)",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Jo-al Townhomes 2BR $1,999\u2192$1,885",
+          "text": "Jo-al Townhomes 2BR $1,999→$1,885",
           "href": "https://www.rentable.co/mountlake-terrace-wa/jo-al-holdings-llc"
         },
         {
-          "text": "20034 15th Ave NE 2BR $1,850\u2192$1,750",
+          "text": "20034 15th Ave NE 2BR $1,850→$1,750",
           "href": "https://www.rentable.co/shoreline-wa/20034-15th-ave-ne"
         },
         {
-          "text": "Corbella 1BR $1,719\u2192$1,797",
+          "text": "Corbella 1BR $1,719→$1,797",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         },
         {
@@ -333,24 +378,24 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-25",
       "title": "NEW Linden II 2BR $1,695; Paceline 1BR $1,617; Asbury 2BR price still unconfirmed",
-      "lede": "Material Friday refresh. NEW: Linden II Shoreline 2BR Unit B17 from $1,695 (ideal; same complex as ideal 1BR $1,495). CHANGED: Paceline 1BR $1,694\u2192$1,617 (stretch\u2192budget, EV); Asbury Park still shows no priced 2BR on floor plans (studio/$1,685 + 1BR/~$2,052 only \u2014 confirm before tour); Lakeside MLT 2BR still from $1,700 with Oct 5\u201317 move-ins. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Jo-al $1,999, Urban Center $1,799, Heather Ridge / Octavia / Linden II 1BRs. Small nudges (not material): Inglenook 2BR $1,737, Martha Lake 2BR $1,847, Corbella 1BR $1,719.",
+      "lede": "Material Friday refresh. NEW: Linden II Shoreline 2BR Unit B17 from $1,695 (ideal; same complex as ideal 1BR $1,495). CHANGED: Paceline 1BR $1,694→$1,617 (stretch→budget, EV); Asbury Park still shows no priced 2BR on floor plans (studio/$1,685 + 1BR/~$2,052 only — confirm before tour); Lakeside MLT 2BR still from $1,700 with Oct 5–17 move-ins. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Village Plaza $1,800, 5607 204th $1,595 Nov 1, Jo-al $1,999, Urban Center $1,799, Heather Ridge / Octavia / Linden II 1BRs. Small nudges (not material): Inglenook 2BR $1,737, Martha Lake 2BR $1,847, Corbella 1BR $1,719.",
       "new": [
         {
-          "text": "Linden II \u2014 2BR from $1,695 (shoreline)",
+          "text": "Linden II — 2BR from $1,695 (shoreline)",
           "href": "https://www.rentable.co/shoreline-wa/linden-ii"
         }
       ],
       "changed": [
         {
-          "text": "Paceline \u2014 1BR $1,694\u2192$1,617 (stretch\u2192budget)",
+          "text": "Paceline — 1BR $1,694→$1,617 (stretch→budget)",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Asbury Park \u2014 2BR pricing still unconfirmed on floor plans",
+          "text": "Asbury Park — 2BR pricing still unconfirmed on floor plans",
           "href": "https://www.rentable.co/kirkland-wa/asbury-park"
         },
         {
-          "text": "Lakeside Apartments \u2014 2BR still $1,700; move-ins Oct 5\u201317",
+          "text": "Lakeside Apartments — 2BR still $1,700; move-ins Oct 5–17",
           "href": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
         }
       ]
@@ -358,72 +403,72 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-24",
       "title": "NEW 5607 204th $1,595 + Jo-al $1,999 + Linden II $1,495; Inglenook 2BR $1,717; Paceline 1BR $1,694",
-      "lede": "Material Thursday refresh. NEW: 5607 204th St SW Lynnwood 2BR from $1,595 (Nov 1); Jo-al Townhomes Mountlake Terrace 2BR from $1,999; Arabella 17763 15th Shoreline 2BR from $1,900; Woodcreek Lynnwood 2BR $2,213 / 1BR $1,799; Linden II Shoreline 1BR from $1,495; 2229 NE 197th Shoreline 1BR $1,750; Sammamish River Kenmore 1BR $1,800 (Oct 14). CHANGED: Inglenook 2BR $1,659\u2192$1,717; Paceline 1BR $1,569\u2192$1,694; Corbella 1BR $1,657\u2192$1,747; Canyon Pointe 2BR $1,967\u2192$2,069; Martha Lake 1BR $1,687\u2192$1,637; Trailside 2BR $1,995\u2192$1,945; Two 10 1BR $1,499\u2192$1,525 (ideal\u2192budget); Serene Village \u2014 still listed but no move-in dates in next 2 months (Oct risk). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Asbury ~$1,825 (confirm 2BR price), Inglenook 1BR $1,577.",
+      "lede": "Material Thursday refresh. NEW: 5607 204th St SW Lynnwood 2BR from $1,595 (Nov 1); Jo-al Townhomes Mountlake Terrace 2BR from $1,999; Arabella 17763 15th Shoreline 2BR from $1,900; Woodcreek Lynnwood 2BR $2,213 / 1BR $1,799; Linden II Shoreline 1BR from $1,495; 2229 NE 197th Shoreline 1BR $1,750; Sammamish River Kenmore 1BR $1,800 (Oct 14). CHANGED: Inglenook 2BR $1,659→$1,717; Paceline 1BR $1,569→$1,694; Corbella 1BR $1,657→$1,747; Canyon Pointe 2BR $1,967→$2,069; Martha Lake 1BR $1,687→$1,637; Trailside 2BR $1,995→$1,945; Two 10 1BR $1,499→$1,525 (ideal→budget); Serene Village — still listed but no move-in dates in next 2 months (Oct risk). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Asbury ~$1,825 (confirm 2BR price), Inglenook 1BR $1,577.",
       "new": [
         {
-          "text": "5607 204th St SW \u2014 2BR from $1,595 (lynnwood)",
+          "text": "5607 204th St SW — 2BR from $1,595 (lynnwood)",
           "href": "https://www.rentable.co/lynnwood-wa/5607-204th-st-sw"
         },
         {
-          "text": "Jo-al Townhomes \u2014 2BR from $1,999 (mountlake-terrace)",
+          "text": "Jo-al Townhomes — 2BR from $1,999 (mountlake-terrace)",
           "href": "https://www.rentable.co/mountlake-terrace-wa/jo-al-holdings-llc"
         },
         {
-          "text": "Arabella / 17763 15th Ave NE \u2014 2BR from $1,900 (shoreline)",
+          "text": "Arabella / 17763 15th Ave NE — 2BR from $1,900 (shoreline)",
           "href": "https://www.rentable.co/shoreline-wa/17763-15th-ave-ne"
         },
         {
-          "text": "Woodcreek Apartments \u2014 2BR from $2,213 (lynnwood)",
+          "text": "Woodcreek Apartments — 2BR from $2,213 (lynnwood)",
           "href": "https://www.rentable.co/lynnwood-wa/woodcreek-apartments"
         },
         {
-          "text": "Linden II \u2014 1BR from $1,495 (shoreline)",
+          "text": "Linden II — 1BR from $1,495 (shoreline)",
           "href": "https://www.rentable.co/shoreline-wa/linden-ii"
         },
         {
-          "text": "Woodcreek Apartments \u2014 1BR from $1,799 (lynnwood)",
+          "text": "Woodcreek Apartments — 1BR from $1,799 (lynnwood)",
           "href": "https://www.rentable.co/lynnwood-wa/woodcreek-apartments"
         },
         {
-          "text": "2229 NE 197th Pl \u2014 1BR from $1,750 (shoreline)",
+          "text": "2229 NE 197th Pl — 1BR from $1,750 (shoreline)",
           "href": "https://www.rentable.co/shoreline-wa/2229-ne-197th-pl-unit-1"
         },
         {
-          "text": "Sammamish River Apartments \u2014 1BR from $1,800 (kenmore)",
+          "text": "Sammamish River Apartments — 1BR from $1,800 (kenmore)",
           "href": "https://www.rentable.co/kenmore-wa/sammamish-river-apartments"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 2BR $1,659\u2192$1,717",
+          "text": "Inglenook Court — 2BR $1,659→$1,717",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Paceline \u2014 1BR $1,569\u2192$1,694",
+          "text": "Paceline — 1BR $1,569→$1,694",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Corbella at Juanita Bay \u2014 1BR $1,657\u2192$1,747",
+          "text": "Corbella at Juanita Bay — 1BR $1,657→$1,747",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         },
         {
-          "text": "Canyon Pointe \u2014 2BR $1,967\u2192$2,069",
+          "text": "Canyon Pointe — 2BR $1,967→$2,069",
           "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
         },
         {
-          "text": "Martha Lake \u2014 1BR $1,687\u2192$1,637",
+          "text": "Martha Lake — 1BR $1,687→$1,637",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Trailside \u2014 2BR $1,995\u2192$1,945",
+          "text": "Trailside — 2BR $1,995→$1,945",
           "href": "https://www.rentable.co/bothell-wa/17725-hall-rd"
         },
         {
-          "text": "Two 10 by Vintage \u2014 1BR $1,499\u2192$1,525",
+          "text": "Two 10 by Vintage — 1BR $1,499→$1,525",
           "href": "https://www.rentable.co/shoreline-wa/two-10-by-vintage"
         },
         {
-          "text": "Serene Village \u2014 2BR still listed but no move-in dates in next 2 months (Oct risk)",
+          "text": "Serene Village — 2BR still listed but no move-in dates in next 2 months (Oct risk)",
           "href": "https://www.rentable.co/lynnwood-wa/serene-village"
         }
       ]
@@ -431,52 +476,52 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-23",
       "title": "Martha Lake 2BR $1,819; Inglenook 1BR $1,587; NEW Heather Ridge + Village Plaza",
-      "lede": "Material Wednesday refresh: Martha Lake 2BR $1,729\u2192$1,819 (ideal\u2192budget); Inglenook 1BR $1,697\u2192$1,587; Orchard Ridge 1BR $1,860\u2192$1,760; Stonehedge $1,949\u2192$2,019; Canyon Springs 2BR $1,949\u2192$1,899; Corbella 2BR $2,217\u2192$2,269 / 1BR $1,607\u2192$1,657; Elevate 1BR $1,845\u2192$1,795; Serra Vista 1BR $1,795\u2192$2,150. NEW: Heather Ridge Lynnwood 1BR from $1,499 (re-listed); 9915 NE 119th Village Plaza 2BR from $1,800. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Asbury 2BR $1,825, Serene $1,875, Paceline 1BR $1,569, Inglenook 2BR $1,659.",
+      "lede": "Material Wednesday refresh: Martha Lake 2BR $1,729→$1,819 (ideal→budget); Inglenook 1BR $1,697→$1,587; Orchard Ridge 1BR $1,860→$1,760; Stonehedge $1,949→$2,019; Canyon Springs 2BR $1,949→$1,899; Corbella 2BR $2,217→$2,269 / 1BR $1,607→$1,657; Elevate 1BR $1,845→$1,795; Serra Vista 1BR $1,795→$2,150. NEW: Heather Ridge Lynnwood 1BR from $1,499 (re-listed); 9915 NE 119th Village Plaza 2BR from $1,800. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686, Vue $1,899 EV, Asbury 2BR $1,825, Serene $1,875, Paceline 1BR $1,569, Inglenook 2BR $1,659.",
       "new": [
         {
-          "text": "Heather Ridge \u2014 1BR from $1,499 (Lynnwood; re-listed)",
+          "text": "Heather Ridge — 1BR from $1,499 (Lynnwood; re-listed)",
           "href": "https://www.rentable.co/lynnwood-wa/20427-68th-ave-w"
         },
         {
-          "text": "9915 NE 119th (Village Plaza) \u2014 2BR from $1,800 (Kirkland)",
+          "text": "9915 NE 119th (Village Plaza) — 2BR from $1,800 (Kirkland)",
           "href": "https://www.rentable.co/kirkland-wa/9915-ne-119th-street-village-plz"
         }
       ],
       "changed": [
         {
-          "text": "Martha Lake \u2014 2BR $1,729\u2192$1,819",
+          "text": "Martha Lake — 2BR $1,729→$1,819",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Inglenook Court \u2014 1BR $1,697\u2192$1,587",
+          "text": "Inglenook Court — 1BR $1,697→$1,587",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Orchard Ridge \u2014 1BR $1,860\u2192$1,760",
+          "text": "Orchard Ridge — 1BR $1,860→$1,760",
           "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
         },
         {
-          "text": "Stonehedge Village \u2014 2BR $1,949\u2192$2,019",
+          "text": "Stonehedge Village — 2BR $1,949→$2,019",
           "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
         },
         {
-          "text": "Canyon Springs \u2014 2BR $1,949\u2192$1,899",
+          "text": "Canyon Springs — 2BR $1,949→$1,899",
           "href": "https://www.rentable.co/lynnwood-wa/canyon-springs"
         },
         {
-          "text": "Corbella Juanita Bay \u2014 2BR $2,217\u2192$2,269",
+          "text": "Corbella Juanita Bay — 2BR $2,217→$2,269",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         },
         {
-          "text": "Corbella Juanita Bay \u2014 1BR $1,607\u2192$1,657",
+          "text": "Corbella Juanita Bay — 1BR $1,607→$1,657",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         },
         {
-          "text": "Elevate \u2014 1BR $1,845\u2192$1,795",
+          "text": "Elevate — 1BR $1,845→$1,795",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Serra Vista \u2014 1BR $1,795\u2192$2,150",
+          "text": "Serra Vista — 1BR $1,795→$2,150",
           "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
         }
       ]
@@ -484,68 +529,68 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-22",
       "title": "Martha Lake 2BR $1,729; Vue $1,899 EV; NEW Asbury Park + Orchard Ridge",
-      "lede": "Material Tuesday refresh: Martha Lake 2BR $1,829\u2192$1,729 (into ideal); Vue Kirkland 2BR $2,138\u2192$1,899 with EV chargers; Glen Grove $2,195\u2192$1,995; Inglenook 1BR $1,587\u2192$1,697; Martha Lake 1BR $1,647\u2192$1,687; 192 Shoreline 1BR $1,612\u2192$1,099 (verify). NEW: Asbury Park Totem Lake 2BR from $1,825; Orchard Ridge Lynnwood 2BR $2,180 + 1BR $1,860; Villa Bonita 1BR $1,800. Beaver Creek index ~$1,550 AMI (HotPads 403). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Inglenook 2BR $1,667.",
+      "lede": "Material Tuesday refresh: Martha Lake 2BR $1,829→$1,729 (into ideal); Vue Kirkland 2BR $2,138→$1,899 with EV chargers; Glen Grove $2,195→$1,995; Inglenook 1BR $1,587→$1,697; Martha Lake 1BR $1,647→$1,687; 192 Shoreline 1BR $1,612→$1,099 (verify). NEW: Asbury Park Totem Lake 2BR from $1,825; Orchard Ridge Lynnwood 2BR $2,180 + 1BR $1,860; Villa Bonita 1BR $1,800. Beaver Creek index ~$1,550 AMI (HotPads 403). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Inglenook 2BR $1,667.",
       "new": [
         {
-          "text": "Asbury Park \u2014 2BR from $1,825 (Totem Lake; confirm floor)",
+          "text": "Asbury Park — 2BR from $1,825 (Totem Lake; confirm floor)",
           "href": "https://www.rentable.co/kirkland-wa/asbury-park"
         },
         {
-          "text": "Orchard Ridge \u2014 2BR from $2,180 (Lynnwood / 164th)",
+          "text": "Orchard Ridge — 2BR from $2,180 (Lynnwood / 164th)",
           "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
         },
         {
-          "text": "Orchard Ridge \u2014 1BR from $1,860",
+          "text": "Orchard Ridge — 1BR from $1,860",
           "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
         },
         {
-          "text": "Villa Bonita \u2014 1BR from $1,800 (Kirkland)",
+          "text": "Villa Bonita — 1BR from $1,800 (Kirkland)",
           "href": "https://www.rentable.co/kirkland-wa/villa-bonita"
         }
       ],
       "changed": [
         {
-          "text": "Martha Lake \u2014 2BR $1,829\u2192$1,729",
+          "text": "Martha Lake — 2BR $1,829→$1,729",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Martha Lake \u2014 1BR $1,647\u2192$1,687",
+          "text": "Martha Lake — 1BR $1,647→$1,687",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Vue Kirkland \u2014 2BR $2,138\u2192$1,899 (EV)",
+          "text": "Vue Kirkland — 2BR $2,138→$1,899 (EV)",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
-          "text": "Glen Grove \u2014 2BR $2,195\u2192$1,995",
+          "text": "Glen Grove — 2BR $2,195→$1,995",
           "href": "https://www.rentable.co/bothell-wa/10295-ne-189th-st"
         },
         {
-          "text": "Inglenook Court \u2014 1BR $1,587\u2192$1,697",
+          "text": "Inglenook Court — 1BR $1,587→$1,697",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Alderwood Heights \u2014 2BR $2,026\u2192$1,999 (EV)",
+          "text": "Alderwood Heights — 2BR $2,026→$1,999 (EV)",
           "href": "https://www.rentable.co/lynnwood-wa/alderwood-heights"
         },
         {
-          "text": "Stonehedge Village \u2014 2BR $1,989\u2192$1,949",
+          "text": "Stonehedge Village — 2BR $1,989→$1,949",
           "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
         },
         {
-          "text": "Geo \u2014 1BR $1,574\u2192$1,885",
+          "text": "Geo — 1BR $1,574→$1,885",
           "href": "https://www.rentable.co/shoreline-wa/geo"
         },
         {
-          "text": "192 Shoreline \u2014 1BR $1,612\u2192$1,099 (verify)",
+          "text": "192 Shoreline — 1BR $1,612→$1,099 (verify)",
           "href": "https://www.rentable.co/shoreline-wa/192-shoreline"
         },
         {
-          "text": "Beaver Creek \u2014 2BR $1,676\u2192$1,550 AMI (index; live 403)",
+          "text": "Beaver Creek — 2BR $1,676→$1,550 AMI (index; live 403)",
           "href": "https://hotpads.com/beaver-creek-lynnwood-wa-98036-skfjgh/pad"
         },
         {
-          "text": "Evergreen Heights \u2014 2BR $2,229\u2192$2,369",
+          "text": "Evergreen Heights — 2BR $2,229→$2,369",
           "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
         }
       ]
@@ -553,52 +598,52 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-21",
       "title": "Inglenook 2BR $1,677; Martha Lake 1BR $1,647; NEW Serene Village + Octavia",
-      "lede": "Material Monday refresh: Inglenook 2BR $1,707\u2192$1,677 (A204 Oct 14); Canyon Pointe 1BR $1,659\u2192$1,697; Martha Lake 1BR $1,567\u2192$1,647. NEW: Serene Village Lynnwood 2BR from $1,875 (+1BR $1,625) and Octavia Shoreline 1BR from $1,415. Gone: Olde Towne 2BR (0 available) and Encore 1BR (only Dec at $1,795). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Beaver Creek $1,676 AMI.",
+      "lede": "Material Monday refresh: Inglenook 2BR $1,707→$1,677 (A204 Oct 14); Canyon Pointe 1BR $1,659→$1,697; Martha Lake 1BR $1,567→$1,647. NEW: Serene Village Lynnwood 2BR from $1,875 (+1BR $1,625) and Octavia Shoreline 1BR from $1,415. Gone: Olde Towne 2BR (0 available) and Encore 1BR (only Dec at $1,795). Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV, Beaver Creek $1,676 AMI.",
       "new": [
         {
-          "text": "Serene Village \u2014 2BR from $1,875 (confirm Oct move-in)",
+          "text": "Serene Village — 2BR from $1,875 (confirm Oct move-in)",
           "href": "https://www.rentable.co/lynnwood-wa/serene-village"
         },
         {
-          "text": "Serene Village \u2014 1BR $1,625 (confirm Oct move-in)",
+          "text": "Serene Village — 1BR $1,625 (confirm Oct move-in)",
           "href": "https://www.rentable.co/lynnwood-wa/serene-village"
         },
         {
-          "text": "Octavia \u2014 1BR from $1,415 (Shoreline / Aurora Village)",
+          "text": "Octavia — 1BR from $1,415 (Shoreline / Aurora Village)",
           "href": "https://www.apartmenthomeliving.com/apartment-finder/Octavia-Shoreline-WA-98133-13557224"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 2BR $1,707\u2192$1,677",
+          "text": "Inglenook Court — 2BR $1,707→$1,677",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Inglenook Court \u2014 1BR $1,597\u2192$1,587",
+          "text": "Inglenook Court — 1BR $1,597→$1,587",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Canyon Pointe \u2014 1BR $1,659\u2192$1,697",
+          "text": "Canyon Pointe — 1BR $1,659→$1,697",
           "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
         },
         {
-          "text": "Martha Lake \u2014 1BR $1,567\u2192$1,647",
+          "text": "Martha Lake — 1BR $1,567→$1,647",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Martha Lake \u2014 2BR $1,839\u2192$1,829",
+          "text": "Martha Lake — 2BR $1,839→$1,829",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Olde Towne \u2014 2BR removed (was $1,795) \u2014 0 available",
+          "text": "Olde Towne — 2BR removed (was $1,795) — 0 available",
           "href": "https://www.rentable.co/bothell-wa/olde-towne"
         },
         {
-          "text": "The Encore \u2014 1BR removed (was $1,495) \u2014 only Dec 15 at $1,795",
+          "text": "The Encore — 1BR removed (was $1,495) — only Dec 15 at $1,795",
           "href": "https://www.rentable.co/lynnwood-wa/the-encore"
         },
         {
-          "text": "The Peaks \u2014 2BR removed (was $1,999) \u2014 not leasing / stale",
+          "text": "The Peaks — 2BR removed (was $1,999) — not leasing / stale",
           "href": "https://www.rentable.co/lynnwood-wa/the-peaks"
         }
       ]
@@ -606,44 +651,44 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-20",
       "title": "Canyon Pointe 2BR $1,959; Corbella 1BR $1,619; Beaver Creek + Corbella 2BR new",
-      "lede": "Material Sunday refresh: Canyon Pointe 2BR dropped $2,067\u2192$1,959; Corbella Juanita 1BR $1,727\u2192$1,619; Inglenook 2BR $1,729\u2192$1,707. NEW: Beaver Creek Lynnwood 2BR from $1,676 (income-restricted, near Link) and Corbella 2BR from $2,229. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV.",
+      "lede": "Material Sunday refresh: Canyon Pointe 2BR dropped $2,067→$1,959; Corbella Juanita 1BR $1,727→$1,619; Inglenook 2BR $1,729→$1,707. NEW: Beaver Creek Lynnwood 2BR from $1,676 (income-restricted, near Link) and Corbella 2BR from $2,229. Shortlist still live: Junction/Allai $1,695, Quinn $1,699 EV, Millwood $1,720, Grata $1,686 Sep 24, Paceline 1BR $1,569 EV.",
       "new": [
         {
-          "text": "Beaver Creek \u2014 2BR from $1,676 (income-restricted, near Lynnwood Link)",
+          "text": "Beaver Creek — 2BR from $1,676 (income-restricted, near Lynnwood Link)",
           "href": "https://hotpads.com/beaver-creek-lynnwood-wa-98036-skfjgh/pad"
         },
         {
-          "text": "Corbella at Juanita Bay \u2014 2BR from $2,229",
+          "text": "Corbella at Juanita Bay — 2BR from $2,229",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 2BR $1,729\u2192$1,707",
+          "text": "Inglenook Court — 2BR $1,729→$1,707",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Canyon Pointe \u2014 2BR $2,067\u2192$1,959",
+          "text": "Canyon Pointe — 2BR $2,067→$1,959",
           "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
         },
         {
-          "text": "Martha Lake \u2014 2BR $1,847\u2192$1,839",
+          "text": "Martha Lake — 2BR $1,847→$1,839",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Whispering Cedars \u2014 2BR $1,890\u2192$1,900",
+          "text": "Whispering Cedars — 2BR $1,890→$1,900",
           "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
         },
         {
-          "text": "Inglenook Court \u2014 1BR $1,599\u2192$1,597",
+          "text": "Inglenook Court — 1BR $1,599→$1,597",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Whispering Cedars \u2014 1BR $1,535\u2192$1,540",
+          "text": "Whispering Cedars — 1BR $1,535→$1,540",
           "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
         },
         {
-          "text": "Corbella at Juanita Bay \u2014 1BR $1,727\u2192$1,619",
+          "text": "Corbella at Juanita Bay — 1BR $1,727→$1,619",
           "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
         }
       ]
@@ -651,95 +696,95 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-19",
       "title": "Expired listings cleanup",
-      "lede": "Removed 10 stale/expired 2BR and 10 stale/expired 1BR listings (board 117\u2192107 2BR, 77\u219267 1BR). Verified gone: Timber Grove / Bristol Square 1BR / Grata 1BR (Sep 2027 only) / Autumn Ridge 2BR / Heather Ridge 2BR / Ivy 2BR / Polaris Eastgate 2BR / Mountain View / Pacific Place / 124th D114\u2013D115 / Tiburon #108 / FOREMAN1 / Cresswell / Brighton North / Evergreen Hill / Bertona #7 / Houghton #520 / Admiralty / Cinebar. Revived: Carrington 2BR Unit H06 $2,295; Barrett 1BR Unit 206 $1,629. Kept shortlist (Junction/Allai/Quinn/Millwood/Inglenook/Grata 2BR $1,686/Paceline 1BR EV). Unverified kept: Mercer Park, North City Place.",
+      "lede": "Removed 10 stale/expired 2BR and 10 stale/expired 1BR listings (board 117→107 2BR, 77→67 1BR). Verified gone: Timber Grove / Bristol Square 1BR / Grata 1BR (Sep 2027 only) / Autumn Ridge 2BR / Heather Ridge 2BR / Ivy 2BR / Polaris Eastgate 2BR / Mountain View / Pacific Place / 124th D114–D115 / Tiburon #108 / FOREMAN1 / Cresswell / Brighton North / Evergreen Hill / Bertona #7 / Houghton #520 / Admiralty / Cinebar. Revived: Carrington 2BR Unit H06 $2,295; Barrett 1BR Unit 206 $1,629. Kept shortlist (Junction/Allai/Quinn/Millwood/Inglenook/Grata 2BR $1,686/Paceline 1BR EV). Unverified kept: Mercer Park, North City Place.",
       "new": [],
       "changed": [
         {
-          "text": "Autumn Ridge \u2014 2BR removed (was $2,095) \u2014 no 2BR available (Rentable 0; 1BR only)",
+          "text": "Autumn Ridge — 2BR removed (was $2,095) — no 2BR available (Rentable 0; 1BR only)",
           "href": "https://www.rentable.co/shoreline-wa/15135-stone-ln-n"
         },
         {
-          "text": "11112 NE 124th Ln \u2014 D115 removed (was $1,899) \u2014 occupied / do not disturb (RentalSource removed)",
+          "text": "11112 NE 124th Ln — D115 removed (was $1,899) — occupied / do not disturb (RentalSource removed)",
           "href": "https://www.rentalsource.com/details/11112-ne-124th-lane-kirkland-wa-84013303/"
         },
         {
-          "text": "11112 NE 124th Ln \u2014 D114 removed (was $2,099) \u2014 no longer available (HotPads; Zumper 0)",
+          "text": "11112 NE 124th Ln — D114 removed (was $2,099) — no longer available (HotPads; Zumper 0)",
           "href": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
         },
         {
-          "text": "Tiburon \u2014 #108 removed (was $2,200) \u2014 ColdwellBanker 404 / off-market",
+          "text": "Tiburon — #108 removed (was $2,200) — ColdwellBanker 404 / off-market",
           "href": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
         },
         {
-          "text": "Ivy Interbay \u2014 2BR removed (was $2,150) \u2014 all 2BRs rented (0 available)",
+          "text": "Ivy Interbay — 2BR removed (was $2,150) — all 2BRs rented (0 available)",
           "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
         },
         {
-          "text": "Polaris at Eastgate \u2014 2BR removed (was $1,409) \u2014 no 2BRs available (Apartments.com)",
+          "text": "Polaris at Eastgate — 2BR removed (was $1,409) — no 2BRs available (Apartments.com)",
           "href": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
         },
         {
-          "text": "Heather Ridge \u2014 2BR removed (was $1,749) \u2014 no 2BRs available (ApartmentList; 1BRs only)",
+          "text": "Heather Ridge — 2BR removed (was $1,749) — no 2BRs available (ApartmentList; 1BRs only)",
           "href": "https://www.apartmentlist.com/wa/lynnwood/heather-ridge"
         },
         {
-          "text": "Mountain View \u2014 30R removed (was $1,695) \u2014 not accepting / all units rented",
+          "text": "Mountain View — 30R removed (was $1,695) — not accepting / all units rented",
           "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
         },
         {
-          "text": "Pacific Place \u2014 Unit 10 removed (was $1,995) \u2014 not accepting / all units rented",
+          "text": "Pacific Place — Unit 10 removed (was $1,995) — not accepting / all units rented",
           "href": "https://www.rentable.co/seattle-wa/pacific-place-apartments"
         },
         {
-          "text": "FOREMAN1 \u2014 4303 214th St SW removed (was $1,850) \u2014 occupied / do not disturb (RentalSource removed)",
+          "text": "FOREMAN1 — 4303 214th St SW removed (was $1,850) — occupied / do not disturb (RentalSource removed)",
           "href": "https://www.rentalsource.com/details/4303-214th-st-sw-mountlake-terrace-wa-84148169/"
         },
         {
-          "text": "Timber Grove \u2014 1BR removed (was $1,385) \u2014 all units rented / not accepting",
+          "text": "Timber Grove — 1BR removed (was $1,385) — all units rented / not accepting",
           "href": "https://www.rentable.co/lynnwood-wa/1805-filbert-rd"
         },
         {
-          "text": "Bristol Square \u2014 1BR removed (was $1,690) \u2014 0 available (all 1BRs rented; 2BR still live)",
+          "text": "Bristol Square — 1BR removed (was $1,690) — 0 available (all 1BRs rented; 2BR still live)",
           "href": "https://www.rentable.co/lynnwood-wa/bristol-square-apartments"
         },
         {
-          "text": "Grata at Totem Lake \u2014 1BR removed (was $1,398) \u2014 only Sep 3 2027 \u2014 stale for Oct 2026 move-in",
+          "text": "Grata at Totem Lake — 1BR removed (was $1,398) — only Sep 3 2027 — stale for Oct 2026 move-in",
           "href": "https://www.rentable.co/kirkland-wa/grata-apartments"
         },
         {
-          "text": "Evergreen Hill condo removed (was $1,750) \u2014 0 units available (ApartmentList)",
+          "text": "Evergreen Hill condo removed (was $1,750) — 0 units available (ApartmentList)",
           "href": "https://www.apartmentlist.com/wa/kirkland/clean-top-floor-1br-1ba-condo-with-wood-burning-fireplace"
         },
         {
-          "text": "Brighton North removed (was $1,495) \u2014 1BR UNAVAILABLE (PadMapper)",
+          "text": "Brighton North removed (was $1,495) — 1BR UNAVAILABLE (PadMapper)",
           "href": "https://www.padmapper.com/buildings/p119557/brighton-north-apartments-at-1549-ne-177th-st-shoreline-wa-98155"
         },
         {
-          "text": "Cresswell #203/#304 removed (was $1,595) \u2014 official NW Apartments shows 0 vacant",
+          "text": "Cresswell #203/#304 removed (was $1,595) — official NW Apartments shows 0 vacant",
           "href": "https://northwest.appfolio.com"
         },
         {
-          "text": "Cinebar Apartments removed (was $1,195) \u2014 stale \u2014 updated over 1 month ago",
+          "text": "Cinebar Apartments removed (was $1,195) — stale — updated over 1 month ago",
           "href": "https://www.rentable.co/seattle-wa/cinebar-apartments"
         },
         {
-          "text": "Bertona Apt #7 removed (was $1,675) \u2014 no longer available (HotPads)",
+          "text": "Bertona Apt #7 removed (was $1,675) — no longer available (HotPads)",
           "href": "https://hotpads.com/2014-w-bertona-st-seattle-wa-98199-skkwtp/7/pad"
         },
         {
-          "text": "Houghton condo Unit 520 removed (was $1,795) \u2014 Rentable shows Rented / 0 available",
+          "text": "Houghton condo Unit 520 removed (was $1,795) — Rentable shows Rented / 0 available",
           "href": "https://www.apartmentfinder.com/Washington/Kirkland-Apartments/1-Bed-1-Bath-Houghton-Condo-In-Kirkland-1795-Month-Apartments-nd3mbgm"
         },
         {
-          "text": "Admiralty Way condo removed (was $1,445) \u2014 stale \u2014 ApartmentList last updated Aug 9 2026",
+          "text": "Admiralty Way condo removed (was $1,445) — stale — ApartmentList last updated Aug 9 2026",
           "href": "https://www.apartmentlist.com/wa/north-lynnwood/ideal-1-bed-1-bath-lynnwood-condo-with-w-d-in-unit"
         },
         {
-          "text": "The Carrington 2BR LIVE AGAIN \u2014 Unit H06 $2,295 Sep 30 (was marked gone)",
+          "text": "The Carrington 2BR LIVE AGAIN — Unit H06 $2,295 Sep 30 (was marked gone)",
           "href": "https://www.apartmentlist.com/wa/bellevue/carrington"
         },
         {
-          "text": "Barrett Unit 206 1BR LIVE AGAIN \u2014 $1,629 Available Now (was marked gone)",
+          "text": "Barrett Unit 206 1BR LIVE AGAIN — $1,629 Available Now (was marked gone)",
           "href": "https://www.rentable.co/seattle-wa/2850-15th-ave"
         }
       ]
@@ -747,7 +792,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-19",
       "title": "Grata 2BR $1,686; Inglenook $1,729; Paceline 1BR $1,569; Nantucket $2,145; Emerson Totem Lake",
-      "lede": "Daily refresh. NEW: Nantucket Garden Lynnwood 2BR $2,145; Emerson Totem Lake 2BR from $2,220 / 1BR $1,900; Alderwood Heights 1BR from $1,836 (EV). MATERIAL: Grata Totem Lake 2BR $2,056\u2192$1,686 (ideal); Inglenook 2BR $1,799\u2192$1,729; Martha Lake 2BR $1,897\u2192$1,847; Paceline 1BR $1,704\u2192$1,569 + EV confirmed; Canyon Pointe 2BR $1,997\u2192$2,067. GONE/STALE: Timber Grove 1BR off-market; Bristol Square 1BR gone; Grata 1BR only Sep 2027 (not Oct 2026). Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne/Millwood/Serra) mostly steady.",
+      "lede": "Daily refresh. NEW: Nantucket Garden Lynnwood 2BR $2,145; Emerson Totem Lake 2BR from $2,220 / 1BR $1,900; Alderwood Heights 1BR from $1,836 (EV). MATERIAL: Grata Totem Lake 2BR $2,056→$1,686 (ideal); Inglenook 2BR $1,799→$1,729; Martha Lake 2BR $1,897→$1,847; Paceline 1BR $1,704→$1,569 + EV confirmed; Canyon Pointe 2BR $1,997→$2,067. GONE/STALE: Timber Grove 1BR off-market; Bristol Square 1BR gone; Grata 1BR only Sep 2027 (not Oct 2026). Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne/Millwood/Serra) mostly steady.",
       "new": [
         {
           "text": "Nantucket Garden 2BR $2,145",
@@ -768,23 +813,23 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Inglenook Court 2BR $1,799\u2192$1,729",
+          "text": "Inglenook Court 2BR $1,799→$1,729",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Canyon Pointe 2BR $1,997\u2192$2,067",
+          "text": "Canyon Pointe 2BR $1,997→$2,067",
           "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
         },
         {
-          "text": "Martha Lake 2BR $1,897\u2192$1,847",
+          "text": "Martha Lake 2BR $1,897→$1,847",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Grata Totem Lake 2BR $2,056\u2192$1,686",
+          "text": "Grata Totem Lake 2BR $2,056→$1,686",
           "href": "https://www.rentable.co/kirkland-wa/grata-apartments"
         },
         {
-          "text": "Paceline 1BR $1,704\u2192$1,569",
+          "text": "Paceline 1BR $1,704→$1,569",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
@@ -792,7 +837,7 @@ window.UPDATES_DATA = {
           "href": "https://www.rentable.co/lynnwood-wa/1805-filbert-rd"
         },
         {
-          "text": "Grata 1BR avail now\u2192Sep 2027 only ($1,398)",
+          "text": "Grata 1BR avail now→Sep 2027 only ($1,398)",
           "href": "https://www.rentable.co/kirkland-wa/grata-apartments"
         },
         {
@@ -804,7 +849,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-18",
       "title": "Inglenook 2BR $1,799; Grata 1BR $1,398 / Serra Vista $1,895; Whispering $1,885; Autumn Ridge 2BR gone",
-      "lede": "Daily refresh. NEW: Grata Totem Lake 1BR $1,398 (ideal) + 2BR $2,056; Serra Vista Lynnwood 2BR $1,895 / 1BR $1,795; Canyon Pointe Bothell 2BR $1,997 / 1BR $1,659; Allegro Lynnwood 2BR $2,153 / 1BR $1,750; Two 10 Vintage 1BR $1,499; The Artiste Shoreline 1BR $1,695; Corbella Juanita 1BR $1,767. MATERIAL: Inglenook 2BR $1,907\u2192$1,799; Whispering Cedars 2BR $1,825\u2192$1,885; Martha Lake 2BR $1,929\u2192$1,897; Ascent $2,009\u2192$2,137; Paceline 2BR $2,083\u2192$2,199 + 1BR $1,664\u2192$1,704; Evergreen Heights $2,057\u2192$2,187; Stonehedge $2,057\u2192$2,019; Timber Grove 1BR $1,350\u2192$1,385; Autumn Ridge 2BR off-market (1BR only). Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne/Millwood) mostly steady.",
+      "lede": "Daily refresh. NEW: Grata Totem Lake 1BR $1,398 (ideal) + 2BR $2,056; Serra Vista Lynnwood 2BR $1,895 / 1BR $1,795; Canyon Pointe Bothell 2BR $1,997 / 1BR $1,659; Allegro Lynnwood 2BR $2,153 / 1BR $1,750; Two 10 Vintage 1BR $1,499; The Artiste Shoreline 1BR $1,695; Corbella Juanita 1BR $1,767. MATERIAL: Inglenook 2BR $1,907→$1,799; Whispering Cedars 2BR $1,825→$1,885; Martha Lake 2BR $1,929→$1,897; Ascent $2,009→$2,137; Paceline 2BR $2,083→$2,199 + 1BR $1,664→$1,704; Evergreen Heights $2,057→$2,187; Stonehedge $2,057→$2,019; Timber Grove 1BR $1,350→$1,385; Autumn Ridge 2BR off-market (1BR only). Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne/Millwood) mostly steady.",
       "new": [
         {
           "text": "Grata at Totem Lake 1BR from $1,398",
@@ -841,39 +886,39 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Inglenook Court 2BR $1,907\u2192$1,799",
+          "text": "Inglenook Court 2BR $1,907→$1,799",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Whispering Cedars 2BR $1,825\u2192$1,885",
+          "text": "Whispering Cedars 2BR $1,825→$1,885",
           "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
         },
         {
-          "text": "Martha Lake 2BR $1,929\u2192$1,897",
+          "text": "Martha Lake 2BR $1,929→$1,897",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Stonehedge Village 2BR $2,057\u2192$2,019",
+          "text": "Stonehedge Village 2BR $2,057→$2,019",
           "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
         },
         {
-          "text": "Ascent Kirkland 2BR $2,009\u2192$2,137",
+          "text": "Ascent Kirkland 2BR $2,009→$2,137",
           "href": "https://www.rentable.co/kirkland-wa/ascent"
         },
         {
-          "text": "Paceline 2BR $2,083\u2192$2,199",
+          "text": "Paceline 2BR $2,083→$2,199",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Paceline 1BR $1,664\u2192$1,704",
+          "text": "Paceline 1BR $1,664→$1,704",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Evergreen Heights 2BR $2,057\u2192$2,187",
+          "text": "Evergreen Heights 2BR $2,057→$2,187",
           "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
         },
         {
-          "text": "Timber Grove 1BR $1,350\u2192$1,385",
+          "text": "Timber Grove 1BR $1,350→$1,385",
           "href": "https://www.rentable.co/lynnwood-wa/1805-filbert-rd"
         },
         {
@@ -885,7 +930,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-17",
       "title": "North City condo $2,000 / Inglenook 1BR $1,637; Millwood $1,720; Whispering $1,825; Bothell Ridge 2BR $2,087; Heron View",
-      "lede": "Daily refresh. NEW: Shoreline North City condo 18100 15th #C216 $2,000 (W/S/G + 2 parking); Inglenook 1BR from $1,637. MATERIAL moves: Millwood 2BR $1,925\u2192$1,720 (Oct 20); Whispering Cedars 2BR $1,875\u2192$1,825; Bothell Ridge 2BR $2,139\u2192$2,087 + 1BR $1,757\u2192$1,579; Elevate 1BR $1,695\u2192$1,845 (over); Blakely 1BR $1,299\u2192$1,199 (55+); Heron View prior ~$1,950 floor gone \u2014 WIP remodeled $2,100\u2013$2,400. Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne) mostly steady.",
+      "lede": "Daily refresh. NEW: Shoreline North City condo 18100 15th #C216 $2,000 (W/S/G + 2 parking); Inglenook 1BR from $1,637. MATERIAL moves: Millwood 2BR $1,925→$1,720 (Oct 20); Whispering Cedars 2BR $1,875→$1,825; Bothell Ridge 2BR $2,139→$2,087 + 1BR $1,757→$1,579; Elevate 1BR $1,695→$1,845 (over); Blakely 1BR $1,299→$1,199 (55+); Heron View prior ~$1,950 floor gone — WIP remodeled $2,100–$2,400. Ideal shortlist (Junction/Allai/Quinn/Urban Center/Olde Towne) mostly steady.",
       "new": [
         {
           "text": "18100 15th #C216 Shoreline 2BR $2,000 (W/S/G + 2 parking)",
@@ -898,31 +943,31 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Millwood Estates 2BR $1,925\u2192$1,720 (Oct 20)",
+          "text": "Millwood Estates 2BR $1,925→$1,720 (Oct 20)",
           "href": "https://www.rentable.co/lynnwood-wa/millwood-estates"
         },
         {
-          "text": "Whispering Cedars 2BR $1,875\u2192$1,825",
+          "text": "Whispering Cedars 2BR $1,875→$1,825",
           "href": "https://www.rentable.co/lynnwood-wa/whispering-cedars"
         },
         {
-          "text": "Bothell Ridge 2BR Unit 0428 $2,139\u2192$2,087",
+          "text": "Bothell Ridge 2BR Unit 0428 $2,139→$2,087",
           "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
         },
         {
-          "text": "Bothell Ridge 1BR $1,757\u2192$1,579",
+          "text": "Bothell Ridge 1BR $1,757→$1,579",
           "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
         },
         {
-          "text": "Elevate 1BR $1,695\u2192$1,845 (over stretch)",
+          "text": "Elevate 1BR $1,695→$1,845 (over stretch)",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Blakely Echo Lake 1BR $1,299\u2192$1,199 (55+)",
+          "text": "Blakely Echo Lake 1BR $1,299→$1,199 (55+)",
           "href": "https://www.rentable.co/shoreline-wa/the-blakely-at-echo-lake-village"
         },
         {
-          "text": "Heron View ~$1,950 floor gone \u2192 WIP $2,100\u2013$2,400",
+          "text": "Heron View ~$1,950 floor gone → WIP $2,100–$2,400",
           "href": "https://www.wipproperties.com/properties/heron-view"
         }
       ]
@@ -930,7 +975,7 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-16",
       "title": "Junction 160 / Allai / Olde Towne / Urban Center 2BRs; Inglenook $1,887; Station Nine $1,899; 3425 1BR $1,595",
-      "lede": "Daily refresh. New ideal/budget 2BRs include Junction 160 & Allai ($1,695), Olde Towne ($1,795), Urban Center ($1,799) + Whispering Cedars / Millwood / Bristol / Canyon Springs. 1BRs: Urban Center $1,449, Largo Vista $1,375, ION Town Center $1,717 EV. Material moves: Inglenook 2BR $1,827\u2192$1,887; Station Nine Depot floor \u2192$1,899; 3425 14th 1BR $1,649\u2192$1,595; Ivy $1,818; Timbers 1BR now $1,895 (over stretch).",
+      "lede": "Daily refresh. New ideal/budget 2BRs include Junction 160 & Allai ($1,695), Olde Towne ($1,795), Urban Center ($1,799) + Whispering Cedars / Millwood / Bristol / Canyon Springs. 1BRs: Urban Center $1,449, Largo Vista $1,375, ION Town Center $1,717 EV. Material moves: Inglenook 2BR $1,827→$1,887; Station Nine Depot floor →$1,899; 3425 14th 1BR $1,649→$1,595; Ivy $1,818; Timbers 1BR now $1,895 (over stretch).",
       "new": [
         {
           "text": "Junction 160 2BR from $1,695",
@@ -1031,27 +1076,27 @@ window.UPDATES_DATA = {
       ],
       "changed": [
         {
-          "text": "Inglenook 2BR floor $1,827\u2192$1,887",
+          "text": "Inglenook 2BR floor $1,827→$1,887",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Station Nine Depot 2BR floor $1,861\u2192$1,899",
+          "text": "Station Nine Depot 2BR floor $1,861→$1,899",
           "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
         },
         {
-          "text": "3425 14th Ave W 1BR $1,649\u2192$1,595",
+          "text": "3425 14th Ave W 1BR $1,649→$1,595",
           "href": "https://www.rentable.co/seattle-wa/3425-14th-ave-w"
         },
         {
-          "text": "Ivy at Interbay 1BR $1,793\u2192$1,818",
+          "text": "Ivy at Interbay 1BR $1,793→$1,818",
           "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
         },
         {
-          "text": "Tivalli 1BR $1,773\u2192$1,761",
+          "text": "Tivalli 1BR $1,773→$1,761",
           "href": "https://www.rentable.co/lynnwood-wa/tivalli-apartments"
         },
         {
-          "text": "Timbers Kenmore 1BR $1,801\u2192$1,895 (over stretch)",
+          "text": "Timbers Kenmore 1BR $1,801→$1,895 (over stretch)",
           "href": "https://www.rentable.co/kenmore-wa/timbers-apartments"
         }
       ]
@@ -1059,124 +1104,124 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-15",
       "title": "Quinn 2BR $1,699 EV; Elevate 1BR $1,695; Heron Rentable $1,950; Heather 2BR gone",
-      "lede": "Daily refresh. Standout new: Quinn by Vintage Shoreline 2BR from $1,699 with EV charging listed (1BR $1,499). Elevate 1BR dropped $1,845\u2192$1,695. Heron View Rentable 2BR from $1,950 (RentCafe still $2,080). Heather Ridge 2BR B301 gone. Two 10 MFTE plans show $1,791\u2013$1,850. Also new: Martha Lake, Madison Way, Willow Tree, District, Paceline, Ascent, Stonehedge, Forest Hills, Autumn Ridge; 1BRs Timber Grove/Encore/Kelsey/Blakely/Modera. Inglenook floor $1,827. Lakeside/Lodge/Interlakken/Boston West/Fernwood holding.",
+      "lede": "Daily refresh. Standout new: Quinn by Vintage Shoreline 2BR from $1,699 with EV charging listed (1BR $1,499). Elevate 1BR dropped $1,845→$1,695. Heron View Rentable 2BR from $1,950 (RentCafe still $2,080). Heather Ridge 2BR B301 gone. Two 10 MFTE plans show $1,791–$1,850. Also new: Martha Lake, Madison Way, Willow Tree, District, Paceline, Ascent, Stonehedge, Forest Hills, Autumn Ridge; 1BRs Timber Grove/Encore/Kelsey/Blakely/Modera. Inglenook floor $1,827. Lakeside/Lodge/Interlakken/Boston West/Fernwood holding.",
       "new": [
         {
-          "text": "Quinn by Vintage (Shoreline) \u2014 2BR \u2014 from $1,699 (EV listed). Ideal-budget.",
+          "text": "Quinn by Vintage (Shoreline) — 2BR — from $1,699 (EV listed). Ideal-budget.",
           "href": "https://www.rentable.co/shoreline-wa/quinn-by-vintage"
         },
         {
-          "text": "Martha Lake (Lynnwood) \u2014 2BR \u2014 from $1,929.",
+          "text": "Martha Lake (Lynnwood) — 2BR — from $1,929.",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Madison Way (Lynnwood) \u2014 2BR \u2014 from $1,899.",
+          "text": "Madison Way (Lynnwood) — 2BR — from $1,899.",
           "href": "https://www.rentable.co/lynnwood-wa/madison-way"
         },
         {
-          "text": "Willow Tree Grove (Bothell/Maltby) \u2014 2BR \u2014 from $1,925.",
+          "text": "Willow Tree Grove (Bothell/Maltby) — 2BR — from $1,925.",
           "href": "https://www.rentable.co/bothell-wa/willow-tree-grove"
         },
         {
-          "text": "The District (Bothell) \u2014 2BR \u2014 from $1,999.",
+          "text": "The District (Bothell) — 2BR — from $1,999.",
           "href": "https://www.rentable.co/bothell-wa/the-district"
         },
         {
-          "text": "Paceline (Shoreline) \u2014 2BR \u2014 from $2,083.",
+          "text": "Paceline (Shoreline) — 2BR — from $2,083.",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Ascent (Kirkland / Totem Lake) \u2014 2BR \u2014 from $2,009.",
+          "text": "Ascent (Kirkland / Totem Lake) — 2BR — from $2,009.",
           "href": "https://www.rentable.co/kirkland-wa/ascent"
         },
         {
-          "text": "Stonehedge Village (Bothell) \u2014 2BR \u2014 from $2,057.",
+          "text": "Stonehedge Village (Bothell) — 2BR — from $2,057.",
           "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
         },
         {
-          "text": "Forest Hills Estates (Shoreline) \u2014 2BR \u2014 from $2,185.",
+          "text": "Forest Hills Estates (Shoreline) — 2BR — from $2,185.",
           "href": "https://www.rentable.co/shoreline-wa/forest-hills-estates"
         },
         {
-          "text": "Autumn Ridge (Shoreline) \u2014 2BR \u2014 from $2,095.",
+          "text": "Autumn Ridge (Shoreline) — 2BR — from $2,095.",
           "href": "https://www.rentable.co/shoreline-wa/15135-stone-ln-n"
         },
         {
-          "text": "Salmon Run at Perry Creek (Bothell) \u2014 2BR \u2014 from $2,067.",
+          "text": "Salmon Run at Perry Creek (Bothell) — 2BR — from $2,067.",
           "href": "https://www.rentable.co/bothell-wa/salmon-run-at-perry-creek"
         },
         {
-          "text": "Quinn by Vintage \u2014 1BR \u2014 $1,499.",
+          "text": "Quinn by Vintage — 1BR — $1,499.",
           "href": "https://www.rentable.co/shoreline-wa/quinn-by-vintage"
         },
         {
-          "text": "Martha Lake \u2014 1BR \u2014 $1,569.",
+          "text": "Martha Lake — 1BR — $1,569.",
           "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
         },
         {
-          "text": "Madison Way \u2014 1BR \u2014 $1,582.",
+          "text": "Madison Way — 1BR — $1,582.",
           "href": "https://www.rentable.co/lynnwood-wa/madison-way"
         },
         {
-          "text": "Timber Grove \u2014 1BR \u2014 $1,350\u2013$1,385.",
+          "text": "Timber Grove — 1BR — $1,350–$1,385.",
           "href": "https://www.rentable.co/lynnwood-wa/1805-filbert-rd"
         },
         {
-          "text": "The Encore \u2014 1BR \u2014 $1,495.",
+          "text": "The Encore — 1BR — $1,495.",
           "href": "https://www.rentable.co/lynnwood-wa/the-encore"
         },
         {
-          "text": "Kelsey House \u2014 1BR \u2014 $1,450.",
+          "text": "Kelsey House — 1BR — $1,450.",
           "href": "https://www.rentable.co/shoreline-wa/kelsey-house-apartments"
         },
         {
-          "text": "The Blakely at Echo Lake \u2014 1BR \u2014 $1,299\u2013$1,684.",
+          "text": "The Blakely at Echo Lake — 1BR — $1,299–$1,684.",
           "href": "https://www.rentable.co/shoreline-wa/the-blakely-at-echo-lake-village"
         },
         {
-          "text": "Paceline \u2014 1BR \u2014 $1,664.",
+          "text": "Paceline — 1BR — $1,664.",
           "href": "https://www.rentable.co/shoreline-wa/paceline"
         },
         {
-          "text": "Modera Shoreline \u2014 1BR \u2014 $1,745.",
+          "text": "Modera Shoreline — 1BR — $1,745.",
           "href": "https://www.rentable.co/shoreline-wa/modera-shoreline"
         },
         {
-          "text": "Autumn Ridge \u2014 1BR \u2014 $1,555.",
+          "text": "Autumn Ridge — 1BR — $1,555.",
           "href": "https://www.rentable.co/shoreline-wa/15135-stone-ln-n"
         },
         {
-          "text": "Forest Hills Estates \u2014 1BR \u2014 $1,709.",
+          "text": "Forest Hills Estates — 1BR — $1,709.",
           "href": "https://www.rentable.co/shoreline-wa/forest-hills-estates"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook \u2014 2BR floor $1,819\u2192$1,827.",
+          "text": "Inglenook — 2BR floor $1,819→$1,827.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Heron View \u2014 Rentable 2BR from $1,950 (was tracking RentCafe $2,080); RentCafe B203/C205 still $2,080; EV still listed.",
+          "text": "Heron View — Rentable 2BR from $1,950 (was tracking RentCafe $2,080); RentCafe B203/C205 still $2,080; EV still listed.",
           "href": "https://www.wipproperties.com/properties/heron-view"
         },
         {
-          "text": "Station Nine Depot \u2014 plan floor again from $1,861 (J202 still $1,899\u2013$1,930).",
+          "text": "Station Nine Depot — plan floor again from $1,861 (J202 still $1,899–$1,930).",
           "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
         },
         {
-          "text": "Two 10 by Vintage \u2014 MFTE 2BR plans $1,791\u2013$1,850 in floorplan data (market from $2,161); income restrictions apply.",
+          "text": "Two 10 by Vintage — MFTE 2BR plans $1,791–$1,850 in floorplan data (market from $2,161); income restrictions apply.",
           "href": "https://www.livetwo10.com/floorplans"
         },
         {
-          "text": "Heather Ridge \u2014 2BR B301 gone from ApartmentList (was $1,749 Nov 10); 1BRs from $1,499 remain.",
+          "text": "Heather Ridge — 2BR B301 gone from ApartmentList (was $1,749 Nov 10); 1BRs from $1,499 remain.",
           "href": "https://www.apartmentlist.com/wa/lynnwood/heather-ridge"
         },
         {
-          "text": "Elevate \u2014 1BR floor $1,845\u2192$1,695.",
+          "text": "Elevate — 1BR floor $1,845→$1,695.",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Lakeside / Lodge / Interlakken / Boston West / Fernwood / Capri / Peaks \u2014 rechecked; holding.",
+          "text": "Lakeside / Lodge / Interlakken / Boston West / Fernwood / Capri / Peaks — rechecked; holding.",
           "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
         }
       ]
@@ -1184,72 +1229,72 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-14",
       "title": "Fernwood back $1,999; Bothell Ridge 2BR $2,139; new Glen Grove / 21302 $1,695; Back Nine $1,525",
-      "lede": "Daily refresh. Fernwood Trails 2BR live again on Rentable at $1,999 (was marked gone). Bothell Ridge adds 2BR Unit 0428 $2,139 Oct 4. New: Glen Grove Bothell $2,195, MLT 21302 50th $1,695 (confirm address), North Country Manor $2,025+, Park Place Kenmore $2,200 Oct 10, Quartz Creek $2,195; 1BRs Geo $1,574, 205 Apts $1,515, Tivalli $1,773. Back Nine dropped $1,565\u2192$1,525. Inglenook floor $1,819. Station Nine Depot from $1,899. Lakeside/Lodge/Interlakken/Boston West holding.",
+      "lede": "Daily refresh. Fernwood Trails 2BR live again on Rentable at $1,999 (was marked gone). Bothell Ridge adds 2BR Unit 0428 $2,139 Oct 4. New: Glen Grove Bothell $2,195, MLT 21302 50th $1,695 (confirm address), North Country Manor $2,025+, Park Place Kenmore $2,200 Oct 10, Quartz Creek $2,195; 1BRs Geo $1,574, 205 Apts $1,515, Tivalli $1,773. Back Nine dropped $1,565→$1,525. Inglenook floor $1,819. Station Nine Depot from $1,899. Lakeside/Lodge/Interlakken/Boston West holding.",
       "new": [
         {
-          "text": "Glen Grove (Bothell) \u2014 2BR \u2014 $2,195 (now, 2 units). Stretch.",
+          "text": "Glen Grove (Bothell) — 2BR — $2,195 (now, 2 units). Stretch.",
           "href": "https://www.rentable.co/bothell-wa/10295-ne-189th-st"
         },
         {
-          "text": "21302 50th (MLT) \u2014 2BR \u2014 $1,695 (now, 700 sf). Ideal-budget \u2014 confirm address/zip.",
+          "text": "21302 50th (MLT) — 2BR — $1,695 (now, 700 sf). Ideal-budget — confirm address/zip.",
           "href": "https://www.rentable.co/mountlake-terrace-wa/21302-50th-st"
         },
         {
-          "text": "North Country Manor (Bothell) \u2014 2BR \u2014 $2,025\u2013$2,175.",
+          "text": "North Country Manor (Bothell) — 2BR — $2,025–$2,175.",
           "href": "https://www.rentable.co/bothell-wa/north-country-manor"
         },
         {
-          "text": "Park Place (Kenmore 73rd) \u2014 2BR \u2014 $2,200 (10 Oct).",
+          "text": "Park Place (Kenmore 73rd) — 2BR — $2,200 (10 Oct).",
           "href": "https://www.rentable.co/kenmore-wa/park-place-apartments"
         },
         {
-          "text": "Quartz Creek (MLT) \u2014 2BR \u2014 from $2,195.",
+          "text": "Quartz Creek (MLT) — 2BR — from $2,195.",
           "href": "https://www.rentable.co/mountlake-terrace-wa/quartz-creek"
         },
         {
-          "text": "Bothell Ridge \u2014 2BR Unit 0428 \u2014 $2,139 (4 Oct). Was all 2BRs rented.",
+          "text": "Bothell Ridge — 2BR Unit 0428 — $2,139 (4 Oct). Was all 2BRs rented.",
           "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
         },
         {
-          "text": "Geo (Shoreline) \u2014 1BR \u2014 from $1,574.",
+          "text": "Geo (Shoreline) — 1BR — from $1,574.",
           "href": "https://www.rentable.co/shoreline-wa/geo"
         },
         {
-          "text": "205 Apartments (Shoreline) \u2014 1BR \u2014 $1,515\u2013$1,625.",
+          "text": "205 Apartments (Shoreline) — 1BR — $1,515–$1,625.",
           "href": "https://www.rentable.co/shoreline-wa/205-apartments-1795-st"
         },
         {
-          "text": "Tivalli (Lynnwood) \u2014 1BR \u2014 from $1,773.",
+          "text": "Tivalli (Lynnwood) — 1BR — from $1,773.",
           "href": "https://www.rentable.co/lynnwood-wa/tivalli-apartments"
         }
       ],
       "changed": [
         {
-          "text": "Fernwood Trails \u2014 2BR live again $1,999 Available Now (was likely gone).",
+          "text": "Fernwood Trails — 2BR live again $1,999 Available Now (was likely gone).",
           "href": "https://www.rentable.co/kenmore-wa/fernwood-trails-apartments"
         },
         {
-          "text": "Back Nine (Interbay) \u2014 1BR $1,565\u2192$1,525.",
+          "text": "Back Nine (Interbay) — 1BR $1,565→$1,525.",
           "href": "https://www.rentable.co/seattle-wa/2635-prosch-ave-w"
         },
         {
-          "text": "Inglenook \u2014 2BR floor $1,809\u2192$1,819.",
+          "text": "Inglenook — 2BR floor $1,809→$1,819.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Station Nine Depot \u2014 2BR floor from ~$1,861\u2192$1,899.",
+          "text": "Station Nine Depot — 2BR floor from ~$1,861→$1,899.",
           "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
         },
         {
-          "text": "Vista Manor \u2014 2BR live band now tops at $1,995 (prior $2,195 gone).",
+          "text": "Vista Manor — 2BR live band now tops at $1,995 (prior $2,195 gone).",
           "href": "https://www.rentable.co/seattle-wa/2710-w-manor-pl"
         },
         {
-          "text": "Collins Junction 1x1 \u2014 floor $1,614\u2192$1,580 (#G182).",
+          "text": "Collins Junction 1x1 — floor $1,614→$1,580 (#G182).",
           "href": "https://collinsjunction.com/floorplans/1x1/"
         },
         {
-          "text": "Lakeside / Lodge / Interlakken / Boston West / Capri / Peaks \u2014 rechecked; holding.",
+          "text": "Lakeside / Lodge / Interlakken / Boston West / Capri / Peaks — rechecked; holding.",
           "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
         }
       ]
@@ -1257,64 +1302,64 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-13",
       "title": "Lakeside 2BR $1,700; Interlakken $1,800; Boston West $1,525/$1,995; Lodge 1BR EV",
-      "lede": "Daily 4pm refresh. Big move: Lakeside MLT 2BR dropped $1,910\u2192$1,700 (Sep 18\u201324). New ideal-budget Interlakken Bothell 2BR $1,800. Magnolia/Interbay Boston West adds 1BR $1,525 and 2BR $1,995. Also new: Heron View Kenmore $2,080 with EV, Lynnwood 5725 200th $2,000, Finn Hill 14128 $2,150, Lodge 1BR $1,750 Oct 5 (EV), Vue 1BRs $1,895. Crane IZ now lists EV charging. Polaris Eastgate 2BRs gone; Cresswell/Barrett/Evergreen 1BRs gone.",
+      "lede": "Daily 4pm refresh. Big move: Lakeside MLT 2BR dropped $1,910→$1,700 (Sep 18–24). New ideal-budget Interlakken Bothell 2BR $1,800. Magnolia/Interbay Boston West adds 1BR $1,525 and 2BR $1,995. Also new: Heron View Kenmore $2,080 with EV, Lynnwood 5725 200th $2,000, Finn Hill 14128 $2,150, Lodge 1BR $1,750 Oct 5 (EV), Vue 1BRs $1,895. Crane IZ now lists EV charging. Polaris Eastgate 2BRs gone; Cresswell/Barrett/Evergreen 1BRs gone.",
       "new": [
         {
-          "text": "Interlakken (Bothell) \u2014 2BR \u2014 $1,800 (now). Ideal-budget.",
+          "text": "Interlakken (Bothell) — 2BR — $1,800 (now). Ideal-budget.",
           "href": "https://www.rentable.co/bothell-wa/interlakken-apartments"
         },
         {
-          "text": "Boston West \u2014 1BR Unit 202 \u2014 $1,525 (now). Interbay/Magnolia.",
+          "text": "Boston West — 1BR Unit 202 — $1,525 (now). Interbay/Magnolia.",
           "href": "https://www.apartmentlist.com/wa/seattle/boston-west-apartments"
         },
         {
-          "text": "Boston West \u2014 2BR Unit 303 \u2014 $1,995 (now).",
+          "text": "Boston West — 2BR Unit 303 — $1,995 (now).",
           "href": "https://www.apartmentlist.com/wa/seattle/boston-west-apartments"
         },
         {
-          "text": "Heron View (Kenmore) \u2014 2BR B203/C205 \u2014 $2,080; EV charging listed.",
+          "text": "Heron View (Kenmore) — 2BR B203/C205 — $2,080; EV charging listed.",
           "href": "https://www.wipproperties.com/properties/heron-view"
         },
         {
-          "text": "5725 200th St SW (Lynnwood) \u2014 2BR Unit 02 \u2014 $2,000 (now).",
+          "text": "5725 200th St SW (Lynnwood) — 2BR Unit 02 — $2,000 (now).",
           "href": "https://www.rentable.co/lynnwood-wa/5725-200th-st-sw"
         },
         {
-          "text": "14128 74th Pl NE #A17 \u2014 Finn Hill 2BR \u2014 $2,150.",
+          "text": "14128 74th Pl NE #A17 — Finn Hill 2BR — $2,150.",
           "href": "https://www.apartments.com/14128-74th-pl-ne-kirkland-wa/spwnrq4/"
         },
         {
-          "text": "The Lodge @ 73rd \u2014 1BR \u2014 $1,750 (5 Oct); EV charging listed.",
+          "text": "The Lodge @ 73rd — 1BR — $1,750 (5 Oct); EV charging listed.",
           "href": "https://www.wipproperties.com/properties/the-lodge"
         },
         {
-          "text": "Lakeside MLT \u2014 1BR \u2014 $1,597\u2013$1,632 (now / mid Sep).",
+          "text": "Lakeside MLT — 1BR — $1,597–$1,632 (now / mid Sep).",
           "href": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
         },
         {
-          "text": "Vue Kirkland \u2014 1BR \u2014 $1,895 (Oct); ARCH \u2014 confirm eligibility.",
+          "text": "Vue Kirkland — 1BR — $1,895 (Oct); ARCH — confirm eligibility.",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         }
       ],
       "changed": [
         {
-          "text": "Lakeside MLT \u2014 2BR $1,910\u2013$1,955 \u2192 $1,700\u2013$1,745 (Sep 18\u201324).",
+          "text": "Lakeside MLT — 2BR $1,910–$1,955 → $1,700–$1,745 (Sep 18–24).",
           "href": "https://www.rentable.co/mountlake-terrace-wa/lakeside-apartments"
         },
         {
-          "text": "Crane at Interbay (IZ 1BR) \u2014 EV charging newly listed on AffordableHousing amenities; still $1,695.",
+          "text": "Crane at Interbay (IZ 1BR) — EV charging newly listed on AffordableHousing amenities; still $1,695.",
           "href": "https://www.affordablehousing.com/seattle-wa/3200-16th-ave-w-1031805/"
         },
         {
-          "text": "Polaris Eastgate \u2014 no 2BRs available (gone for 2BR shortlist).",
+          "text": "Polaris Eastgate — no 2BRs available (gone for 2BR shortlist).",
           "href": "https://www.apartmentlist.com/wa/bellevue/polaris-at-eastgate"
         },
         {
-          "text": "Cresswell / Barrett / Evergreen 1BRs \u2014 marked gone.",
+          "text": "Cresswell / Barrett / Evergreen 1BRs — marked gone.",
           "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
         },
         {
-          "text": "Inglenook / Trailside / Elevate / Capri / Peaks / Canal \u2014 rechecked; holding from morning.",
+          "text": "Inglenook / Trailside / Elevate / Capri / Peaks / Canal — rechecked; holding from morning.",
           "href": "https://krystianwalec.github.io/daughter-apartment-hunt/"
         }
       ]
@@ -1322,48 +1367,48 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-13",
       "title": "Inglenook floor $1,809; Lodge EV + $2,000 Sep 22; Elevate 2/2 $2,195; new Bothell Ridge 1BR",
-      "lede": "On-demand recheck. Inglenook 2BR floor rose $1,719\u2192$1,809. Lodge official 2BR $2,000 on Sep 22 with EV charging listed. Elevate 2/2 dropped to $2,195. Country Club 2BRs are $2,100 (Sep 30 / Oct 16). Fernwood likely gone. New 1BRs: Bothell Ridge $1,757\u2013$1,937 and Country Club Apt 104 $1,775 Sep 18. Interbay/Magnolia 1BRs still holding.",
+      "lede": "On-demand recheck. Inglenook 2BR floor rose $1,719→$1,809. Lodge official 2BR $2,000 on Sep 22 with EV charging listed. Elevate 2/2 dropped to $2,195. Country Club 2BRs are $2,100 (Sep 30 / Oct 16). Fernwood likely gone. New 1BRs: Bothell Ridge $1,757–$1,937 and Country Club Apt 104 $1,775 Sep 18. Interbay/Magnolia 1BRs still holding.",
       "new": [
         {
-          "text": "Bothell Ridge \u2014 1BR \u2014 $1,757\u2013$1,937 (now / Oct 5 / Oct 24). No live 2BRs.",
+          "text": "Bothell Ridge — 1BR — $1,757–$1,937 (now / Oct 5 / Oct 24). No live 2BRs.",
           "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
         },
         {
-          "text": "Lynnwood Country Club \u2014 1BR Apt 104 \u2014 $1,775 (18 Sep 2026).",
+          "text": "Lynnwood Country Club — 1BR Apt 104 — $1,775 (18 Sep 2026).",
           "href": "https://www.rentable.co/lynnwood-wa/beautifully-renovated-1-2-bedroom-apartments-in-lynnwood"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 2BR floor $1,719\u2192$1,809 (G104 Sep 15); 2/2 from $1,959.",
+          "text": "Inglenook Court — 2BR floor $1,719→$1,809 (G104 Sep 15); 2/2 from $1,959.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "The Lodge @ 73rd \u2014 official 2BR $2,000 on 22 Sep 2026; EV charging listed on WIP site.",
+          "text": "The Lodge @ 73rd — official 2BR $2,000 on 22 Sep 2026; EV charging listed on WIP site.",
           "href": "https://www.wipproperties.com/properties/the-lodge"
         },
         {
-          "text": "Elevate \u2014 2/2 floor $2,295\u2192$2,195 (D04/G07 now).",
+          "text": "Elevate — 2/2 floor $2,295→$2,195 (D04/G07 now).",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Lynnwood Country Club \u2014 live 2BRs Apt 105 $2,100 Sep 30 / Apt 101 $2,100 Oct 16 (prior $1,825 band was 1\u20132BR combined).",
+          "text": "Lynnwood Country Club — live 2BRs Apt 105 $2,100 Sep 30 / Apt 101 $2,100 Oct 16 (prior $1,825 band was 1–2BR combined).",
           "href": "https://www.rentable.co/lynnwood-wa/beautifully-renovated-1-2-bedroom-apartments-in-lynnwood"
         },
         {
-          "text": "Aspire MLT \u2014 1BR no longer now; H103 $1,700 Oct 5 / B104 Oct 17.",
+          "text": "Aspire MLT — 1BR no longer now; H103 $1,700 Oct 5 / B104 Oct 17.",
           "href": "https://www.rentable.co/mountlake-terrace-wa/aspire-apartments-at-mountlake-terrace"
         },
         {
-          "text": "Vue Kirkland \u2014 still $2,138+; 5 units now (was 6\u20137); EV charging still listed.",
+          "text": "Vue Kirkland — still $2,138+; 5 units now (was 6–7); EV charging still listed.",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
-          "text": "Fernwood Trails \u2014 likely gone (PadMapper 2BR unavailable; Jun 12 date stale).",
+          "text": "Fernwood Trails — likely gone (PadMapper 2BR unavailable; Jun 12 date stale).",
           "href": "https://hotpads.com/fernwood-trails-kenmore-wa-98028-2539dk3/pad"
         },
         {
-          "text": "North City Place \u2014 Rentable 404; confirm via JL (no live prices on official page).",
+          "text": "North City Place — Rentable 404; confirm via JL (no live prices on official page).",
           "href": "https://www.jlapartments.com/north-city-place"
         }
       ]
@@ -1374,117 +1419,117 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Inglenook 2BR floor dropped to $1,719. Three new 2BRs joined (Trailside Bothell $1,995, Cedar Terrace MLT $1,995, Kirkland 8222 $2,100). Barrett 1BR rented; Elevate 1BRs to $1,845; Montebello over stretch; Heather 2BR only Nov 10. Also new 1BRs at Peaks, Aspire, Canal Nickerson, and Timbers Kenmore.",
       "new": [
         {
-          "text": "The Peaks \u2014 1BR \u2014 $1,699 (7 Oct 2026).",
+          "text": "The Peaks — 1BR — $1,699 (7 Oct 2026).",
           "href": "https://www.apartmentlist.com/wa/lynnwood/the-peaks-luxury-apartments"
         },
         {
-          "text": "Aspire MLT \u2014 1BR \u2014 $1,700\u2013$1,850 (now).",
+          "text": "Aspire MLT — 1BR — $1,700–$1,850 (now).",
           "href": "https://www.rentable.co/mountlake-terrace-wa/aspire-apartments-at-mountlake-terrace"
         },
         {
-          "text": "Trailside \u2014 2BR \u2014 $1,995 (now).",
+          "text": "Trailside — 2BR — $1,995 (now).",
           "href": "https://www.rentable.co/bothell-wa/17725-hall-rd"
         },
         {
-          "text": "Cedar Terrace \u2014 2BR \u2014 $1,995 (now).",
+          "text": "Cedar Terrace — 2BR — $1,995 (now).",
           "href": "https://www.apartmentlist.com/wa/mountlake-terrace/23101-44th-avenue-west--1"
         },
         {
-          "text": "8222 126th Ave NE \u2014 2BR \u2014 $2,100 (now / within 30 days of application).",
+          "text": "8222 126th Ave NE — 2BR — $2,100 (now / within 30 days of application).",
           "href": "https://www.rentalsource.com/details/8222-126th-ave-ne-kirkland-wa-84150717/"
         },
         {
-          "text": "Canal Apartments \u2014 1BR \u2014 $1,795 (10 Oct 2026).",
+          "text": "Canal Apartments — 1BR — $1,795 (10 Oct 2026).",
           "href": "https://www.rentable.co/seattle-wa/1223-w-nickerson-st"
         },
         {
-          "text": "The Timbers \u2014 1BR \u2014 $1,801\u2013$1,895 (now / late Sep 2026).",
+          "text": "The Timbers — 1BR — $1,801–$1,895 (now / late Sep 2026).",
           "href": "https://www.rentable.co/kenmore-wa/timbers-apartments"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 2BR floor $1,799\u2192$1,719 (G104 Sep 15); several now from $1,849.",
+          "text": "Inglenook Court — 2BR floor $1,799→$1,719 (G104 Sep 15); several now from $1,849.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Heather Ridge \u2014 only 2BR left is B301 $1,749 on Nov 10 (was now/Sep).",
+          "text": "Heather Ridge — only 2BR left is B301 $1,749 on Nov 10 (was now/Sep).",
           "href": "https://www.apartmentlist.com/wa/lynnwood/heather-ridge"
         },
         {
-          "text": "Barrett Interbay \u2014 2BR floor $2,195\u2192$2,395+ (Unit 301 $2,420 now / 201 $2,395 Sep 18).",
+          "text": "Barrett Interbay — 2BR floor $2,195→$2,395+ (Unit 301 $2,420 now / 201 $2,395 Sep 18).",
           "href": "https://www.rentable.co/seattle-wa/2850-15th-ave"
         },
         {
-          "text": "Station Nine \u2014 2BR floorplans now from ~$1,861 (was ~$1,899+).",
+          "text": "Station Nine — 2BR floorplans now from ~$1,861 (was ~$1,899+).",
           "href": "https://www.rentcafe.com/apartments/wa/lynnwood/station-nine/default.aspx"
         },
         {
-          "text": "Vue Kirkland \u2014 still $2,138\u2013$2,385 (6 now); EV charging confirmed on listing.",
+          "text": "Vue Kirkland — still $2,138–$2,385 (6 now); EV charging confirmed on listing.",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
-          "text": "Barrett Interbay \u2014 1BR Unit 206 ($1,629) rented / gone.",
+          "text": "Barrett Interbay — 1BR Unit 206 ($1,629) rented / gone.",
           "href": "https://www.rentable.co/seattle-wa/2850-15th-ave"
         },
         {
-          "text": "Elevate Lynnwood \u2014 1BR floor $1,695\u2192$1,845 (K06 now; others Oct 7).",
+          "text": "Elevate Lynnwood — 1BR floor $1,695→$1,845 (K06 now; others Oct 7).",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Duet \u2014 1BR floor $1,395\u2192$1,390 (B208 now); still many units.",
+          "text": "Duet — 1BR floor $1,395→$1,390 (B208 now); still many units.",
           "href": "https://www.rentable.co/lynnwood-wa/duet"
         },
         {
-          "text": "Polaris Eastgate \u2014 1BR corrected to $1,499 A1 (was stored $1,630\u2013$1,768).",
+          "text": "Polaris Eastgate — 1BR corrected to $1,499 A1 (was stored $1,630–$1,768).",
           "href": "https://www.liveatpolarisateastgate.com/"
         },
         {
-          "text": "The Lodge @ 73rd \u2014 ~$1,900 (was $1,850\u2013$2,000 band); confirm unit/EV stall.",
+          "text": "The Lodge @ 73rd — ~$1,900 (was $1,850–$2,000 band); confirm unit/EV stall.",
           "href": "https://www.apartmentfinder.com/Washington/Kenmore-Apartments/The-Lodge-73Rd-Apartments-z8gcf1y"
         },
         {
-          "text": "Montebello \u2014 2BR floor ~$2,189\u2192$2,469+ (now over stretch).",
+          "text": "Montebello — 2BR floor ~$2,189→$2,469+ (now over stretch).",
           "href": "https://www.apartments.com/montebello-kirkland-wa/gfbjcmy/"
         },
         {
-          "text": "11112 NE 124th Ln D114 \u2014 likely gone (Zumper: 0 available / occupied).",
+          "text": "11112 NE 124th Ln D114 — likely gone (Zumper: 0 available / occupied).",
           "href": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
         },
         {
-          "text": "Tiburon #108 \u2014 gone (Coldwell 404 / off-market).",
+          "text": "Tiburon #108 — gone (Coldwell 404 / off-market).",
           "href": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
         },
         {
-          "text": "Carrington Bellevue \u2014 no 2BR available (was $2,280\u2013$2,295).",
+          "text": "Carrington Bellevue — no 2BR available (was $2,280–$2,295).",
           "href": "https://www.apartmentlist.com/wa/bellevue/carrington"
         },
         {
-          "text": "North City Place \u2014 2BR from $1,870 (was $1,899\u2013$1,999).",
+          "text": "North City Place — 2BR from $1,870 (was $1,899–$1,999).",
           "href": "https://www.jlapartments.com/north-city-place"
         },
         {
-          "text": "Polaris Shoreline \u2014 Capella 2BR from $2,061 (was from $1,999).",
+          "text": "Polaris Shoreline — Capella 2BR from $2,061 (was from $1,999).",
           "href": "https://www.liveatpolaris.com/"
         },
         {
-          "text": "Evergreen Kirkland 1BR \u2014 gone (0 units on ApartmentList).",
+          "text": "Evergreen Kirkland 1BR — gone (0 units on ApartmentList).",
           "href": "https://www.apartmentlist.com/wa/kirkland/clean-top-floor-1br-1ba-condo-with-wood-burning-fireplace"
         },
         {
-          "text": "Brighton North Shoreline 1BR \u2014 gone/stale (last avail 09/02/2026).",
+          "text": "Brighton North Shoreline 1BR — gone/stale (last avail 09/02/2026).",
           "href": "https://www.padmapper.com/buildings/p119557/brighton-north-apartments-at-1549-ne-177th-st-shoreline-wa-98155"
         },
         {
-          "text": "Zinnia \u2014 1BR now from ~$1,425 MFTE / market ~$1,481\u2013$1,878 (ApartmentList).",
+          "text": "Zinnia — 1BR now from ~$1,425 MFTE / market ~$1,481–$1,878 (ApartmentList).",
           "href": "https://www.apartmentlist.com/wa/lynnwood/zinnia"
         },
         {
-          "text": "Collins Junction \u2014 1x1 $1,614\u2013$1,953 (was $1,577\u2013$1,811).",
+          "text": "Collins Junction — 1x1 $1,614–$1,953 (was $1,577–$1,811).",
           "href": "https://collinsjunction.com/floorplans/1x1/"
         },
         {
-          "text": "Fernwood Trails \u2014 Unit 15D $1,999 now (was 15E ~$1,990).",
+          "text": "Fernwood Trails — Unit 15D $1,999 now (was 15E ~$1,990).",
           "href": "https://hotpads.com/fernwood-trails-kenmore-wa-98028-2539dk3/pad"
         }
       ]
@@ -1492,56 +1537,56 @@ window.UPDATES_DATA = {
     {
       "date": "2026-09-11",
       "title": "Inglenook B201 gone; Finn Hill $1,995; Duet + Kenmore 18200; Shoreline 1BR $1,430",
-      "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201 at $1,669) left Rentable \u2014 live 2BRs there now start ~$1,799. Finn Hill condo dropped $200 to $1,995. Vue 2BR floor rose to $2,138+. Two 2BRs and four 1BRs joined the board.",
+      "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201 at $1,669) left Rentable — live 2BRs there now start ~$1,799. Finn Hill condo dropped $200 to $1,995. Vue 2BR floor rose to $2,138+. Two 2BRs and four 1BRs joined the board.",
       "new": [
         {
-          "text": "18200 73rd Ave NE \u2014 Kenmore condo \u2014 $2,000 (now).",
+          "text": "18200 73rd Ave NE — Kenmore condo — $2,000 (now).",
           "href": "https://www.rentable.co/kenmore-wa/18200-73rd-ave-ne"
         },
         {
-          "text": "Duet Apartments \u2014 2BR \u2014 $2,095\u2013$2,290 (now).",
+          "text": "Duet Apartments — 2BR — $2,095–$2,290 (now).",
           "href": "https://www.rentable.co/lynnwood-wa/duet"
         },
         {
-          "text": "15015 15th Ave NE \u2014 Unit 306 \u2014 $1,430 (now).",
+          "text": "15015 15th Ave NE — Unit 306 — $1,430 (now).",
           "href": "https://www.rentable.co/shoreline-wa/15015-15th-ave-ne"
         },
         {
-          "text": "Crown Hill Court \u2014 Unit 102 \u2014 $1,699 (10 Oct 2026).",
+          "text": "Crown Hill Court — Unit 102 — $1,699 (10 Oct 2026).",
           "href": "https://www.rentable.co/seattle-wa/crown-hill-court"
         },
         {
-          "text": "Trondheim Apartments \u2014 1BR \u2014 $1,695 (ask / now).",
+          "text": "Trondheim Apartments — 1BR — $1,695 (ask / now).",
           "href": "https://www.rentable.co/seattle-wa/trondheim-apartments"
         },
         {
-          "text": "Duet Apartments \u2014 1BR \u2014 $1,395\u2013$1,845 (now).",
+          "text": "Duet Apartments — 1BR — $1,395–$1,845 (now).",
           "href": "https://www.rentable.co/lynnwood-wa/duet"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court \u2014 B201 ($1,669 Oct 16) gone from Rentable; cheapest live 2BRs now from $1,799 (G104 Sep 15).",
+          "text": "Inglenook Court — B201 ($1,669 Oct 16) gone from Rentable; cheapest live 2BRs now from $1,799 (G104 Sep 15).",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Finn Hill condo 14022 Juanita Dr NE \u2014 $2,195\u2192$1,995 now on Rentable.",
+          "text": "Finn Hill condo 14022 Juanita Dr NE — $2,195→$1,995 now on Rentable.",
           "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
         },
         {
-          "text": "Vue Kirkland \u2014 2BR floor $2,039\u2192$2,138+ (7 units now); prior cheaper 2BRs rented.",
+          "text": "Vue Kirkland — 2BR floor $2,039→$2,138+ (7 units now); prior cheaper 2BRs rented.",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
-          "text": "Bridlewood \u2014 official floorplans: Meadow from $2,155 / Ridge from $2,200 (was Zillow B201 $2,190 Oct 17).",
+          "text": "Bridlewood — official floorplans: Meadow from $2,155 / Ridge from $2,200 (was Zillow B201 $2,190 Oct 17).",
           "href": "https://www.bridlewoodapartmenthomes.com/floorplans"
         },
         {
-          "text": "The Lodge @ 73rd \u2014 L15 not re-confirmed; aggregators show other 2BRs ~$1,850\u2013$2,000 (EV amenity still listed \u2014 confirm stall).",
+          "text": "The Lodge @ 73rd — L15 not re-confirmed; aggregators show other 2BRs ~$1,850–$2,000 (EV amenity still listed — confirm stall).",
           "href": "https://www.apartmentfinder.com/Washington/Kenmore-Apartments/The-Lodge-73Rd-Apartments-z8gcf1y"
         },
         {
-          "text": "Andorra \u2014 Cordoba 2BR still from $1,739+ now; Seville $2,149 (RentCafe).",
+          "text": "Andorra — Cordoba 2BR still from $1,739+ now; Seville $2,149 (RentCafe).",
           "href": "https://www.rentcafe.com/apartments/wa/mountlake-terrace/andorra/default.aspx"
         }
       ]
@@ -1552,29 +1597,29 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) dropped another $10 to $1,669 for Oct 16. Two Kenmore 2BRs joined the board. Magnolia Pacific Place Unit 10 left the board (all rented).",
       "new": [
         {
-          "text": "Crestwood Kenmore \u2014 2BR from ~$1,959\u2013$2,179 (official floor plans); limited availability.",
+          "text": "Crestwood Kenmore — 2BR from ~$1,959–$2,179 (official floor plans); limited availability.",
           "href": "https://www.crestwoodapartments.net/floor-plans/"
         },
         {
-          "text": "Fernwood Trails Kenmore \u2014 2BR/2BA Unit 15E $1,990 now; reserved parking (EV unknown).",
+          "text": "Fernwood Trails Kenmore — 2BR/2BA Unit 15E $1,990 now; reserved parking (EV unknown).",
           "href": "https://hotpads.com/fernwood-trails-kenmore-wa-98028-2539dk3/pad"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook Court B201 \u2014 $1,679\u2192$1,669; still Oct 16.",
+          "text": "Inglenook Court B201 — $1,679→$1,669; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Pacific Place Magnolia Unit 10 \u2014 gone (Rentable shows all units rented; was $1,995).",
+          "text": "Pacific Place Magnolia Unit 10 — gone (Rentable shows all units rented; was $1,995).",
           "href": "https://www.rentable.co/seattle-wa/pacific-place-apartments"
         },
         {
-          "text": "Bridlewood \u2014 Zillow Unit B201 $2,190 Oct 17 (official site blocked this check).",
+          "text": "Bridlewood — Zillow Unit B201 $2,190 Oct 17 (official site blocked this check).",
           "href": "https://www.zillow.com/apartments/kirkland-wa/bridlewood/5XjTJv/"
         },
         {
-          "text": "Hillcliff Shoreline Unit 302 \u2014 still $1,850; now Available Now.",
+          "text": "Hillcliff Shoreline Unit 302 — still $1,850; now Available Now.",
           "href": "https://www.rentable.co/shoreline-wa/hillcliff-apartments"
         }
       ]
@@ -1585,33 +1630,33 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) dropped another $48 to $1,679 for Oct 16. Two Kenmore 2BRs joined (Lodge has EV charging on the amenity list); one Interbay 1BR joined. Ivy 2BRs left the board.",
       "new": [
         {
-          "text": "The Lodge @ 73rd Kenmore \u2014 2BR L15 $1,900 Sep 22; amenity list includes EV chargers (confirm stall).",
+          "text": "The Lodge @ 73rd Kenmore — 2BR L15 $1,900 Sep 22; amenity list includes EV chargers (confirm stall).",
           "href": "https://www.apartmentfinder.com/Washington/Kenmore-Apartments/The-Lodge-73Rd-Apartments-z8gcf1y"
         },
         {
-          "text": "6135 NE 193rd Pl Kenmore \u2014 2BR garden-level $1,995 now; covered parking included.",
+          "text": "6135 NE 193rd Pl Kenmore — 2BR garden-level $1,995 now; covered parking included.",
           "href": "https://showmojo.com/l/930a5410e7/6135-ne-193rd-pl-lower-left-unit-kenmore-wa-98028"
         },
         {
-          "text": "Back Nine Queen Anne / Interbay \u2014 1BR Unit 5 $1,565 now.",
+          "text": "Back Nine Queen Anne / Interbay — 1BR Unit 5 $1,565 now.",
           "href": "https://www.rentable.co/seattle-wa/2635-prosch-ave-w"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,727 \u2192 $1,679 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,727 → $1,679 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Ivy Interbay 2BR \u2014 marked gone (all 2BRs rented on Rentable); 1BRs still from $1,793.",
+          "text": "Ivy Interbay 2BR — marked gone (all 2BRs rented on Rentable); 1BRs still from $1,793.",
           "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
         },
         {
-          "text": "Asteria Place Kenmore \u2014 confirmed live 2BR $1,799\u2013$1,999 now on Rentable.",
+          "text": "Asteria Place Kenmore — confirmed live 2BR $1,799–$1,999 now on Rentable.",
           "href": "https://www.rentable.co/kenmore-wa/asteria-place-apartments"
         },
         {
-          "text": "Cinebar 1BR \u2014 Rentable headline $1,195 (stale last-updated >1 mo \u2014 verify); Capri/Vue/Crestview/Peaks/Elevate/Hillcliff/Arabella/Pacific Place/Barrett/Alexandra/Skyline/Dor-rik otherwise held."
+          "text": "Cinebar 1BR — Rentable headline $1,195 (stale last-updated >1 mo — verify); Capri/Vue/Crestview/Peaks/Elevate/Hillcliff/Arabella/Pacific Place/Barrett/Alexandra/Skyline/Dor-rik otherwise held."
         }
       ]
     },
@@ -1621,29 +1666,29 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Three Interbay 1BRs joined the board for B. Best Kirkland budget 2BR (Inglenook B201) ticked down another $2. Capri/Vue/Crestview/Peaks mostly held.",
       "new": [
         {
-          "text": "Skyline Units Interbay \u2014 1BR Unit 2 $1,450 now (628 sf).",
+          "text": "Skyline Units Interbay — 1BR Unit 2 $1,450 now (628 sf).",
           "href": "https://www.rentable.co/seattle-wa/2821-14th-ave-w"
         },
         {
-          "text": "Dor-rik Queen Anne / Interbay \u2014 1BR Unit 307 $1,495 now (750 sf).",
+          "text": "Dor-rik Queen Anne / Interbay — 1BR Unit 307 $1,495 now (750 sf).",
           "href": "https://www.rentable.co/seattle-wa/2655-14th-ave-w"
         },
         {
-          "text": "Barrett Interbay \u2014 1BR Unit 206 $1,629 now; renovated 2BRs from $2,195.",
+          "text": "Barrett Interbay — 1BR Unit 206 $1,629 now; renovated 2BRs from $2,195.",
           "href": "https://www.rentable.co/seattle-wa/2850-15th-ave"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,729 \u2192 $1,727 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,729 → $1,727 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Greenwood 9244 1BR \u2014 still $1,300\u2013$1,325 (Units 2 & 5) on Rentable.",
+          "text": "Greenwood 9244 1BR — still $1,300–$1,325 (Units 2 & 5) on Rentable.",
           "href": "https://www.rentable.co/seattle-wa/9244-greenwood-ave-n"
         },
         {
-          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Elevate still from $2,060 / 1BR $1,695 (1 mo free select); Hillcliff still $1,850 Sep 10; Arabella II still from $1,800/$2,149; Alexandra still $1,475; Ivy 1BR still from $1,793; 3425 14th still $1,649 Sep 15."
+          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7× from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Elevate still from $2,060 / 1BR $1,695 (1 mo free select); Hillcliff still $1,850 Sep 10; Arabella II still from $1,800/$2,149; Alexandra still $1,475; Ivy 1BR still from $1,793; 3425 14th still $1,649 Sep 15."
         }
       ]
     },
@@ -1653,33 +1698,33 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) ticked down another $10. FOREMAN1 Mountlake Terrace left the board. One Shoreline 2BR and two Interbay 1BRs joined; Ivy 1BRs also dropped.",
       "new": [
         {
-          "text": "North City Place Shoreline \u2014 2BR from ~$1,899\u2013$1,999 (remodeled; parking extra).",
+          "text": "North City Place Shoreline — 2BR from ~$1,899–$1,999 (remodeled; parking extra).",
           "href": "https://www.jlapartments.com/north-city-place"
         },
         {
-          "text": "Alexandra Interbay 1BR \u2014 $1,475 (Unit 202 now / 201 Sep 10); strong for B.",
+          "text": "Alexandra Interbay 1BR — $1,475 (Unit 202 now / 201 Sep 10); strong for B.",
           "href": "https://www.rentable.co/seattle-wa/alexandra-apartments"
         },
         {
-          "text": "3425 14th Ave W Unit 304 \u2014 1BR $1,649 Sep 15.",
+          "text": "3425 14th Ave W Unit 304 — 1BR $1,649 Sep 15.",
           "href": "https://www.rentable.co/seattle-wa/3425-14th-ave-w"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,739 \u2192 $1,729 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,739 → $1,729 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "FOREMAN1 MLT \u2014 marked gone (RentalSource removed / may be occupied).",
+          "text": "FOREMAN1 MLT — marked gone (RentalSource removed / may be occupied).",
           "href": "https://www.rentalsource.com/details/4303-214th-st-sw-mountlake-terrace-wa-84148169/"
         },
         {
-          "text": "Ivy Interbay 1BR \u2014 ~$1,842\u2013$1,877 \u2192 from $1,793+; still up to 4 wks free.",
+          "text": "Ivy Interbay 1BR — ~$1,842–$1,877 → from $1,793+; still up to 4 wks free.",
           "href": "https://www.rentable.co/seattle-wa/ivy-at-interbay"
         },
         {
-          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Elevate 1BR still $1,695; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Hillcliff still $1,850; Arabella II still from $1,800/$2,149; Lakeside still $1,910\u2013$1,955; Greenwood 1BR still $1,300; Crane IZ still $1,695."
+          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7× from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Elevate 1BR still $1,695; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Hillcliff still $1,850; Arabella II still from $1,800/$2,149; Lakeside still $1,910–$1,955; Greenwood 1BR still $1,300; Crane IZ still $1,695."
         }
       ]
     },
@@ -1689,33 +1734,33 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) ticked down another $10. Mountain View Lynnwood went off-market. Two Mountlake Terrace 2BRs and two Interbay 1BRs joined the boards.",
       "new": [
         {
-          "text": "FOREMAN1 Mountlake Terrace \u2014 2BR townhouse-style $1,850 now (W/S/G incl.).",
+          "text": "FOREMAN1 Mountlake Terrace — 2BR townhouse-style $1,850 now (W/S/G incl.).",
           "href": "https://www.rentalsource.com/details/4303-214th-st-sw-mountlake-terrace-wa-84148169/"
         },
         {
-          "text": "Lakeside MLT \u2014 2BR from $1,910\u2013$1,955 (RentCafe today).",
+          "text": "Lakeside MLT — 2BR from $1,910–$1,955 (RentCafe today).",
           "href": "https://www.rcqalive.com/apartments/wa/mountlake-terrace/lakeside-apartments-11/default.aspx"
         },
         {
-          "text": "Ivy at Interbay 1BR \u2014 stretch ~$1,842\u2013$1,877; up to 4 wks free; great for B.",
+          "text": "Ivy at Interbay 1BR — stretch ~$1,842–$1,877; up to 4 wks free; great for B.",
           "href": "https://www.apartmentlist.com/wa/seattle/ivy-at-interbay"
         },
         {
-          "text": "Crane at Interbay 1BR \u2014 $1,695 income-restricted IZ (confirm eligibility).",
+          "text": "Crane at Interbay 1BR — $1,695 income-restricted IZ (confirm eligibility).",
           "href": "https://www.affordablehousing.com/seattle-wa/3200-16th-ave-w-1031805/"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,749 \u2192 $1,739 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,749 → $1,739 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Mountain View Lynnwood \u2014 marked gone (all units rented / not accepting).",
+          "text": "Mountain View Lynnwood — marked gone (all units rented / not accepting).",
           "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
         },
         {
-          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Elevate 1BR still $1,695; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Hillcliff still $1,850; Arabella II still from $1,800/$2,149; Greenwood 1BR still $1,300."
+          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7× from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Elevate 1BR still $1,695; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Hillcliff still $1,850; Arabella II still from $1,800/$2,149; Greenwood 1BR still $1,300."
         }
       ]
     },
@@ -1725,33 +1770,33 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best Kirkland budget 2BR (Inglenook B201) ticked down again. Three new Shoreline 2BRs joined the north board, plus a strong Interbay 1BR for B. Elevate 1BRs also dropped.",
       "new": [
         {
-          "text": "Hillcliff Shoreline Unit 302 \u2014 2BR $1,850 Sep 10.",
+          "text": "Hillcliff Shoreline Unit 302 — 2BR $1,850 Sep 10.",
           "href": "https://www.rentable.co/shoreline-wa/hillcliff-apartments"
         },
         {
-          "text": "Arabella II Shoreline \u2014 2BR from $1,800 MFTE (Oct 1) / $2,149 market now.",
+          "text": "Arabella II Shoreline — 2BR from $1,800 MFTE (Oct 1) / $2,149 market now.",
           "href": "https://www.rentable.co/shoreline-wa/arabella-apartment-homes-ii"
         },
         {
-          "text": "Polaris at Shoreline \u2014 2BR from ~$1,999\u2013$2,161; income rules may apply.",
+          "text": "Polaris at Shoreline — 2BR from ~$1,999–$2,161; income rules may apply.",
           "href": "https://www.liveatpolaris.com/"
         },
         {
-          "text": "Cinebar Interbay 1BR \u2014 ~$1,350\u2013$1,495; $1,000 move-in special (aggregators).",
+          "text": "Cinebar Interbay 1BR — ~$1,350–$1,495; $1,000 move-in special (aggregators).",
           "href": "https://www.zillow.com/apartments/seattle-wa/cinebar-apartments/CnqJzN/"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,757 \u2192 $1,749 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,757 → $1,749 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Elevate 1BR \u2014 $1,725 \u2192 $1,695; still 1 mo free on select.",
+          "text": "Elevate 1BR — $1,725 → $1,695; still 1 mo free on select.",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Mountain View still $1,695 + 3 wks free; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Greenwood 1BR still $1,300."
+          "text": "Capri still from $1,799 / 1BR $1,499 (2 mo free); Vue still 7× from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Mountain View still $1,695 + 3 wks free; Pacific Place still $1,995; Peaks still from $1,999 + 6 wks free; Greenwood 1BR still $1,300."
         },
         {
           "text": "Houghton 1BR and Bertona #7 marked likely gone/stale pending landlord confirm."
@@ -1764,33 +1809,33 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down another $10. Three new options joined: a cheap Lynnwood 2BR with weeks free, a Magnolia 2BR at $1,995, and The Peaks with a big Sep concession.",
       "new": [
         {
-          "text": "Mountain View Lynnwood \u2014 2BR 30R $1,695 now; 3 weeks free.",
+          "text": "Mountain View Lynnwood — 2BR 30R $1,695 now; 3 weeks free.",
           "href": "https://www.rentable.co/lynnwood-wa/mountain-view-apartments"
         },
         {
-          "text": "Pacific Place Magnolia Unit 10 \u2014 2BR $1,995 now (strong for B).",
+          "text": "Pacific Place Magnolia Unit 10 — 2BR $1,995 now (strong for B).",
           "href": "https://www.rentable.co/seattle-wa/pacific-place-apartments"
         },
         {
-          "text": "The Peaks Lynnwood \u2014 2BR from $1,999; 6 weeks free for Sep move-in.",
+          "text": "The Peaks Lynnwood — 2BR from $1,999; 6 weeks free for Sep move-in.",
           "href": "https://www.apartmentlist.com/wa/lynnwood/the-peaks-luxury-apartments"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,767 \u2192 $1,757 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,767 → $1,757 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Elevate \u2014 still from $2,060 / 1BR $1,725; now 1 mo free + waived fees on select (incl. 2BR L02).",
+          "text": "Elevate — still from $2,060 / 1BR $1,725; now 1 mo free + waived fees on select (incl. 2BR L02).",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Heather Ridge \u2014 up to 4 weeks free on select; 2BR band still ~$1,749\u2013$1,899.",
+          "text": "Heather Ridge — up to 4 weeks free on select; 2BR band still ~$1,749–$1,899.",
           "href": "https://www.heatherridgelynnwood.com"
         },
         {
-          "text": "Capri still from $1,799 (2 mo free); Vue still 7\u00d7 from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Finn Hill still $2,195; Greenwood 1BR still $1,300."
+          "text": "Capri still from $1,799 (2 mo free); Vue still 7× from $2,039 + 4 wks free + EV listed; Crestview 307/402 still $1,995; Finn Hill still $2,195; Greenwood 1BR still $1,300."
         }
       ]
     },
@@ -1800,40 +1845,40 @@ window.UPDATES_DATA = {
       "lede": "Daily recheck. Best budget 2BR (Inglenook B201) ticked down again. Capri is pushing a big concession. Two new Lynnwood options joined the north set.",
       "new": [
         {
-          "text": "Elevate Lynnwood \u2014 2BR from $2,060 (2/1) / $2,295 (2/2). Carport $55.",
+          "text": "Elevate Lynnwood — 2BR from $2,060 (2/1) / $2,295 (2/2). Carport $55.",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         },
         {
-          "text": "Lynnwood Country Club \u2014 renovated 1\u20132BR band $1,825\u2013$2,250; confirm 2BR ask.",
+          "text": "Lynnwood Country Club — renovated 1–2BR band $1,825–$2,250; confirm 2BR ask.",
           "href": "https://www.lynnwoodcountryclubapts.com/"
         },
         {
-          "text": "Capri 1BR from $1,499 \u2014 added to the $1,500 1BR board (2 mo free on select).",
+          "text": "Capri 1BR from $1,499 — added to the $1,500 1BR board (2 mo free on select).",
           "href": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
         },
         {
-          "text": "Elevate 1BR from $1,725 \u2014 stretch add on the 1BR board.",
+          "text": "Elevate 1BR from $1,725 — stretch add on the 1BR board.",
           "href": "https://www.rentable.co/lynnwood-wa/elevate"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 \u2014 $1,847 \u2192 $1,767 on Rentable; still Oct 16.",
+          "text": "Inglenook B201 — $1,847 → $1,767 on Rentable; still Oct 16.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
-          "text": "Capri 2BR \u2014 still from $1,799; now advertising 2 months FREE on selected.",
+          "text": "Capri 2BR — still from $1,799; now advertising 2 months FREE on selected.",
           "href": "https://www.liveatcapriapts.com/floorplans"
         },
         {
-          "text": "Vue Kirkland \u2014 still 7\u00d7 2BR from $2,039; 4 weeks free; EV charging listed on Rentable.",
+          "text": "Vue Kirkland — still 7× 2BR from $2,039; 4 weeks free; EV charging listed on Rentable.",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
           "text": "Crestview 307/402 still $1,995; Finn Hill condo still $2,195; Bridlewood Meadow/Ridge $2,155/$2,200; Magnolia Vista still 1 month free."
         },
         {
-          "text": "10044 NE 138th Pl Finn Hill townhome (~$2,100) showed on aggregators but Rentable marks rented \u2014 not added."
+          "text": "10044 NE 138th Pl Finn Hill townhome (~$2,100) showed on aggregators but Rentable marks rented — not added."
         }
       ]
     },
@@ -1843,23 +1888,23 @@ window.UPDATES_DATA = {
       "lede": "Separate map and list for 1BRs if they share a bedroom. Target ~$1,500, stretch ~$1,800. True dual-commute $1500 market 1BRs are rare.",
       "new": [
         {
-          "text": "Houghton condo $1,795 \u2014 best school drive among 1BRs.",
+          "text": "Houghton condo $1,795 — best school drive among 1BRs.",
           "href": "https://www.apartmentfinder.com/Washington/Kirkland-Apartments/1-Bed-1-Bath-Houghton-Condo-In-Kirkland-1795-Month-Apartments-nd3mbgm"
         },
         {
-          "text": "Zinnia Shoreline ~$1,498\u2013$1,600 \u2014 Link 148th + verified EV.",
+          "text": "Zinnia Shoreline ~$1,498–$1,600 — Link 148th + verified EV.",
           "href": "https://www.liveatzinnia.com/amenities"
         },
         {
-          "text": "Contour Interbay Summit ~$1,554\u2013$1,719 \u2014 walk/D to Expedia.",
+          "text": "Contour Interbay Summit ~$1,554–$1,719 — walk/D to Expedia.",
           "href": "https://www.rentcafe.com/apartments/wa/seattle/the-flats-at-interbay/default.aspx"
         },
         {
-          "text": "9244 Greenwood #2 $1,300 \u2014 cheapest Seattle 1BR in the set.",
+          "text": "9244 Greenwood #2 $1,300 — cheapest Seattle 1BR in the set.",
           "href": "https://www.rentalsource.com/details/9244-greenwood-ave-n-seattle-wa-83937559/"
         },
         {
-          "text": "Polaris Eastgate 1BR ~$1,630\u2013$1,768 LIHTC \u2014 only if income-qualified.",
+          "text": "Polaris Eastgate 1BR ~$1,630–$1,768 LIHTC — only if income-qualified.",
           "href": "https://www.liveatpolarisateastgate.com/"
         }
       ],
@@ -1872,23 +1917,23 @@ window.UPDATES_DATA = {
       "new": [],
       "changed": [
         {
-          "text": "11112 NE 124th Ln D115 \u2014 Rentalsource removed / may be occupied. Treat as gone.",
+          "text": "11112 NE 124th Ln D115 — Rentalsource removed / may be occupied. Treat as gone.",
           "href": "https://www.rentalsource.com/details/11112-ne-124th-lane-kirkland-wa-84013303/"
         },
         {
-          "text": "Same building D114 \u2014 HotPads ~$2,099 (was $1,999).",
+          "text": "Same building D114 — HotPads ~$2,099 (was $1,999).",
           "href": "https://hotpads.com/11112-ne-124th-ln-kirkland-wa-98034-snr51x/d114/pad"
         },
         {
-          "text": "Tiburon #108 \u2014 Coldwell Active again at $2,200 (was maybe off-market).",
+          "text": "Tiburon #108 — Coldwell Active again at $2,200 (was maybe off-market).",
           "href": "https://www.coldwellbankerhomes.com/wa/kirkland/725-9th-ave-s-108/pid_72872903/"
         },
         {
-          "text": "Magnolia Vista & Manor \u2014 1 month free on 12-mo; 2BRs still ~$1,995\u2013$2,195.",
+          "text": "Magnolia Vista & Manor — 1 month free on 12-mo; 2BRs still ~$1,995–$2,195.",
           "href": "https://www.rentalsource.com/details/2710-w-manor-place-seattle-wa-83676601/"
         },
         {
-          "text": "Vue Kirkland \u2014 still from $2,039 (7\u00d7 2BRs); Rentable still lists EV charging (confirm).",
+          "text": "Vue Kirkland — still from $2,039 (7× 2BRs); Rentable still lists EV charging (confirm).",
           "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
         },
         {
@@ -1902,31 +1947,31 @@ window.UPDATES_DATA = {
       "lede": "Added the Lynnwood Link corridor. B rides 1 Line to Westlake then RapidRide D. A uses I-5/405 to Kirkland for a 7:55 arrival.",
       "new": [
         {
-          "text": "Heather Ridge Lynnwood \u2014 2BR $1,749\u2013$1,805. Cheap; B is bus+Link.",
+          "text": "Heather Ridge Lynnwood — 2BR $1,749–$1,805. Cheap; B is bus+Link.",
           "href": "https://www.heatherridgelynnwood.com"
         },
         {
-          "text": "Capri / Andorra Mountlake Terrace \u2014 from ~$1,739\u2013$1,799.",
+          "text": "Capri / Andorra Mountlake Terrace — from ~$1,739–$1,799.",
           "href": "https://www.liveatcapriapts.com/floorplans"
         },
         {
-          "text": "Zinnia Shoreline \u2014 $2,485\u2013$2,660, walk to 148th, garage EV.",
+          "text": "Zinnia Shoreline — $2,485–$2,660, walk to 148th, garage EV.",
           "href": "https://www.liveatzinnia.com/"
         },
         {
-          "text": "The LINE / Verdant at 145th \u2014 MFTE + market; walk to Shoreline South.",
+          "text": "The LINE / Verdant at 145th — MFTE + market; walk to Shoreline South.",
           "href": "https://liveattheline.com/floorplans/"
         },
         {
-          "text": "Traxx / Terrace Station MLT \u2014 walk to Link, EV in garage, ~$2,795\u2013$3,085.",
+          "text": "Traxx / Terrace Station MLT — walk to Link, EV in garage, ~$2,795–$3,085.",
           "href": "https://traxxapartments.com/"
         },
         {
-          "text": "Kinect Lynnwood \u2014 walk to Lynnwood City Center Link, ~$2,495.",
+          "text": "Kinect Lynnwood — walk to Lynnwood City Center Link, ~$2,495.",
           "href": "https://www.kinectlynnwood.com/"
         },
         {
-          "text": "Avalon Alderwood \u2014 best north-end drive to school (~18\u201332 min AM), weaker Link walk.",
+          "text": "Avalon Alderwood — best north-end drive to school (~18–32 min AM), weaker Link walk.",
           "href": "https://www.avaloncommunities.com/washington/lynnwood-apartments/avalon-alderwood/"
         }
       ],
@@ -1938,25 +1983,25 @@ window.UPDATES_DATA = {
       "lede": "Four new Kirkland 2BRs landed; Inglenook ticked down a bit; Mercer Park looks gone.",
       "new": [
         {
-          "text": "Vue Kirkland (Totem Lake) \u2014 2BR from $2,039, now. Listing says EV charging.",
+          "text": "Vue Kirkland (Totem Lake) — 2BR from $2,039, now. Listing says EV charging.",
           "href": "https://www.apartments.com/vue-kirkland-kirkland-wa/4nq531j/"
         },
         {
-          "text": "Montebello \u2014 2/1 $2,189, now. Parking/EV unclear.",
+          "text": "Montebello — 2/1 $2,189, now. Parking/EV unclear.",
           "href": "https://www.apartments.com/montebello-kirkland-wa/gfbjcmy/"
         },
         {
-          "text": "Juanita Brook \u2014 $2,295, 3rd month free, 1 assigned stall.",
+          "text": "Juanita Brook — $2,295, 3rd month free, 1 assigned stall.",
           "href": "https://www.apartments.com/juanita-brook-apartments-kirkland-wa/tgvvvdc/"
         },
         {
-          "text": "Finn Hill condo, 14022 Juanita Dr NE \u2014 $2,195, W/S/G in.",
+          "text": "Finn Hill condo, 14022 Juanita Dr NE — $2,195, W/S/G in.",
           "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
         }
       ],
       "changed": [
         {
-          "text": "Inglenook B201 still Oct 16, rent $1,857 \u2192 $1,847. G202 $1,987 Oct 7.",
+          "text": "Inglenook B201 still Oct 16, rent $1,857 → $1,847. G202 $1,987 Oct 7.",
           "href": "https://www.rentable.co/kirkland-wa/inglenook-court"
         },
         {
@@ -1968,7 +2013,7 @@ window.UPDATES_DATA = {
           "href": "https://www.apartments.com/polaris-at-eastgate-bellevue-wa/h84c4l0/"
         },
         {
-          "text": "Mercer Park looks gone. Tiburon #108 mixed \u2014 verify before touring."
+          "text": "Mercer Park looks gone. Tiburon #108 mixed — verify before touring."
         },
         {
           "text": "Magnolia Crestview still $1,995 (307 and 402).",
@@ -1977,4 +2022,4 @@ window.UPDATES_DATA = {
       ]
     }
   ]
-};
+}
