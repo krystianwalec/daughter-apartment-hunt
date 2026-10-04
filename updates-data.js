@@ -1,6 +1,82 @@
 window.UPDATES_DATA = {
   "entries": [
     {
+      "date": "2026-10-04",
+      "title": "NEW Willow Creek + LINQ 1BRs; Evergreen Heights 2BR $1,969; Serra Vista $1,950; Corbella $2,219; 8 listings gone",
+      "lede": "Two new stretch 1BRs (Willow Creek Bothell $1,795 Oct 15 with parking included; LINQ Kenmore $1,799+). Price moves: Evergreen Heights 2BR $2,369→$1,969 (over→budget, Oct 16); Serra Vista $2,095→$1,950 (stretch→budget, Oct 10); Corbella $2,287→$2,219 (over→stretch); Juanita Finn condo $1,995→$1,925 (stretch→budget); Timbers 1BR $1,895→$1,750. Quartz Creek, Ivorywood and Villa Bonita moved over ceiling. Eight shortlisted rentals now show 0 available and are marked gone.",
+      "new": [
+        {
+          "text": "Willow Creek Apartments (Bothell) — 1BR $1,795, Oct 15, parking included (stretch)",
+          "href": "https://www.rentable.co/bothell-wa/willow-creek-apartments"
+        },
+        {
+          "text": "LINQ Lofts + Flats (Kenmore) — 1BR $1,799+, now / Oct 5 (stretch)",
+          "href": "https://www.rentable.co/kenmore-wa/18151-68th-ave-ne"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Evergreen Heights 2BR $2,369→$1,969 (over→budget; Oct 16)",
+          "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
+        },
+        {
+          "text": "Serra Vista 2BR $2,095→$1,950 (stretch→budget; Oct 10)",
+          "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
+        },
+        {
+          "text": "Corbella at Juanita Bay 2BR $2,287→$2,219 (over→stretch)",
+          "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
+        },
+        {
+          "text": "14022 Juanita Dr NE (Finn Hill condo) 2BR $1,995→$1,925 (stretch→budget)",
+          "href": "https://www.rentable.co/kirkland-wa/move-in-ready-2br-condo-in-prime-finn-hill-location"
+        },
+        {
+          "text": "Bothell Ridge 2BR from $2,077→$1,997 (stretch→budget; $1,997 unit is Nov 5)",
+          "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
+        },
+        {
+          "text": "Orchard Ridge 2BR $2,180→$2,030 (stretch)",
+          "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
+        },
+        {
+          "text": "Vue Kirkland 2BR $2,138→$2,039 (stretch)",
+          "href": "https://www.rentable.co/kirkland-wa/vue-kirkland"
+        },
+        {
+          "text": "Park Place Kenmore 2BR from $2,200→$2,100 (stretch; $2,100 unit is Dec 4)",
+          "href": "https://www.rentable.co/kenmore-wa/park-place-apartments"
+        },
+        {
+          "text": "Newberry Square 2BR $2,168→$2,218 (stretch)",
+          "href": "https://www.rentable.co/lynnwood-wa/newberry-square-apartments"
+        },
+        {
+          "text": "Quartz Creek 2BR $2,195→$2,258 (stretch→over)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/quartz-creek"
+        },
+        {
+          "text": "Ivorywood 2BR $2,206→$2,286 (stretch→over)",
+          "href": "https://www.rentable.co/bothell-wa/ivorywood"
+        },
+        {
+          "text": "Park Hill at Issaquah 2BR $2,327→$2,147 (over→stretch; Oct 24; weak commute)",
+          "href": "https://www.rentable.co/issaquah-wa/park-hill-at-issaquah"
+        },
+        {
+          "text": "The Timbers Kenmore 1BR $1,895→$1,750 (stretch)",
+          "href": "https://www.rentable.co/kenmore-wa/timbers-apartments"
+        },
+        {
+          "text": "Villa Bonita 1BR $1,800→$1,850 (stretch→over)",
+          "href": "https://www.rentable.co/kirkland-wa/villa-bonita"
+        },
+        {
+          "text": "Gone (0 available): 20034 15th Ave NE 2BR, Alpine Ridge 2BR, Madison Way 2BR, Interlakken 2BR, Blakely 1BR, Canal 1BR, Back Nine 1BR, Alexandra 1BR; Factoria D1 (404)"
+        }
+      ]
+    },
+    {
       "date": "2026-10-03",
       "title": "For-sale condo shortlist added",
       "lede": "For-sale condos being compared, separate from the rentals. Facts as of Oct 3, 2026.",
