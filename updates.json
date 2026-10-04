@@ -2,6 +2,46 @@
   "entries": [
     {
       "date": "2026-10-03",
+      "title": "For-sale condo shortlist added",
+      "lede": "For-sale condos being compared, separate from the rentals. Facts as of Oct 3, 2026.",
+      "new": [
+        {
+          "text": "14620 NE 35th St #105, Bellevue — condo $344,999",
+          "href": "https://www.zillow.com/homedetails/14620-NE-35th-St-105-Bellevue-WA-98007/49091820_zpid/"
+        },
+        {
+          "text": "14620 NE 35th St #106, Bellevue (Tiburon) — condo $349,000",
+          "href": "https://rexmont.com/homes-for-sale/NWM162723581"
+        },
+        {
+          "text": "14445 NE 40th St D101, Bellevue (Arjanwood) — condo $320,000",
+          "href": "https://www.wicklundre.com/listing/5601857/14445-NE-40th-St-Unit-D101-Bellevue-WA-98007"
+        },
+        {
+          "text": "14527 NE 40th St G202, Bellevue (Arjanwood) — condo $361,000",
+          "href": "https://everydoorrealestate.com/listing/nwmls/2557324/Bellevue/14527-NE-40th-Street-G202/"
+        },
+        {
+          "text": "14527 NE 40th St G204, Bellevue (Arjanwood) — condo $310,000, short sale",
+          "href": "https://www.compass.com/homedetails/14527-NE-40th-St-Unit-G204-Bellevue-WA-98007/1RTKNG_pid/"
+        },
+        {
+          "text": "16141 Cleveland St #213, Redmond (The Cleveland) — condo $406,906; ARCH affordable unit",
+          "href": "https://www.coldwellbankerhomes.com/wa/redmond/16141-cleveland-st-213/pid_73177312/"
+        },
+        {
+          "text": "17018 NE 80th St C5, Redmond (Shenandoah) — condo $429,900",
+          "href": "https://www.wicklundre.com/listing/5602236/17018-NE-80th-St-Unit-C5-Redmond-WA-98052"
+        },
+        {
+          "text": "14475 NE 40th St Unit E202, Bellevue — condo $385,000",
+          "href": "https://www.redfin.com/WA/Bellevue/14475-NE-40th-St-98007/unit-E202/home/3830"
+        }
+      ],
+      "changed": []
+    },
+    {
+      "date": "2026-10-03",
       "title": "NEW 12700 116th Ave NE 1BR $1,362 + North City Place 1BR $1,740…; Canyon Pointe $2,037; Stonehedge $1,977; 15536 27th $1,895; Dor-rik $1,450",
       "lede": "4 new 1BRs (12700 116th Kirkland ideal $1,362; North City Place / Highland Lofts / Waterstone stretch). Material moves: Canyon Pointe 2BR $2,337→$2,037 (over→stretch); Stonehedge $2,077→$1,977 (stretch→budget); Dor-rik 1BR $1,495→$1,450 (budget→ideal); 205 Shoreline 1BR $1,515→$1,625; 15536 27th 2BR $1,995→$1,895.",
       "new": [
