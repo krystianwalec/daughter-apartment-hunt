@@ -1,6 +1,110 @@
 {
   "entries": [
     {
+      "date": "2026-10-05",
+      "title": "NEW Redmond scan: Shadowbrook 2BR $2,017 + 5 more 2BRs, 9 1BRs (Modera Overlake EV); Martha Lake $1,797; 4 listings gone",
+      "lede": "First Redmond scan (the 2 Line now runs Redmond→Seattle) adds 6 2BRs — two ideal Lynnwood units (15328 40th Ave W $1,725 with 2 parking spaces; 14523 Hwy 99 $1,800) and four Redmond stretch 2BRs ($2,017–$2,107) close to LWHS — plus 9 Redmond 1BRs ($1,595–$1,799), including Modera Overlake with on-site EV charging. Martha Lake 2BR dropped to $1,797 (ideal). Serra Vista and Stonehedge 2BRs rose into stretch. Four 1BRs now show 0 available and are marked gone.",
+      "new": [
+        {
+          "text": "15328 40th Ave W Unit 4 (Lynnwood) — 2BR $1,725, now, 2 parking spaces (ideal)",
+          "href": "https://www.rentable.co/lynnwood-wa/15328-40th-ave-unit-4-w"
+        },
+        {
+          "text": "14523 Hwy 99 (Lynnwood) — 2BR $1,800, now (ideal; sparse listing)",
+          "href": "https://www.rentable.co/lynnwood-wa/14523-hwy-99"
+        },
+        {
+          "text": "Shadowbrook (Redmond) — 2BR/2BA $2,017, Oct 28 (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/shadowbrook"
+        },
+        {
+          "text": "Valley View Apartments (Redmond) — 2BR $2,025, now (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/8920-redmond-woodinville-rd"
+        },
+        {
+          "text": "Redmond Crest (Redmond) — 2BR $2,070, Oct 11 / $2,077 now; one month free promo (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/8020-169th-ave-ne"
+        },
+        {
+          "text": "Elevation (Redmond) — 2BR $2,107+, now (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/elevation"
+        },
+        {
+          "text": "The ANNA (Redmond) — 1BR $1,595, now (budget)",
+          "href": "https://www.rentable.co/redmond-wa/9447-166th-ave"
+        },
+        {
+          "text": "Modera Overlake (Redmond) — 1BR $1,622+, Oct 18; EV charging listed (EV parking $250/mo) (budget)",
+          "href": "https://www.rentable.co/redmond-wa/modera-overlake"
+        },
+        {
+          "text": "The Trails of Redmond — 1BR $1,637, Oct 28 (budget)",
+          "href": "https://www.rentable.co/redmond-wa/the-trails-of-redmond"
+        },
+        {
+          "text": "7950 168th Ave NE Unit 202 (Redmond) — 1BR $1,645, now (budget)",
+          "href": "https://www.rentable.co/redmond-wa/7950-168th-ave"
+        },
+        {
+          "text": "Parkside (Redmond) — 1BR $1,695, now (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/parkside"
+        },
+        {
+          "text": "Pure Redmond — 1BR $1,749, now (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/pure-redmond"
+        },
+        {
+          "text": "Vesta (Redmond) — 1BR $1,777, Oct 6 (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/vesta"
+        },
+        {
+          "text": "Redmond Hill — 1BR $1,777, Oct 28 / $1,787 now (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/redmond-hill"
+        },
+        {
+          "text": "Shadowbrook (Redmond) — 1BR $1,767, Nov 7 (stretch)",
+          "href": "https://www.rentable.co/redmond-wa/shadowbrook"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Martha Lake 2BR $1,847→$1,797 (budget→ideal; now)",
+          "href": "https://www.rentable.co/lynnwood-wa/martha-lake"
+        },
+        {
+          "text": "Serra Vista 2BR $1,950→$2,050 (budget→stretch; Oct 10)",
+          "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
+        },
+        {
+          "text": "Stonehedge Village 2BR $1,979→$2,087 (budget→stretch; now)",
+          "href": "https://www.rentable.co/bothell-wa/stonehedge-village"
+        },
+        {
+          "text": "Orchard Ridge 1BR $1,760→$1,710 (stretch; now)",
+          "href": "https://www.rentable.co/lynnwood-wa/orchard-ridge"
+        },
+        {
+          "text": "Serra Vista 1BR $2,150→$1,850 (still over; Oct 30)",
+          "href": "https://www.rentable.co/lynnwood-wa/15517-40th-avenue-west"
+        },
+        {
+          "text": "Bothell Ridge 1BR $1,557→$1,799 (budget→stretch; Oct 24)",
+          "href": "https://www.rentable.co/bothell-wa/bothell-ridge"
+        },
+        {
+          "text": "3425 14th Ave W 1BR $1,475→$1,580 (ideal→budget; Unit 308 Oct 15)",
+          "href": "https://www.rentable.co/seattle-wa/3425-14th-ave-w"
+        },
+        {
+          "text": "2229 NE 197th Pl 1BR $1,750→$1,650 (stretch→budget; now)",
+          "href": "https://www.rentable.co/shoreline-wa/2229-ne-197th-pl-unit-1"
+        },
+        {
+          "text": "Gone (0 1BRs available): 18235 73rd Ave NE 1BR, Polaris at Totem Lake 1BR, Madison Way 1BR, 15015 15th Ave NE #306"
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "title": "NEW Willow Creek + LINQ 1BRs; Evergreen Heights 2BR $1,969; Serra Vista $1,950; Corbella $2,219; 8 listings gone",
       "lede": "Two new stretch 1BRs (Willow Creek Bothell $1,795 Oct 15 with parking included; LINQ Kenmore $1,799+). Price moves: Evergreen Heights 2BR $2,369→$1,969 (over→budget, Oct 16); Serra Vista $2,095→$1,950 (stretch→budget, Oct 10); Corbella $2,287→$2,219 (over→stretch); Juanita Finn condo $1,995→$1,925 (stretch→budget); Timbers 1BR $1,895→$1,750. Quartz Creek, Ivorywood and Villa Bonita moved over ceiling. Eight shortlisted rentals now show 0 available and are marked gone.",
