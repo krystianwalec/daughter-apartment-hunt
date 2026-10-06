@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "date": "2026-10-06",
+      "title": "NEW MLT condo 2BR $2,050 (2 parking); Shadowbrook $1,977 + Canyon Pointe $1,999 into budget; Hwy 99 2BR $1,650; Evergreen Heights + Park Hill over; 3 1BRs gone",
+      "lede": "One new 2BR: a 2BR/2BA Mountlake Terrace condo at $2,050 with 2 parking spaces and W/S/G included (stretch). Two Redmond/Bothell 2BRs dropped into budget (Shadowbrook $1,977 Oct 28, Canyon Pointe $1,999 Oct 27), and 14523 Hwy 99 in Lynnwood fell to $1,650. Evergreen Heights and Park Hill 2BRs repriced above $2,250 (over). For 1BRs, The ANNA dropped to $1,545 and Owl Northgate to $1,699. Capri rose to $1,595 (ideal→budget), and Aspire MLT rose to $1,745. Villa Bonita and Serra Vista 1BRs show 0 available, and the Crane at Interbay listing was removed; all three are marked gone.",
+      "new": [
+        {
+          "text": "4407 216th St SW #3 (Mountlake Terrace) — 2BR/2BA condo $2,050, now; 2 parking spaces included; W/S/G included (stretch)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/large-2bd-2ba-condo-available-w-private-patio-tons-of-storage"
+        }
+      ],
+      "changed": [
+        {
+          "text": "14523 Hwy 99 (Lynnwood) 2BR $1,800→$1,650 (still ideal; now)",
+          "href": "https://www.rentable.co/lynnwood-wa/14523-hwy-99"
+        },
+        {
+          "text": "Shadowbrook (Redmond) 2BR $2,017→$1,977 (stretch→budget; Oct 28)",
+          "href": "https://www.rentable.co/redmond-wa/shadowbrook"
+        },
+        {
+          "text": "Canyon Pointe (Bothell) 2BR $2,027→$1,999 (stretch→budget; Oct 27)",
+          "href": "https://www.rentable.co/bothell-wa/canyon-pointe"
+        },
+        {
+          "text": "Evergreen Heights (Kirkland) 2BR $1,967→$2,297 (budget→over; Oct 31)",
+          "href": "https://www.rentable.co/kirkland-wa/evergreen-heights"
+        },
+        {
+          "text": "Park Hill (Issaquah) 2BR $2,149→$2,267 (stretch→over; Oct 24)",
+          "href": "https://www.rentable.co/issaquah-wa/park-hill-at-issaquah"
+        },
+        {
+          "text": "The ANNA (Redmond) 1BR $1,595→$1,545 (budget; now)",
+          "href": "https://www.rentable.co/redmond-wa/9447-166th-ave"
+        },
+        {
+          "text": "Capri (Mountlake Terrace) 1BR $1,499→$1,595 (ideal→budget; now)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/capri-apartments"
+        },
+        {
+          "text": "Griffis Shoreline (The Current) 1BR $1,762→$1,695 (stretch; Nov 6; $1,775 now)",
+          "href": "https://www.rentable.co/shoreline-wa/the-current"
+        },
+        {
+          "text": "Owl Northgate 1BR $1,750→$1,699 (stretch; now)",
+          "href": "https://www.rentable.co/seattle-wa/owl-northgate"
+        },
+        {
+          "text": "Aspire MLT 1BR $1,695→$1,745 (stretch; now)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/aspire-apartments-at-mountlake-terrace"
+        },
+        {
+          "text": "Gone: Villa Bonita 1BR and Serra Vista 1BR (0 1BRs available), Crane at Interbay 1BR (listing removed)"
+        }
+      ]
+    },
+    {
       "date": "2026-10-05",
       "title": "NEW Redmond scan: Shadowbrook 2BR $2,017 + 5 more 2BRs, 9 1BRs (Modera Overlake EV); Martha Lake $1,797; 4 listings gone",
       "lede": "First Redmond scan (the 2 Line now runs Redmond→Seattle) adds 6 2BRs — two ideal Lynnwood units (15328 40th Ave W $1,725 with 2 parking spaces; 14523 Hwy 99 $1,800) and four Redmond stretch 2BRs ($2,017–$2,107) close to LWHS — plus 9 Redmond 1BRs ($1,595–$1,799), including Modera Overlake with on-site EV charging. Martha Lake 2BR dropped to $1,797 (ideal). Serra Vista and Stonehedge 2BRs rose into stretch. Four 1BRs now show 0 available and are marked gone.",
