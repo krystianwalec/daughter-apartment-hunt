@@ -1,6 +1,219 @@
 {
   "entries": [
     {
+      "date": "2026-10-07",
+      "title": "NEW north Seattle + Bellevue/Issaquah scan: 22 2BRs (11 ideal, from $1,400) and 16 1BRs (from $1,300); Serra Vista $1,895 into budget; Griffis Shoreline 1BR gone",
+      "lede": "First Rentable scan of Seattle-wide 2BR/1BR pages plus Bellevue and Issaquah. It adds 22 2BRs: eleven ideal ones (Lynnwood 19207 60th Ave W $1,400; Lake City/Northgate $1,445–$1,795, two with a parking space included; Win Don in Greenwood $1,475; Issaquah $1,685); budget ones in the U-District, Greenwood, Magnolia (Gilmanor $1,995, about 2 miles from Expedia) and Bellevue (Brierwood $1,895, Midlakes $1,945); and two stretch ones. It also adds 16 1BRs, $1,300–$1,795, including north Queen Anne $1,595 and Bellevue One $1,780 with a private garage. No new listing shows EV charging. On the shortlist, Serra Vista 2BR dropped to $1,895 (stretch→budget), and Woodcreek and Elevation 2BRs fell $60–$80. Newberry Square crossed into over and Quartz Creek back into stretch, each by about $1. Urban Center 1BR rose to $1,549 (ideal→budget). The Griffis Shoreline 1BR listing no longer shows any units, so it is marked gone.",
+      "new": [
+        {
+          "text": "The Shannon 2 (4225 9th Ave NE) (Seattle) — 2BR $1,950 (budget); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/shannon-2-apartments"
+        },
+        {
+          "text": "Stonebridge (5204 15th Ave NE) (Seattle) — 2BR $1,995 (budget); parking: free parking (listing)",
+          "href": "https://www.rentable.co/seattle-wa/5204-15th-ave-ne"
+        },
+        {
+          "text": "407 N 87th St (Greenwood) (Seattle) — 2BR $1,945 (budget); parking: off-street parking for an extra monthly fee (listing)",
+          "href": "https://www.rentable.co/seattle-wa/407-n-87th-st"
+        },
+        {
+          "text": "Gilmanor (4051 Gilman Ave W, Magnolia) (Seattle) — 2BR $1,995 (budget); parking: surface + garage parking listed (confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/spacious-renovated-2-bed-1-5-bath-with-corner-balcony-gas-fireplace"
+        },
+        {
+          "text": "Interlake 21 (9512 Interlake Ave N) (Seattle) — 2BR $2,025 (stretch); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/9512-interlake-ave"
+        },
+        {
+          "text": "8746 Phinney Ave N (Greenwood) (Seattle) — 2BR $1,945 (budget); parking: parking available for an extra fee (listing)",
+          "href": "https://www.rentable.co/seattle-wa/20-8746-phinney"
+        },
+        {
+          "text": "Estada (12728 33rd Ave NE, Lake City) (Seattle) — 2BR $1,895 (budget); parking: gated parking (listing; confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/estada"
+        },
+        {
+          "text": "Willow Bay (4315 9th Ave NE) (Seattle) — 2BR $1,950 (budget); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/4315-9th-ave"
+        },
+        {
+          "text": "Win Don (912 N 96th St) (Seattle) — 2BR $1,475 (ideal); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/win-don"
+        },
+        {
+          "text": "Corner Crest (3119 NE 120th St) (Seattle) — 2BR $1,795 (ideal); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/3119-ne-120th-st"
+        },
+        {
+          "text": "Pinehurst Apartments (11745 15th Ave NE) (Seattle) — 2BR $1,600 (ideal); parking: surface + garage parking listed (confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/11745-15th-ave"
+        },
+        {
+          "text": "Shorecrest (12542 35th Ave NE, Lake City) (Seattle) — 2BR $1,725 (ideal); parking: on-site parking options (listing; confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/12542-35th-ave-ne"
+        },
+        {
+          "text": "10519 24th Ave NE (Lake City) (Seattle) — 2BR $1,445 (ideal); parking: 1 uncovered reserved space included (listing)",
+          "href": "https://www.rentable.co/seattle-wa/10519-10523-24th-ave"
+        },
+        {
+          "text": "12028 31st Ave NE (Lake City) (Seattle) — 2BR $1,550 (ideal); parking: not stated (confirm)",
+          "href": "https://www.rentable.co/seattle-wa/12028-31st-ave-ne"
+        },
+        {
+          "text": "2600 NE 125th St (Lake City) (Seattle) — 2BR $1,595 (ideal); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/2600-ne-125th-st"
+        },
+        {
+          "text": "Ethyle Manor (N 112th St, Northgate) (Seattle) — 2BR $1,595 (ideal); parking: not stated (confirm)",
+          "href": "https://www.rentable.co/seattle-wa/ethyle-manor"
+        },
+        {
+          "text": "Parkwood Apartments (3200 NE 140th St, Lake City) (Seattle) — 2BR $1,495 (ideal); parking: 1 reserved uncovered space per unit included (listing)",
+          "href": "https://www.rentable.co/seattle-wa/welcome-to-parkwood-apartments"
+        },
+        {
+          "text": "Midlakes (12028 NE 8th St) (Bellevue) — 2BR $1,945 (budget); parking: off-street parking (listing)",
+          "href": "https://www.rentable.co/bellevue-wa/midlakes"
+        },
+        {
+          "text": "Brierwood (12022 NE 8th St) (Bellevue) — 2BR $1,895 (budget); parking: ample off-street parking (listing)",
+          "href": "https://www.rentable.co/bellevue-wa/brierwood"
+        },
+        {
+          "text": "55 & 57 1st Ave NW (Issaquah) (Issaquah) — 2BR $1,685 (ideal); parking: not stated (confirm)",
+          "href": "https://www.rentable.co/issaquah-wa/55-57-1st-ave-nw"
+        },
+        {
+          "text": "420 E Sunset Way (Issaquah) (Issaquah) — 2BR $2,095 (stretch); parking: off-street parking (listing)",
+          "href": "https://www.rentable.co/issaquah-wa/420-e-sunset"
+        },
+        {
+          "text": "19207 60th Ave W (Lynnwood) (Lynnwood) — 2BR $1,400 (ideal); parking: not stated (confirm)",
+          "href": "https://www.rentable.co/lynnwood-wa/19207-60th-ave-w"
+        },
+        {
+          "text": "The Shannon 2 (4225 9th Ave NE) (Seattle) — 1BR $1,525 (budget); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/shannon-2-apartments"
+        },
+        {
+          "text": "Stonebridge (5204 15th Ave NE) (Seattle) — 1BR $1,595 (budget); parking: free parking (listing)",
+          "href": "https://www.rentable.co/seattle-wa/5204-15th-ave-ne"
+        },
+        {
+          "text": "Ballard 58 (2226 NW 58th St) (Seattle) — 1BR $1,695 (stretch); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/seattle-wa/ballard-58"
+        },
+        {
+          "text": "3626 14th Ave W (north Queen Anne) (Seattle) — 1BR $1,595 (budget); parking: listing title mentions parking and storage included (applies to the 2BR condo ad; confirm for 1BR)",
+          "href": "https://www.rentable.co/seattle-wa/cozy-2-bed-1-bath-condo-in-north-queen-anne"
+        },
+        {
+          "text": "Pinehurst Apartments (11745 15th Ave NE) (Seattle) — 1BR $1,375 (ideal); parking: surface + garage parking listed (confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/11745-15th-ave"
+        },
+        {
+          "text": "7000 Roosevelt Way NE (Green Lake) (Seattle) — 1BR $1,795 (stretch); parking: parking available for an extra fee (listing)",
+          "href": "https://www.rentable.co/seattle-wa/7000-roosevelt-way"
+        },
+        {
+          "text": "Cedar Lane (12536 Greenwood Ave N) (Seattle) — 1BR $1,595 (budget); parking: multiple parking options (listing; confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/renovated-apartments-at-cedar-lane-updated-kitchens-lvp-flooring"
+        },
+        {
+          "text": "8409 5th Ave NE (Maple Leaf) (Seattle) — 1BR $1,745 (stretch); parking: $50 uncovered / $75 covered (listing)",
+          "href": "https://www.rentable.co/seattle-wa/8409-5th-ave"
+        },
+        {
+          "text": "Shorecrest (12542 35th Ave NE, Lake City) (Seattle) — 1BR $1,300 (ideal); parking: on-site parking options (listing; confirm fee)",
+          "href": "https://www.rentable.co/seattle-wa/12542-35th-ave-ne"
+        },
+        {
+          "text": "Foothill Commons (898 137th Ave NE) (Bellevue) — 1BR $1,787 (stretch); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/bellevue-wa/foothill-commons"
+        },
+        {
+          "text": "Emerald Ridge (3010 118th Ave SE, Factoria) (Bellevue) — 1BR $1,689 (stretch); parking: parking listed (confirm type/fee)",
+          "href": "https://www.rentable.co/bellevue-wa/emerald-ridge"
+        },
+        {
+          "text": "Crossroads Garden (15750 NE 15th St) (Bellevue) — 1BR $1,575 (budget); parking: off-street parking; listing promos mention free parking",
+          "href": "https://www.rentable.co/bellevue-wa/crossroads-garden-apartments"
+        },
+        {
+          "text": "Bellevue One (11249 NE 36th Pl) (Bellevue) — 1BR $1,780 (stretch); parking: private enclosed garage included (listing)",
+          "href": "https://www.rentable.co/bellevue-wa/11249-ne-36th-pl"
+        },
+        {
+          "text": "Midlakes (12028 NE 8th St) (Bellevue) — 1BR $1,745 (stretch); parking: off-street parking (listing)",
+          "href": "https://www.rentable.co/bellevue-wa/midlakes"
+        },
+        {
+          "text": "Brierwood (12022 NE 8th St) (Bellevue) — 1BR $1,595 (budget); parking: ample off-street parking (listing)",
+          "href": "https://www.rentable.co/bellevue-wa/brierwood"
+        },
+        {
+          "text": "Terrace Apartments (215 Front St N, Issaquah) (Issaquah) — 1BR $1,745 (stretch); parking: off-street parking (listing)",
+          "href": "https://www.rentable.co/issaquah-wa/terrace-apartments"
+        }
+      ],
+      "changed": [
+        {
+          "text": "Serra Vista (Lynnwood) 2BR $2,050→$1,895 (stretch→budget; Oct 10)",
+          "href": "https://www.rentable.co/lynnwood-wa/serra-vista-apartment-homes"
+        },
+        {
+          "text": "Elevation (Redmond) 2BR $2,107→$2,047 (stretch; now)",
+          "href": "https://www.rentable.co/redmond-wa/elevation"
+        },
+        {
+          "text": "Woodcreek (Lynnwood) 2BR $2,229→$2,150 (stretch; 5 units now)",
+          "href": "https://www.rentable.co/lynnwood-wa/woodcreek-apartments"
+        },
+        {
+          "text": "Newberry Square (Lynnwood) 2BR $2,218→$2,251 (stretch→over)",
+          "href": "https://www.rentable.co/lynnwood-wa/newberry-square-apartments"
+        },
+        {
+          "text": "Quartz Creek (MLT) 2BR $2,252→$2,249 (over→stretch)",
+          "href": "https://www.rentable.co/mountlake-terrace-wa/quartz-creek"
+        },
+        {
+          "text": "Sammamish View (Bellevue) 2BR $2,617→$2,497 (still over)",
+          "href": "https://www.rentable.co/bellevue-wa/sammamish-view"
+        },
+        {
+          "text": "The Line (Shoreline) MFTE 2BR $2,360→$2,460 (MFTE)",
+          "href": "https://liveattheline.com/floorplans/"
+        },
+        {
+          "text": "Urban Center (Lynnwood) 1BR $1,449→$1,549 (ideal→budget; now)",
+          "href": "https://www.rentable.co/lynnwood-wa/15907-ash-way"
+        },
+        {
+          "text": "Shadowbrook (Redmond) 1BR $1,767→$1,627 (stretch→budget; Nov 28 unit)",
+          "href": "https://www.rentable.co/redmond-wa/shadowbrook"
+        },
+        {
+          "text": "Corbella at Juanita Bay 1BR $1,657→$1,739 (stretch; Oct 22)",
+          "href": "https://www.rentable.co/kirkland-wa/corbella-at-juanita-bay"
+        },
+        {
+          "text": "Tivalli (Lynnwood) 1BR $1,797→$1,747 (stretch; now)",
+          "href": "https://www.rentable.co/lynnwood-wa/tivalli-apartments"
+        },
+        {
+          "text": "Polaris at Eastgate 1BR: site-wide starting price now $1,563 (was $1,409); stored $1,499 raised to $1,563 (budget)",
+          "href": "https://www.liveatpolarisateastgate.com/"
+        },
+        {
+          "text": "Gone: Griffis Shoreline (The Current) 1BR — Rentable page no longer lists any units",
+          "href": "https://www.rentable.co/shoreline-wa/the-current"
+        }
+      ]
+    },
+    {
       "date": "2026-10-06",
       "title": "NEW MLT condo 2BR $2,050 (2 parking); Shadowbrook $1,977 + Canyon Pointe $1,999 into budget; Hwy 99 2BR $1,650; Evergreen Heights + Park Hill over; 3 1BRs gone",
       "lede": "One new 2BR: a 2BR/2BA Mountlake Terrace condo at $2,050 with 2 parking spaces and W/S/G included (stretch). Two Redmond/Bothell 2BRs dropped into budget (Shadowbrook $1,977 Oct 28, Canyon Pointe $1,999 Oct 27), and 14523 Hwy 99 in Lynnwood fell to $1,650. Evergreen Heights and Park Hill 2BRs repriced above $2,250 (over). For 1BRs, The ANNA dropped to $1,545 and Owl Northgate to $1,699. Capri rose to $1,595 (ideal→budget), and Aspire MLT rose to $1,745. Villa Bonita and Serra Vista 1BRs show 0 available, and the Crane at Interbay listing was removed; all three are marked gone.",
